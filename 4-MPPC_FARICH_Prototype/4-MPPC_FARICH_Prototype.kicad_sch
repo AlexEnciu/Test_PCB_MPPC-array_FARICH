@@ -3,8 +3,1810 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "87fe9a77-45d2-4007-8a54-2fe097a18bc5")
-	(paper "A2")
+	(paper "A1")
 	(lib_symbols
+		(symbol "FARICH:ST4-40-1.00-L-D-P-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 52.07 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ST4-40-1.00-L-D-P-TR"
+				(at -7.62 -57.15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ST4-40-1.00-L-D-P-TR:SAMTEC_ST4-40-1.00-L-D-P-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ST4-40-1.00-L-D-P-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "SAMTEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ST4-40-1.00-L-D-P-TR_0_0"
+				(rectangle
+					(start -7.62 -53.34)
+					(end 7.62 50.8)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 48.26 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 48.26 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 45.72 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 45.72 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 43.18 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 43.18 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 40.64 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 40.64 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 38.1 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 38.1 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 35.56 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 35.56 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 33.02 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 33.02 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 30.48 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 30.48 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 27.94 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 27.94 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 25.4 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 25.4 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 22.86 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 22.86 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 20.32 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 20.32 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 17.78 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 15.24 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 5.08)
+					(name "54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -20.32 0)
+					(length 5.08)
+					(name "55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 180)
+					(length 5.08)
+					(name "56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -22.86 0)
+					(length 5.08)
+					(name "57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -22.86 180)
+					(length 5.08)
+					(name "58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -25.4 0)
+					(length 5.08)
+					(name "59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -25.4 180)
+					(length 5.08)
+					(name "60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -27.94 0)
+					(length 5.08)
+					(name "61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -27.94 180)
+					(length 5.08)
+					(name "62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -30.48 0)
+					(length 5.08)
+					(name "63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -30.48 180)
+					(length 5.08)
+					(name "64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -33.02 0)
+					(length 5.08)
+					(name "65"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -33.02 180)
+					(length 5.08)
+					(name "66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -35.56 0)
+					(length 5.08)
+					(name "67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -35.56 180)
+					(length 5.08)
+					(name "68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -38.1 0)
+					(length 5.08)
+					(name "69"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -38.1 180)
+					(length 5.08)
+					(name "70"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -40.64 0)
+					(length 5.08)
+					(name "71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -40.64 180)
+					(length 5.08)
+					(name "72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -43.18 0)
+					(length 5.08)
+					(name "73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -43.18 180)
+					(length 5.08)
+					(name "74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -45.72 0)
+					(length 5.08)
+					(name "75"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -45.72 180)
+					(length 5.08)
+					(name "76"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -48.26 0)
+					(length 5.08)
+					(name "77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -48.26 180)
+					(length 5.08)
+					(name "78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -50.8 0)
+					(length 5.08)
+					(name "79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -50.8 180)
+					(length 5.08)
+					(name "80"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HV_Connector:1778764"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1778764"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1778764:PHOENIX_1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "11.03.2024"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1778764_0_0"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SiPM:S13552"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2984,44 +4786,307 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 207.01 264.16)
+		(end 350.52 389.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08bf79e8-b549-4b3b-8eba-6daff5820929)
+	)
+	(rectangle
+		(start 207.01 397.51)
+		(end 350.52 523.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38522844-b864-4c0d-9733-b5e6dc8052fc)
+	)
+	(rectangle
+		(start 50.8 396.24)
+		(end 194.31 521.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 464ff3c2-c1ec-4042-826d-d8cb2e1d7ee4)
+	)
+	(rectangle
+		(start 364.49 264.16)
+		(end 508 389.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47941b78-33d1-46d7-95ce-b0e0725d628a)
+	)
+	(rectangle
+		(start 50.8 262.89)
+		(end 194.31 388.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 59ab6171-b184-49cf-a535-f573bac7146e)
+	)
+	(rectangle
+		(start 364.49 397.51)
+		(end 508 523.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5a317fe-dc8a-4fb6-a6e5-c59db7e014f2)
+	)
+	(text "Cube_2"
+		(exclude_from_sim no)
+		(at 123.19 401.574 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "11aafd5f-b7da-4f47-a17b-3e17f916ccfc")
+	)
+	(text "Cube_4"
+		(exclude_from_sim no)
+		(at 279.4 402.844 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "12c723d1-fe67-48dc-b809-63753d193871")
+	)
+	(text "Cube_6"
+		(exclude_from_sim no)
+		(at 436.88 402.844 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "657b5a91-f662-4bd8-8b51-b1c4623edc36")
+	)
+	(text "Cube_3\n"
+		(exclude_from_sim no)
+		(at 279.4 269.494 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "73b4791b-9884-4135-8e1c-aa34b9d007b0")
+	)
+	(text "Cube_5\n"
+		(exclude_from_sim no)
+		(at 436.88 269.494 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "9a9c3c35-614b-4d2e-98be-9522dc3bbccc")
+	)
+	(text "Cube_1\n"
+		(exclude_from_sim no)
+		(at 123.19 268.224 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "ff3c1dc5-e0cc-4c6f-9954-b6d8a18e1b5a")
+	)
+	(global_label "+HV"
+		(shape input)
+		(at 586.74 391.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2c6a02f-af04-4dd5-bcc9-1d936f5ee56a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 579.7633 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
-		(lib_id "SiPM:S13552")
-		(at 236.22 142.24 0)
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 311.15 466.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "198e2be6-1c2f-4115-9a1d-15c2e2bb5279")
-		(property "Reference" "MPPC3"
-			(at 234.95 25.4 0)
-			(effects
-				(font
-					(size 5 5)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 234.95 30.48 0)
+		(uuid "15dcd51b-db7d-4ca0-aa5a-ae6dd19ad833")
+		(property "Reference" "J9"
+			(at 311.15 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SiPM:S13552"
-			(at 218.44 80.01 0)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 311.15 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 80.01 0)
+			(at 311.15 466.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +5095,439 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 142.24 0)
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 311.15 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "77df7060-8bda-4ba1-8ca7-369dbee4220c")
+		)
+		(pin "45"
+			(uuid "56086e27-2996-4658-9eac-8ca1602cf427")
+		)
+		(pin "52"
+			(uuid "f784382e-ce88-4fc7-a291-24479b85bfe6")
+		)
+		(pin "18"
+			(uuid "63bb3cb3-8f89-4f1e-a511-7d574af982e3")
+		)
+		(pin "20"
+			(uuid "f5dc2428-49c5-4b34-875a-6e5258bba3b4")
+		)
+		(pin "43"
+			(uuid "b482858a-d4c2-4a15-b43e-8c02a2c22ae6")
+		)
+		(pin "41"
+			(uuid "32f6cf11-baa4-454a-9498-75944de6bafa")
+		)
+		(pin "26"
+			(uuid "afc32ae9-f4c1-408c-a61b-c20c85f7f299")
+		)
+		(pin "31"
+			(uuid "754fce46-52da-4889-b647-d48669962605")
+		)
+		(pin "46"
+			(uuid "93468a69-8e74-4879-91cc-d5140a8cb2ea")
+		)
+		(pin "13"
+			(uuid "5de982d0-a61c-452b-ba53-70e4d940df8c")
+		)
+		(pin "34"
+			(uuid "e7ad0809-54e8-4df7-bf50-bd0e48e926c9")
+		)
+		(pin "38"
+			(uuid "6087494b-fd07-4396-a37d-eff39ef69958")
+		)
+		(pin "53"
+			(uuid "f6dfa721-042b-4292-a869-096db19a00c6")
+		)
+		(pin "16"
+			(uuid "8bfc899b-9f6a-4bdc-8332-912d21c20500")
+		)
+		(pin "28"
+			(uuid "d2bdef42-3ce7-4d96-92bd-d2f6dfb63c09")
+		)
+		(pin "54"
+			(uuid "7114fd5f-a857-4e70-a04d-e6c4447d4cac")
+		)
+		(pin "02"
+			(uuid "e189770f-05ac-408a-9c35-70c7a3a89516")
+		)
+		(pin "55"
+			(uuid "af83797c-1f73-4073-af08-4b4708dfc951")
+		)
+		(pin "42"
+			(uuid "3a5ce40e-3b4f-43ac-af26-9782879e9ac4")
+		)
+		(pin "30"
+			(uuid "a443328f-34f3-44b9-80a5-48ce07091e1f")
+		)
+		(pin "57"
+			(uuid "4925ced4-f2ad-486c-8abe-404018f280f7")
+		)
+		(pin "56"
+			(uuid "dbc7515d-34a8-493a-b82f-8b23ab83a671")
+		)
+		(pin "59"
+			(uuid "8c9dca5a-d40f-4bb6-846b-d3e2919f2634")
+		)
+		(pin "12"
+			(uuid "49c355f5-f6cb-4d9c-983f-fd21185f457c")
+		)
+		(pin "60"
+			(uuid "33ccd3a5-00ce-4237-9d10-8115a9ae24ff")
+		)
+		(pin "22"
+			(uuid "ae774fd7-d53a-4d60-b01a-5a4361dac1bc")
+		)
+		(pin "29"
+			(uuid "4dc57447-3dcc-47c3-876d-2b93986dd3e1")
+		)
+		(pin "47"
+			(uuid "b3073321-9ed6-48cc-b23b-39f694e68fc2")
+		)
+		(pin "61"
+			(uuid "c2ab4d34-e468-417e-8e34-aa83c965bea3")
+		)
+		(pin "58"
+			(uuid "15aa3dca-e14a-415f-81e1-7bb140e50798")
+		)
+		(pin "62"
+			(uuid "8db20701-9ea4-4f75-b475-de4a47d40108")
+		)
+		(pin "07"
+			(uuid "9e1d19bc-8271-480c-9a3d-993df46d1928")
+		)
+		(pin "27"
+			(uuid "9f6916e5-cd3e-4d47-9a8a-c835b4be2f2e")
+		)
+		(pin "49"
+			(uuid "0cfbe8f6-5a61-448c-8e22-1d548aaaeffe")
+		)
+		(pin "24"
+			(uuid "b233e2b3-fa4b-48ed-a993-5343c57b9a14")
+		)
+		(pin "63"
+			(uuid "76719575-ab59-4146-b60e-4f903e3c925a")
+		)
+		(pin "37"
+			(uuid "d719a309-d395-4627-9ba3-2376c94d4276")
+		)
+		(pin "19"
+			(uuid "1abfffe9-3a3c-451a-ae6b-b3ddb3e27add")
+		)
+		(pin "48"
+			(uuid "11c11076-2e13-4839-b104-8cb9ba75bdd1")
+		)
+		(pin "14"
+			(uuid "7f7f3dce-aaf3-4700-968b-30041b5765ca")
+		)
+		(pin "08"
+			(uuid "ec148452-fe6b-4a96-a492-4039d7d7e92a")
+		)
+		(pin "03"
+			(uuid "a1440819-9db5-486c-bf36-b55986ba5ca9")
+		)
+		(pin "05"
+			(uuid "1e065e11-6e5f-4f61-857f-d01b56b309bf")
+		)
+		(pin "04"
+			(uuid "eefce931-b2a8-4c88-95d2-8de9cce203f0")
+		)
+		(pin "11"
+			(uuid "a584aa73-3549-486f-a2f0-b20d1965469d")
+		)
+		(pin "15"
+			(uuid "550aeccb-6f60-4d96-b981-1aa13b7ce59a")
+		)
+		(pin "32"
+			(uuid "681a24b5-6dcb-41ef-a68b-5ec9f34c6099")
+		)
+		(pin "33"
+			(uuid "5655f44a-6083-4031-97f4-487e0cda9e7a")
+		)
+		(pin "35"
+			(uuid "30f776b7-8df3-4177-9018-a0bc6a557bbf")
+		)
+		(pin "17"
+			(uuid "598a7bef-bd55-4a82-8e68-09b0c684ab14")
+		)
+		(pin "36"
+			(uuid "9502130d-ffae-428e-a237-e80bea189a31")
+		)
+		(pin "50"
+			(uuid "b918ecae-6e40-46e2-ab66-757d76bdf27a")
+		)
+		(pin "39"
+			(uuid "9bf177c1-854b-48c2-b13f-e45fbadf21cd")
+		)
+		(pin "01"
+			(uuid "02604306-a8f3-481b-ad82-f0f51733275c")
+		)
+		(pin "09"
+			(uuid "620c9742-6866-4169-a02a-278047a7292b")
+		)
+		(pin "25"
+			(uuid "7eb3a66b-4af5-4ce0-af46-7a59446f8683")
+		)
+		(pin "51"
+			(uuid "f7add590-2fc8-4906-9957-203f4f1c70a4")
+		)
+		(pin "10"
+			(uuid "ebb15588-428d-4ac7-b864-7815d04a9f82")
+		)
+		(pin "21"
+			(uuid "be01e068-3b7e-4f99-bfba-87a233300138")
+		)
+		(pin "06"
+			(uuid "4fd952b6-d219-4175-a4b7-3c89450570ac")
+		)
+		(pin "40"
+			(uuid "0cd836bb-e5b7-4f9f-bd27-f6451e719f19")
+		)
+		(pin "23"
+			(uuid "197ceb57-66ce-4259-9c92-2119b5051ece")
+		)
+		(pin "67"
+			(uuid "ad0bdf39-5fa0-4a36-b685-ef5f5396fc25")
+		)
+		(pin "75"
+			(uuid "520d82e9-8264-4519-990c-83a058274b4a")
+		)
+		(pin "66"
+			(uuid "f4299663-aa77-44f6-91b1-72e164fdba41")
+		)
+		(pin "74"
+			(uuid "87d79430-50ab-46fb-b540-06f3a0bb6298")
+		)
+		(pin "79"
+			(uuid "121933c1-6b67-4ecd-a97a-ee0623a14a62")
+		)
+		(pin "70"
+			(uuid "56ee2b16-f7f0-4cb6-81db-c6a7d5f3bbe2")
+		)
+		(pin "77"
+			(uuid "a5c52da3-a329-455c-81d4-8e19fdb6ef31")
+		)
+		(pin "73"
+			(uuid "2897839b-bcf8-4d8f-9548-24647a904761")
+		)
+		(pin "68"
+			(uuid "b5bc6fed-eb4b-4deb-a4d0-5939a43682db")
+		)
+		(pin "69"
+			(uuid "e4285389-8001-4b8c-b817-632119234d37")
+		)
+		(pin "80"
+			(uuid "fc206672-f21c-4b3c-be27-09a736ce2b2e")
+		)
+		(pin "76"
+			(uuid "07600e41-33c8-4925-ba0c-aaec5719fbfd")
+		)
+		(pin "64"
+			(uuid "6413c01c-be72-4c41-80cf-dfc8b7134561")
+		)
+		(pin "78"
+			(uuid "8e307145-012f-406c-993f-17c08626854e")
+		)
+		(pin "72"
+			(uuid "29e7ee5d-6e3c-479c-be0d-6466a647587d")
+		)
+		(pin "71"
+			(uuid "7e232949-59c2-4558-9dbd-f130096c3c8a")
+		)
+		(pin "65"
+			(uuid "abfe0638-042f-4515-9e9f-62c7b8b2dba8")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM:S13552")
+		(at 553.72 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198e2be6-1c2f-4115-9a1d-15c2e2bb5279")
+		(property "Reference" "MPPC3"
+			(at 552.45 25.4 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 552.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM:S13552"
+			(at 535.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 535.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 553.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,42 +6031,43 @@
 		)
 	)
 	(symbol
-		(lib_id "SiPM:S13552")
-		(at 60.96 140.97 0)
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 468.63 332.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e9f1321-b620-403b-87a5-66a6d4e3abde")
-		(property "Reference" "MPPC1"
-			(at 59.69 24.13 0)
-			(effects
-				(font
-					(size 5 5)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 59.69 29.21 0)
+		(uuid "1db93914-361d-4791-a07d-bc8e2f110c27")
+		(property "Reference" "J12"
+			(at 468.63 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SiPM:S13552"
-			(at 43.18 78.74 0)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 468.63 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 78.74 0)
+			(at 468.63 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +6076,1738 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 140.97 0)
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 468.63 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "03abe538-7ec5-4631-b661-ee86c17a9671")
+		)
+		(pin "45"
+			(uuid "555af96f-e821-4954-a882-95022161c233")
+		)
+		(pin "52"
+			(uuid "8f77bd61-6bc7-40d9-93d3-85c93cb60074")
+		)
+		(pin "18"
+			(uuid "07af27e5-f251-45c3-9777-5d727260a12e")
+		)
+		(pin "20"
+			(uuid "041f01d9-1dce-4332-b372-a7a412295ab4")
+		)
+		(pin "43"
+			(uuid "a8c3b761-0fe8-4f66-b22d-89a65749e966")
+		)
+		(pin "41"
+			(uuid "110d25e1-a73d-4e45-addb-d37f208a1c0b")
+		)
+		(pin "26"
+			(uuid "d540c95b-f38d-4a90-bc1d-2f8c999c0387")
+		)
+		(pin "31"
+			(uuid "7fa480ef-97ca-4e7e-93ad-c64586a95c14")
+		)
+		(pin "46"
+			(uuid "a76b893d-54bc-4b35-a191-17292c703b70")
+		)
+		(pin "13"
+			(uuid "b772e8cc-7726-42e8-9687-591266be21bc")
+		)
+		(pin "34"
+			(uuid "7b360e48-0abb-4525-a2c8-a34a5facf06e")
+		)
+		(pin "38"
+			(uuid "b78e8f36-cd56-4fc2-888e-5a03effc5c69")
+		)
+		(pin "53"
+			(uuid "4c1eb9bc-d747-4aeb-935e-12bf380b48eb")
+		)
+		(pin "16"
+			(uuid "3dd71b65-a03d-4815-8fa5-46852dbd8747")
+		)
+		(pin "28"
+			(uuid "6c581eb7-a46d-44cd-9300-9355b871ae1b")
+		)
+		(pin "54"
+			(uuid "c60ab7cb-fd2e-4e88-bc1a-d0f70ae10d56")
+		)
+		(pin "02"
+			(uuid "98ced4ba-3209-46c2-b08a-11cb94039244")
+		)
+		(pin "55"
+			(uuid "69de31cb-5023-436a-9674-52e45ef3681d")
+		)
+		(pin "42"
+			(uuid "c5a84292-bc6a-4f6d-9c33-79e52d83a5fc")
+		)
+		(pin "30"
+			(uuid "350a4f0b-9c74-4195-bad3-18e4523bf313")
+		)
+		(pin "57"
+			(uuid "24bfc644-822c-4b86-b20d-2df24e52999a")
+		)
+		(pin "56"
+			(uuid "fae1e517-af52-4259-a2fd-441b2cc2dab4")
+		)
+		(pin "59"
+			(uuid "5a7ecdc0-aba3-42ae-8889-9205be9274d0")
+		)
+		(pin "12"
+			(uuid "c4d3cd07-3d5c-46a1-8e01-b35147a7651e")
+		)
+		(pin "60"
+			(uuid "9bc30fb5-3328-4bfd-ad97-c80049ff95ee")
+		)
+		(pin "22"
+			(uuid "a644fe14-11f4-483e-a144-063c066933ae")
+		)
+		(pin "29"
+			(uuid "79213a2d-ae9b-43c2-8288-102f929276bd")
+		)
+		(pin "47"
+			(uuid "ed58fc30-a3ee-4577-9538-8fffa82f1bec")
+		)
+		(pin "61"
+			(uuid "a49b9022-58b8-47f6-b07e-eb40987db354")
+		)
+		(pin "58"
+			(uuid "8429d8d5-3bef-4f4c-81cd-b031338c5e7c")
+		)
+		(pin "62"
+			(uuid "d9bf5ad4-e728-4cfc-979b-eeb4613f6a3e")
+		)
+		(pin "07"
+			(uuid "902c657e-9f02-471d-8385-39ee3479942f")
+		)
+		(pin "27"
+			(uuid "224cdd6e-b2ed-44a6-a858-69c9b5f654f9")
+		)
+		(pin "49"
+			(uuid "45271d32-a0b6-4b7a-b81c-63e8a4a1f254")
+		)
+		(pin "24"
+			(uuid "9d99763d-99ad-45fa-b36b-1b6fb2318461")
+		)
+		(pin "63"
+			(uuid "e63ea6e7-6241-4e2b-a101-50f269abb5c1")
+		)
+		(pin "37"
+			(uuid "b141662d-369f-429f-8d16-084c0662dcd4")
+		)
+		(pin "19"
+			(uuid "a4db6bf5-2a7e-4901-982c-d6d2bfe89de6")
+		)
+		(pin "48"
+			(uuid "e5f5169a-6dc5-49b9-8d91-0352e29dc392")
+		)
+		(pin "14"
+			(uuid "3caa3d5f-8824-4a65-9921-4e8c6ab77578")
+		)
+		(pin "08"
+			(uuid "b5c1204f-4094-4da2-975e-33763e237e27")
+		)
+		(pin "03"
+			(uuid "cbe991ab-9a62-464f-887f-056701c4e77d")
+		)
+		(pin "05"
+			(uuid "20278327-5470-4d66-a9a6-9606d22d0dc4")
+		)
+		(pin "04"
+			(uuid "81c66f63-2d94-43a5-b350-c9e50fefa51b")
+		)
+		(pin "11"
+			(uuid "10bc440a-ba3c-4fa0-9d67-679fd5454148")
+		)
+		(pin "15"
+			(uuid "5a2fa152-d45c-4fc2-806c-47a1e9ea7d5a")
+		)
+		(pin "32"
+			(uuid "f7452b1e-bb71-4874-a23b-5de1a333a62a")
+		)
+		(pin "33"
+			(uuid "434811f2-5afd-433c-9a10-b69665932920")
+		)
+		(pin "35"
+			(uuid "dad9a17b-a497-4c35-9884-9f341354bbd9")
+		)
+		(pin "17"
+			(uuid "99b4a0bf-4399-48d6-a964-22c37488fff1")
+		)
+		(pin "36"
+			(uuid "613f8531-555e-438d-a692-c120dc51e1dd")
+		)
+		(pin "50"
+			(uuid "0914595f-4be3-40a8-9cd9-c14bb1025404")
+		)
+		(pin "39"
+			(uuid "f534918b-005c-4823-86dc-1db34980008a")
+		)
+		(pin "01"
+			(uuid "2b36a1cd-6a51-4c0b-be01-90aed0ef880a")
+		)
+		(pin "09"
+			(uuid "12475f20-93e5-4645-becb-a78dcee047c7")
+		)
+		(pin "25"
+			(uuid "38194ed1-a304-4435-aeb6-dc80d5c272c4")
+		)
+		(pin "51"
+			(uuid "2eb3faa2-3c34-4c27-b9b8-018a6d796fcf")
+		)
+		(pin "10"
+			(uuid "4faa69b6-0dc4-4172-9409-986b66697ba9")
+		)
+		(pin "21"
+			(uuid "cc80fd09-cda4-4398-bbf9-c482c0334bbf")
+		)
+		(pin "06"
+			(uuid "31a8f7ad-9894-4b40-bb80-f7a2da285398")
+		)
+		(pin "40"
+			(uuid "ed8a9a5e-8a94-4905-a487-6a26c61e5b6f")
+		)
+		(pin "23"
+			(uuid "7b8a5c73-11b5-4f81-a53e-c245c9dc0ca6")
+		)
+		(pin "67"
+			(uuid "9ca5f6cc-fbe2-49bd-8692-ab026c5eb4a8")
+		)
+		(pin "75"
+			(uuid "ed589440-ce80-40cd-9933-95ec5d7cf11e")
+		)
+		(pin "66"
+			(uuid "3f8d0f7c-fc70-4695-9f26-a02776e59f8a")
+		)
+		(pin "74"
+			(uuid "9ceae084-5f91-4844-a3ce-e7c004d60c24")
+		)
+		(pin "79"
+			(uuid "5c46be30-ae6a-4708-aeab-0267cf808937")
+		)
+		(pin "70"
+			(uuid "aa6734a5-ab07-4d15-8664-8a0e9b65a7ef")
+		)
+		(pin "77"
+			(uuid "f9e7c8a7-9a7a-42a4-9da3-0ec680dfb305")
+		)
+		(pin "73"
+			(uuid "2c9c2724-dfe0-447b-be5d-ae80376916b1")
+		)
+		(pin "68"
+			(uuid "e8927ddf-227e-42b0-ae82-6ef30ae17dea")
+		)
+		(pin "69"
+			(uuid "06f31f22-20c9-496f-907c-8363bf8674e3")
+		)
+		(pin "80"
+			(uuid "a50421ad-29d8-4c56-a630-9e605b28c340")
+		)
+		(pin "76"
+			(uuid "d413bc9d-4d82-4f5b-8efa-5ebe44d73323")
+		)
+		(pin "64"
+			(uuid "e8ec5ada-6fff-4586-bd68-a7d7fedd1945")
+		)
+		(pin "78"
+			(uuid "9fb67de4-3df7-4fd9-a3b9-1f1abf929d23")
+		)
+		(pin "72"
+			(uuid "9e72c418-0ae1-464f-877e-998054175bff")
+		)
+		(pin "71"
+			(uuid "47d5daf1-47c4-4e6e-bd59-b4f15e06f873")
+		)
+		(pin "65"
+			(uuid "158ee150-a63a-45d1-a006-415a0f36dc5b")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 468.63 466.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a82e890-308d-478c-b49c-27c89b3d2f32")
+		(property "Reference" "J13"
+			(at 468.63 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 468.63 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 468.63 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "16e96d6c-e445-4b91-b3f9-5aca86615119")
+		)
+		(pin "45"
+			(uuid "60cfe800-697d-4122-a783-bf90a546589c")
+		)
+		(pin "52"
+			(uuid "ae829d25-155d-4444-bfc1-d6f3b65c9365")
+		)
+		(pin "18"
+			(uuid "fcd64caa-a9a4-4c75-8503-2ec6541a2a4f")
+		)
+		(pin "20"
+			(uuid "6a435afb-4c1b-4006-a939-44dfb0f306a3")
+		)
+		(pin "43"
+			(uuid "75cacd50-de3f-464c-9760-9b4d82ae5deb")
+		)
+		(pin "41"
+			(uuid "d3c2c63b-046c-4273-b371-ae2a8fd8f264")
+		)
+		(pin "26"
+			(uuid "35414300-f2d2-41a2-9bb2-68e0e17dd142")
+		)
+		(pin "31"
+			(uuid "b06b9d31-3baf-4763-bb2a-b2c6d5affbd5")
+		)
+		(pin "46"
+			(uuid "d41f1a3a-ce9c-400e-ad8e-9759ba22655c")
+		)
+		(pin "13"
+			(uuid "ae768ea7-b9fb-44a2-96a1-46fd55c1c29d")
+		)
+		(pin "34"
+			(uuid "fbd580be-154c-4fe7-af38-089e996a44e1")
+		)
+		(pin "38"
+			(uuid "5621936a-3c17-4fbe-8d85-8485fdac520a")
+		)
+		(pin "53"
+			(uuid "bffacb47-793f-48a9-9f97-0f61740e54ce")
+		)
+		(pin "16"
+			(uuid "a2f7c3f3-1455-4494-9876-49cf66f331e0")
+		)
+		(pin "28"
+			(uuid "c3c2de54-7de6-4bf2-b848-3fe24f05902f")
+		)
+		(pin "54"
+			(uuid "f349cc1e-7508-4e99-b0fe-b23f256c7eaa")
+		)
+		(pin "02"
+			(uuid "4c79185b-f305-4a9e-a79e-3adfb59dcdde")
+		)
+		(pin "55"
+			(uuid "8b6df762-57cb-4aa0-8dd6-fea1975f6836")
+		)
+		(pin "42"
+			(uuid "52da78c2-2f1f-43e0-a3f6-eb1bdda27380")
+		)
+		(pin "30"
+			(uuid "bdedaac1-dc74-4734-9fce-3025a74e1148")
+		)
+		(pin "57"
+			(uuid "d3b2ab42-d49b-43bc-9863-df54427612b4")
+		)
+		(pin "56"
+			(uuid "40c9f17a-1f75-471d-a283-7fc36ad4fbc2")
+		)
+		(pin "59"
+			(uuid "18ccb3cc-68df-4bb6-9d87-93b67b032069")
+		)
+		(pin "12"
+			(uuid "c93cd4c5-f06b-46dd-adf8-150c5de4e795")
+		)
+		(pin "60"
+			(uuid "378921f6-4dd4-47c8-8cf1-a280eacf9a40")
+		)
+		(pin "22"
+			(uuid "9addf9f3-b13e-493d-9c9f-694d5828768d")
+		)
+		(pin "29"
+			(uuid "4d2bf9be-bfcf-4594-81e7-c38c79115854")
+		)
+		(pin "47"
+			(uuid "060cb099-68dd-440e-839a-ee95f87da5cc")
+		)
+		(pin "61"
+			(uuid "8b174b67-e591-49f2-92e9-3ee5cc5f1016")
+		)
+		(pin "58"
+			(uuid "a3bd7bd3-febf-441d-a8a3-3b851b783d4e")
+		)
+		(pin "62"
+			(uuid "854dcb38-6619-4a29-9d59-934473e1399f")
+		)
+		(pin "07"
+			(uuid "96c29c16-3136-4e0b-b6ce-e7f666cb0a75")
+		)
+		(pin "27"
+			(uuid "3025cfa0-5f9e-4d54-9264-f766c5bb0a04")
+		)
+		(pin "49"
+			(uuid "97085248-ccd4-4b58-aba3-838a462577cb")
+		)
+		(pin "24"
+			(uuid "84b95d34-b606-42fe-9490-65405c6bed17")
+		)
+		(pin "63"
+			(uuid "20631da0-b097-4eb6-868b-1e5b7dd8b253")
+		)
+		(pin "37"
+			(uuid "fd38bdc7-8a53-412c-bc53-1c657addb3d5")
+		)
+		(pin "19"
+			(uuid "ccf457c7-c894-4477-a61f-1ff9fad2bff8")
+		)
+		(pin "48"
+			(uuid "513a026e-c63e-4f51-943f-be7a5bf8a86e")
+		)
+		(pin "14"
+			(uuid "8811ef7f-f8b6-43ca-b5c7-0a1feaa984f0")
+		)
+		(pin "08"
+			(uuid "f76e1a39-f47e-4b61-a174-3a9323c87cff")
+		)
+		(pin "03"
+			(uuid "44902d15-d014-4687-b171-c25f33527fa5")
+		)
+		(pin "05"
+			(uuid "2ecbce6d-5f1b-4f17-9b6a-7d4d1318dee1")
+		)
+		(pin "04"
+			(uuid "0ead9c67-5d88-45d4-853d-c6f120c22890")
+		)
+		(pin "11"
+			(uuid "e8f54357-5c7b-48db-88bb-9783b88ff049")
+		)
+		(pin "15"
+			(uuid "1ede5e92-94ec-4c5f-913d-f4762bb6076f")
+		)
+		(pin "32"
+			(uuid "6c5ee8f9-b179-4b7e-898f-c1227a632513")
+		)
+		(pin "33"
+			(uuid "5fc0e4a2-e104-44f8-aa4a-e70446db2edd")
+		)
+		(pin "35"
+			(uuid "17433904-fe29-4c5e-a6e8-e4ec79e70bf8")
+		)
+		(pin "17"
+			(uuid "ba5ca83c-d662-4e32-82a8-b9c69188546e")
+		)
+		(pin "36"
+			(uuid "9bee4d1b-31c1-4649-ab44-715f28de9da0")
+		)
+		(pin "50"
+			(uuid "2fcb1e5f-319a-48fe-9529-0b63ee1ef6da")
+		)
+		(pin "39"
+			(uuid "eac751f7-cb24-406f-ac8b-bc58d0fc9532")
+		)
+		(pin "01"
+			(uuid "346b43bb-972c-4bb3-a1dc-27b799a6f78a")
+		)
+		(pin "09"
+			(uuid "9779f860-ece5-4e60-bd9e-fbc0f4603789")
+		)
+		(pin "25"
+			(uuid "6e040ef3-663b-459a-a41f-ed2c5f174a82")
+		)
+		(pin "51"
+			(uuid "82a55515-cb69-48e4-96ff-1dd6013fe109")
+		)
+		(pin "10"
+			(uuid "bde60f46-4238-4d56-820f-a6ead7c50f1b")
+		)
+		(pin "21"
+			(uuid "61b8113d-d668-49a9-ae8b-06c6ced63727")
+		)
+		(pin "06"
+			(uuid "8bbbb010-1bdb-463a-ba32-3f166565de16")
+		)
+		(pin "40"
+			(uuid "dc5f2446-2e48-4295-9040-1e3935e177d2")
+		)
+		(pin "23"
+			(uuid "2fc96b1d-54e6-4bf4-8ea8-2c5ac93187c8")
+		)
+		(pin "67"
+			(uuid "905aa5d6-605e-48ca-abe2-1f1515fa18ff")
+		)
+		(pin "75"
+			(uuid "6af7752e-dd0b-4033-9326-630d2b6db333")
+		)
+		(pin "66"
+			(uuid "94f2f119-58b0-4d97-9576-9cf8bd35c83c")
+		)
+		(pin "74"
+			(uuid "8cc4a495-2cb3-4093-9ec8-9f2a447feef1")
+		)
+		(pin "79"
+			(uuid "d92c6775-e10f-47d9-a536-7deee198fc3c")
+		)
+		(pin "70"
+			(uuid "be34eaba-d593-4fcf-8752-439909751cac")
+		)
+		(pin "77"
+			(uuid "b1673812-9430-4226-8a97-792c22edf944")
+		)
+		(pin "73"
+			(uuid "8474956a-9562-48e4-9e9d-bf5f2d2f7c44")
+		)
+		(pin "68"
+			(uuid "92cadc84-77f1-42da-8b73-75ab2e712ac3")
+		)
+		(pin "69"
+			(uuid "018a2d6f-2306-49a8-9bbc-4cadeef8de58")
+		)
+		(pin "80"
+			(uuid "607b9e80-5692-4c1b-a9fe-b9e9c725cc8f")
+		)
+		(pin "76"
+			(uuid "7977cdb2-519d-46e1-9649-9e2b79a884ab")
+		)
+		(pin "64"
+			(uuid "a79e151e-cf98-4425-9404-44a3fc8c71de")
+		)
+		(pin "78"
+			(uuid "466a74c0-adbb-4d34-9071-babd9c8e455b")
+		)
+		(pin "72"
+			(uuid "e6777697-e6d0-4913-b9f6-dce72d65fd45")
+		)
+		(pin "71"
+			(uuid "143fd202-098d-4c96-81a2-310c397cfde1")
+		)
+		(pin "65"
+			(uuid "6e737d50-fe09-48f4-9942-ae943cf1f1ca")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 250.19 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6517acfe-9c75-46a4-a930-ae229d2ae8c3")
+		(property "Reference" "J6"
+			(at 250.19 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 250.19 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 250.19 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "7e8729d6-ede6-43fc-b202-30c2967db883")
+		)
+		(pin "45"
+			(uuid "42dd2acc-ff12-474b-ac73-0931d45e8151")
+		)
+		(pin "52"
+			(uuid "f8e546ea-e4e0-4530-b314-a8e0efbe20a0")
+		)
+		(pin "18"
+			(uuid "7f64f443-30e0-4a6f-bf86-a729336e63bd")
+		)
+		(pin "20"
+			(uuid "e767bb63-8e83-4c85-a117-572a2ac0e2cf")
+		)
+		(pin "43"
+			(uuid "cf9dc576-ecad-4fb0-8b12-54b4ee32f77c")
+		)
+		(pin "41"
+			(uuid "6fe58b1f-58ac-4dbe-beea-97e3b2086b33")
+		)
+		(pin "26"
+			(uuid "be39d31d-4125-4fda-9536-c9a355b9dd6e")
+		)
+		(pin "31"
+			(uuid "45677bf2-2dc9-4886-b92e-bfa271c15cd5")
+		)
+		(pin "46"
+			(uuid "553a4c86-819b-4938-9f64-2c7eda7af6f5")
+		)
+		(pin "13"
+			(uuid "62e39286-60fd-4a89-b3b9-5588b3c1110f")
+		)
+		(pin "34"
+			(uuid "edf9bb28-c786-4af9-8f47-58d7c301469e")
+		)
+		(pin "38"
+			(uuid "27ef00e8-2d00-4b23-8129-7bb29158bd36")
+		)
+		(pin "53"
+			(uuid "db7e2af1-9a89-48fe-81ea-14578f560793")
+		)
+		(pin "16"
+			(uuid "64979cfa-43dd-455b-8588-a180ab17172c")
+		)
+		(pin "28"
+			(uuid "7ef29bc1-c5b5-4494-9259-90b427a9b6eb")
+		)
+		(pin "54"
+			(uuid "0fee31b3-fc57-42a8-b30e-2bd9da616a26")
+		)
+		(pin "02"
+			(uuid "ed479893-bc67-4f71-9c4c-202a7252793a")
+		)
+		(pin "55"
+			(uuid "64d5efa6-c8c2-4065-906e-8b824e968b8c")
+		)
+		(pin "42"
+			(uuid "a97ea9f4-84e5-4704-a90f-6ac9f4157cb0")
+		)
+		(pin "30"
+			(uuid "7dedb411-b6e5-417d-9212-5d921ac37798")
+		)
+		(pin "57"
+			(uuid "c8fa4862-40ad-46a6-8763-856ca52ec8c7")
+		)
+		(pin "56"
+			(uuid "d38c9d28-8387-4fe0-ab1e-cc218c04720b")
+		)
+		(pin "59"
+			(uuid "b5c76149-5115-4afb-aa2c-a3ddfd1b2dd5")
+		)
+		(pin "12"
+			(uuid "ee999178-63ac-4005-bbe6-3da2b3c08cd3")
+		)
+		(pin "60"
+			(uuid "c8510378-08a5-496d-bcc6-d3191a45439d")
+		)
+		(pin "22"
+			(uuid "eecd58ca-c5f4-44a9-97b3-5da56eddb477")
+		)
+		(pin "29"
+			(uuid "d5ba266a-3b1f-4d3b-8045-4a146de5ebc7")
+		)
+		(pin "47"
+			(uuid "338c7626-a5d1-452a-80f3-cc1643a1bc8d")
+		)
+		(pin "61"
+			(uuid "ce42f086-a9a3-46da-819a-29545ff9656c")
+		)
+		(pin "58"
+			(uuid "9031539b-5da0-4eda-82e7-60bd38515f70")
+		)
+		(pin "62"
+			(uuid "a72758bf-2e7e-4dee-a45c-4cb36833b95b")
+		)
+		(pin "07"
+			(uuid "854fcc58-2f52-4bbd-a06a-07c36a317d97")
+		)
+		(pin "27"
+			(uuid "790602f8-9dac-4407-a52c-c3053f30684c")
+		)
+		(pin "49"
+			(uuid "99b1e668-9945-45b0-a0b8-97df0e811a3a")
+		)
+		(pin "24"
+			(uuid "221d6ffd-8015-42d1-9c4b-3002652cc0f5")
+		)
+		(pin "63"
+			(uuid "234d245e-f665-48d0-ad3d-3ca8efcd531e")
+		)
+		(pin "37"
+			(uuid "b9a6310d-df64-4360-b9b3-450e111c3f5a")
+		)
+		(pin "19"
+			(uuid "cc0f8a66-16fe-44fa-9599-a5af22e9043d")
+		)
+		(pin "48"
+			(uuid "667f3723-5db0-402a-8dc3-c4361dd0f8c3")
+		)
+		(pin "14"
+			(uuid "7fc4bd2a-973f-445f-a10b-8644b5d88fc8")
+		)
+		(pin "08"
+			(uuid "8927536b-9ea7-4c1f-9203-96873477b1df")
+		)
+		(pin "03"
+			(uuid "94ca7919-af3b-4066-a73d-d97a6d8c74c3")
+		)
+		(pin "05"
+			(uuid "d59433ca-0717-4644-8041-6365d6f0c342")
+		)
+		(pin "04"
+			(uuid "77a8be4e-15a0-4342-af5f-5979e8352538")
+		)
+		(pin "11"
+			(uuid "d42a1512-0128-4e31-86fe-2b8539b22ab7")
+		)
+		(pin "15"
+			(uuid "d54842b4-69a0-40d6-b6aa-06d597bb16a3")
+		)
+		(pin "32"
+			(uuid "ba8485cc-32ce-4c0a-aa04-0ec4dec5b326")
+		)
+		(pin "33"
+			(uuid "700470a3-de05-4234-8c71-114cc5419ac8")
+		)
+		(pin "35"
+			(uuid "fd918647-4051-4dce-97f8-0fb5141ba527")
+		)
+		(pin "17"
+			(uuid "1d1c50d4-aa8e-4a7c-8669-4575334552c9")
+		)
+		(pin "36"
+			(uuid "0d27cd07-8f7f-4f61-bef3-8167c5fdf40f")
+		)
+		(pin "50"
+			(uuid "20c5242e-8857-4a61-8d78-d8107cb24a53")
+		)
+		(pin "39"
+			(uuid "ed4d1935-2529-48c2-8d7e-47797fd00f32")
+		)
+		(pin "01"
+			(uuid "e7d46e73-c938-476c-8c48-2ac1ebf47c45")
+		)
+		(pin "09"
+			(uuid "2afdb114-cb82-4f75-a91a-d23054876c18")
+		)
+		(pin "25"
+			(uuid "5953f608-2131-4432-bdf0-58272f8c29ee")
+		)
+		(pin "51"
+			(uuid "66fb95b4-c3d2-4b1b-8fbf-885716e7e374")
+		)
+		(pin "10"
+			(uuid "81e6e253-0fdc-47fe-a448-2249f24ed445")
+		)
+		(pin "21"
+			(uuid "11dae101-b28f-484e-bc34-9bef9f188e59")
+		)
+		(pin "06"
+			(uuid "ff62229b-01d2-48be-977c-d8537b2b7da7")
+		)
+		(pin "40"
+			(uuid "0b0c75fa-0e84-4706-87ef-24962300abe8")
+		)
+		(pin "23"
+			(uuid "5f47c8fc-a61a-418f-9e1b-bf9d9e970b24")
+		)
+		(pin "67"
+			(uuid "a712adb6-c0eb-4b2c-8e52-289148eee48a")
+		)
+		(pin "75"
+			(uuid "7b0a51c4-6761-4dc0-83d0-daa020526583")
+		)
+		(pin "66"
+			(uuid "be56a4bb-65b9-4954-bc72-39f60adabe2e")
+		)
+		(pin "74"
+			(uuid "be4dd0b1-e83d-4b40-b15b-b0d53a1756c6")
+		)
+		(pin "79"
+			(uuid "67e1a620-d0b2-46b9-88fb-957fea54277b")
+		)
+		(pin "70"
+			(uuid "6b819173-c45d-4b31-b5e3-5b039b189960")
+		)
+		(pin "77"
+			(uuid "0cd3fd97-e182-4b9e-8d6f-c0f1d0f076df")
+		)
+		(pin "73"
+			(uuid "9c07a977-767d-4187-8955-267d55c7a9d9")
+		)
+		(pin "68"
+			(uuid "ca31a3ea-a5c3-4429-af67-94f97484e4bb")
+		)
+		(pin "69"
+			(uuid "1c90f0ea-7264-436a-9797-7c585fa661ef")
+		)
+		(pin "80"
+			(uuid "44465eae-dbbb-411a-98e6-c5c5d67513d3")
+		)
+		(pin "76"
+			(uuid "403c6177-cb7c-41bb-9602-809164aebf99")
+		)
+		(pin "64"
+			(uuid "800db739-1873-45f0-b980-890967524454")
+		)
+		(pin "78"
+			(uuid "8dcb1e47-64d1-4591-afdb-699837436386")
+		)
+		(pin "72"
+			(uuid "85df76ca-3738-42ec-b9c9-53bceb1a9345")
+		)
+		(pin "71"
+			(uuid "c55da552-562f-4428-99e9-b148dcd9062d")
+		)
+		(pin "65"
+			(uuid "3102d3d7-b3dd-4fa5-bf97-99b884b230a6")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 93.98 462.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7da0d22a-53cd-4d6c-8f9a-26002ec8a97a")
+		(property "Reference" "J4"
+			(at 93.98 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 93.98 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 93.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "59b74b63-f848-4c92-8b24-9a9d2d2c679d")
+		)
+		(pin "45"
+			(uuid "76674fe9-426a-4e62-9cec-bb7d5d9968fe")
+		)
+		(pin "52"
+			(uuid "c200c2d1-a898-40b3-91ae-6e5cd35e6411")
+		)
+		(pin "18"
+			(uuid "f8efbbba-db54-4739-b5b6-7c788c0fd86d")
+		)
+		(pin "20"
+			(uuid "1e7e57b1-0d6b-4d6d-bb5f-32ec619cd484")
+		)
+		(pin "43"
+			(uuid "c8e7c71a-e2e4-4cd5-ac85-d3a1df1f604f")
+		)
+		(pin "41"
+			(uuid "0094f4a0-b2ca-4ffb-95ee-cc65256cfa57")
+		)
+		(pin "26"
+			(uuid "342a6f15-b34e-49e6-90fd-8adb59da1fe8")
+		)
+		(pin "31"
+			(uuid "996b50c1-4876-4411-a86b-e8852bd393bf")
+		)
+		(pin "46"
+			(uuid "c1999954-c09d-4c96-bfc8-6c4755c4ece8")
+		)
+		(pin "13"
+			(uuid "64f5d82f-0845-417f-9bab-8b3519637ecf")
+		)
+		(pin "34"
+			(uuid "d2a8b1a2-cd58-42f5-9fb0-e1c23a240539")
+		)
+		(pin "38"
+			(uuid "857ec18d-bd5b-4180-9fee-66062fffe0ed")
+		)
+		(pin "53"
+			(uuid "cb3db2c7-4c87-40b5-b6c2-295d03c9afad")
+		)
+		(pin "16"
+			(uuid "27ad6acb-cd10-4820-a4f2-889bd1b9f01f")
+		)
+		(pin "28"
+			(uuid "18839d72-523d-40b0-871f-89c109b44654")
+		)
+		(pin "54"
+			(uuid "d107fb2f-dc98-4b7c-b69b-ee69b8d75036")
+		)
+		(pin "02"
+			(uuid "3a58cdd9-b2d9-490b-a16f-2a8876067875")
+		)
+		(pin "55"
+			(uuid "5f330231-7db5-4abe-8f42-d92082ab480a")
+		)
+		(pin "42"
+			(uuid "8584dbf4-b4b0-4e04-83b2-ff23adc0e0ee")
+		)
+		(pin "30"
+			(uuid "bd8a0e01-6598-483d-aca1-a1a9252de815")
+		)
+		(pin "57"
+			(uuid "52111193-c4a0-4f6b-a244-ac925d244c40")
+		)
+		(pin "56"
+			(uuid "4423d90f-10dc-4d56-8707-a0d49cb8bc42")
+		)
+		(pin "59"
+			(uuid "0c2f0dc8-863b-4ffc-98b6-9a8a42c5e1b4")
+		)
+		(pin "12"
+			(uuid "c9db66ef-0034-449e-8aeb-2411f299a41b")
+		)
+		(pin "60"
+			(uuid "14d33da6-4f78-47fc-9550-ae5b19ecad5e")
+		)
+		(pin "22"
+			(uuid "da56d527-42fc-43fe-8008-6bc9ed2559f6")
+		)
+		(pin "29"
+			(uuid "bb3919b3-436e-49fc-99fa-8330e72ad333")
+		)
+		(pin "47"
+			(uuid "f39bd833-89dd-421f-a6b0-3a361b009d04")
+		)
+		(pin "61"
+			(uuid "6c4c8875-88b4-44c4-9be1-75ee9d6c3c31")
+		)
+		(pin "58"
+			(uuid "02f83033-2996-46d0-9b8b-f660b8bd3aed")
+		)
+		(pin "62"
+			(uuid "55af1aa5-7a87-40f1-9d4f-2b01bc832751")
+		)
+		(pin "07"
+			(uuid "0d4c7c87-51d6-48a3-824b-d1dcf6e9badf")
+		)
+		(pin "27"
+			(uuid "dedafe3c-df57-4390-aab8-d3bc5792a00d")
+		)
+		(pin "49"
+			(uuid "0d131c9a-f73a-4b8d-b6cc-0b4e38a7cada")
+		)
+		(pin "24"
+			(uuid "7f6dc211-fb33-42cf-bc6b-c26816cde265")
+		)
+		(pin "63"
+			(uuid "163650d3-45dd-4052-8a80-983c104dc831")
+		)
+		(pin "37"
+			(uuid "05199463-eb68-4116-b0db-31a1d3560566")
+		)
+		(pin "19"
+			(uuid "37ce2d3d-5062-4a5d-8455-594c34214d5a")
+		)
+		(pin "48"
+			(uuid "1ebbfb5c-61dc-4750-a055-ebad8dbb1af5")
+		)
+		(pin "14"
+			(uuid "425f4269-dd11-4d07-b208-c09d61000cbe")
+		)
+		(pin "08"
+			(uuid "cbe27eb3-b13b-403d-9780-8c7174d78468")
+		)
+		(pin "03"
+			(uuid "74604eb8-dec9-4a7c-8446-9d3d5879224e")
+		)
+		(pin "05"
+			(uuid "f2fd908c-9427-4b34-9fa1-39fc8c64e21d")
+		)
+		(pin "04"
+			(uuid "b86d0c78-845e-4c35-9f02-5a2446cf8368")
+		)
+		(pin "11"
+			(uuid "3d11a005-b759-4e21-b866-7563ecf0e32e")
+		)
+		(pin "15"
+			(uuid "1fe4e3ce-d8cd-4e3d-ac92-40a541df8a7c")
+		)
+		(pin "32"
+			(uuid "2393a107-259d-48e5-9d31-e0cbdb133a07")
+		)
+		(pin "33"
+			(uuid "930a22f8-fdce-4302-b97a-2b540a21199a")
+		)
+		(pin "35"
+			(uuid "8c24bc51-982d-40ed-87ad-c11a026e0317")
+		)
+		(pin "17"
+			(uuid "0e83f5b1-0f08-4b27-b9db-f8c9da66450a")
+		)
+		(pin "36"
+			(uuid "98a75707-596a-4c20-ad9b-8f10bef449e7")
+		)
+		(pin "50"
+			(uuid "2b2b2a80-b982-4117-b5bd-c0a9d150bde1")
+		)
+		(pin "39"
+			(uuid "0355e2d3-6f7e-4f4e-98cc-32de77d90cfa")
+		)
+		(pin "01"
+			(uuid "ab03b4f7-eb62-49a4-b82f-5997eff6f598")
+		)
+		(pin "09"
+			(uuid "0267f9f9-96f6-48a6-be9d-1f1d3e4aa43e")
+		)
+		(pin "25"
+			(uuid "b8f9523c-e016-4379-93bb-dc00f0736930")
+		)
+		(pin "51"
+			(uuid "ca285a9e-86ae-4a76-89be-45d783776db7")
+		)
+		(pin "10"
+			(uuid "5d72e187-15a4-41a2-9cad-aaaa9a239262")
+		)
+		(pin "21"
+			(uuid "373c542e-0fcb-4a95-9145-457d335bfc91")
+		)
+		(pin "06"
+			(uuid "9d8dc5c9-cafc-45ac-a042-301554ba2508")
+		)
+		(pin "40"
+			(uuid "9d8068c7-8285-4401-814f-4fef74d70fae")
+		)
+		(pin "23"
+			(uuid "02ade0e7-1583-4504-b427-0a73f66baebb")
+		)
+		(pin "67"
+			(uuid "1d8e637f-600b-475f-a41d-4d6b503bfcb6")
+		)
+		(pin "75"
+			(uuid "d314b5bc-c4bc-41ac-831f-a250f523d819")
+		)
+		(pin "66"
+			(uuid "46aac13c-fb73-4249-b869-4c273130e6b3")
+		)
+		(pin "74"
+			(uuid "dcee1ae8-ae8a-4487-825a-7f1e1e4b197a")
+		)
+		(pin "79"
+			(uuid "236b3db2-377d-4051-9ea8-3ce3582157b8")
+		)
+		(pin "70"
+			(uuid "0d256937-463c-420c-98c1-711288168f65")
+		)
+		(pin "77"
+			(uuid "c145a5f0-4b63-4aa8-b87c-a4aba11999fc")
+		)
+		(pin "73"
+			(uuid "66c91810-54cc-4804-9d5d-6c0051a062a6")
+		)
+		(pin "68"
+			(uuid "a75ba214-e07e-44f5-a18c-5332a8fda740")
+		)
+		(pin "69"
+			(uuid "e5ab4438-8f19-4581-853c-c5b3e90e5154")
+		)
+		(pin "80"
+			(uuid "dccbb4e7-4e19-4b01-94a0-4f4ff3813dc8")
+		)
+		(pin "76"
+			(uuid "d0ab2139-7569-44d9-9c7e-0b4889a24038")
+		)
+		(pin "64"
+			(uuid "4e9dcbbe-26f0-42e5-9525-b3e2b30e6845")
+		)
+		(pin "78"
+			(uuid "b20b0ee1-91cd-4e15-a10e-7cf78f2d974a")
+		)
+		(pin "72"
+			(uuid "005457af-3a82-4d20-aa57-44374c5ea14e")
+		)
+		(pin "71"
+			(uuid "76ad51b5-729d-4ea5-a2f1-3415b35a1f7a")
+		)
+		(pin "65"
+			(uuid "ce1d5fdf-b6c9-4380-b7ee-15c95d1e22b4")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM:S13552")
+		(at 134.62 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e9f1321-b620-403b-87a5-66a6d4e3abde")
+		(property "Reference" "MPPC1"
+			(at 133.35 20.32 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM:S13552"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,42 +8311,43 @@
 		)
 	)
 	(symbol
-		(lib_id "SiPM:S13552")
-		(at 331.47 143.51 0)
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 154.94 331.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6ba4bbf-9b79-49c3-b65b-0ef904ee9e81")
-		(property "Reference" "MPPC4"
-			(at 330.2 26.67 0)
-			(effects
-				(font
-					(size 5 5)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 330.2 31.75 0)
+		(uuid "858ebd4e-4a23-4864-af9e-ad1a8e7447f5")
+		(property "Reference" "J3"
+			(at 154.94 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SiPM:S13552"
-			(at 313.69 81.28 0)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 154.94 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 81.28 0)
+			(at 154.94 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +8356,1482 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 143.51 0)
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 154.94 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "17abeed9-6e1b-48b6-9d9e-6dd868334677")
+		)
+		(pin "45"
+			(uuid "bd822b91-d905-44e5-abca-8fc7bb61b493")
+		)
+		(pin "52"
+			(uuid "124f3e38-283e-4d46-a3cf-44af0482282e")
+		)
+		(pin "18"
+			(uuid "309c4d0e-1a63-4ee5-85d3-23f2761a4380")
+		)
+		(pin "20"
+			(uuid "995df09e-8a34-4f3d-b6f7-6d3d3fe8d1cd")
+		)
+		(pin "43"
+			(uuid "993b806f-83fe-46d4-b325-b64e3ed79733")
+		)
+		(pin "41"
+			(uuid "0320d54a-1e0c-4bb9-bf4c-22f11d152728")
+		)
+		(pin "26"
+			(uuid "f94e6d43-a039-4644-a5b0-9d2c01234c95")
+		)
+		(pin "31"
+			(uuid "3f5ca161-0ce6-40df-9092-d22e8403bc6f")
+		)
+		(pin "46"
+			(uuid "b277b81d-059c-4382-86b0-76e364e9aced")
+		)
+		(pin "13"
+			(uuid "1de959cd-c9cd-4cf3-9386-c042fe977bc2")
+		)
+		(pin "34"
+			(uuid "eee31dbc-db3b-454f-85cd-d5dd36b4741c")
+		)
+		(pin "38"
+			(uuid "3afee81f-c3fa-49b4-ae4d-3584bdd07d0e")
+		)
+		(pin "53"
+			(uuid "8a62e364-6abd-4e4d-bcac-55bd0fc5ccd4")
+		)
+		(pin "16"
+			(uuid "6200f08c-031c-4f4a-b1ca-541516f0763a")
+		)
+		(pin "28"
+			(uuid "acd73f58-ee6e-4b28-ace7-34b9ff7a11bf")
+		)
+		(pin "54"
+			(uuid "db0c830d-09c7-4cef-8e3c-61526ee692dc")
+		)
+		(pin "02"
+			(uuid "d8217480-03e5-485b-af13-311815ffc154")
+		)
+		(pin "55"
+			(uuid "65b41a82-e94a-4045-ba19-edbe3bb97f04")
+		)
+		(pin "42"
+			(uuid "815231b8-1247-42b1-a321-c26f6ff1188e")
+		)
+		(pin "30"
+			(uuid "10c10a19-fe3f-46a5-aa9e-798e48681427")
+		)
+		(pin "57"
+			(uuid "4f831f1d-e848-4496-b475-211f7ed185fa")
+		)
+		(pin "56"
+			(uuid "5f3c7f8a-9419-4230-b34a-f9f0f714ffb0")
+		)
+		(pin "59"
+			(uuid "e5e0c90e-3ead-4108-807e-fa7a81950dd6")
+		)
+		(pin "12"
+			(uuid "2633f2b5-22db-4fdd-a513-8556af75446f")
+		)
+		(pin "60"
+			(uuid "f090d8a2-3cec-4a55-8950-395b18c7994c")
+		)
+		(pin "22"
+			(uuid "89336cc0-9266-4382-a765-811bb79f8f0e")
+		)
+		(pin "29"
+			(uuid "f937fb84-095d-4551-b62b-06f09319af41")
+		)
+		(pin "47"
+			(uuid "4f8d2c2b-f6c3-48e9-ab5d-1084d23f69c3")
+		)
+		(pin "61"
+			(uuid "1381b22b-d1b1-41b2-b74a-afeaa35ec545")
+		)
+		(pin "58"
+			(uuid "dc4c6afa-0d2e-4e12-8936-76e7783de9f1")
+		)
+		(pin "62"
+			(uuid "f166183f-4287-4043-9adb-5904f80e6ccc")
+		)
+		(pin "07"
+			(uuid "d06e32c7-c9b2-485e-80e3-4ee174ff207c")
+		)
+		(pin "27"
+			(uuid "3c4f10e7-c5a7-4711-b73e-691a67882f27")
+		)
+		(pin "49"
+			(uuid "1b352059-671a-4a01-ae75-c208291b74f3")
+		)
+		(pin "24"
+			(uuid "7aeb39ec-356d-4a50-a582-dbd174fc1afa")
+		)
+		(pin "63"
+			(uuid "74f09511-a9dc-4f60-8e88-36f72addf3d2")
+		)
+		(pin "37"
+			(uuid "57f8cfb8-e488-4701-8598-be2ef04af283")
+		)
+		(pin "19"
+			(uuid "84ba67aa-c03c-473c-a2b5-a539cf6d306e")
+		)
+		(pin "48"
+			(uuid "4eafdf5b-2e04-4dd8-90a5-ecca0ade18f3")
+		)
+		(pin "14"
+			(uuid "f22f37e0-5635-43c8-ae1a-502e9a16474c")
+		)
+		(pin "08"
+			(uuid "32f387af-e3fd-491b-b866-c595f76e602d")
+		)
+		(pin "03"
+			(uuid "716f974e-7a58-420c-b1cb-66808646a4f8")
+		)
+		(pin "05"
+			(uuid "08311352-71aa-4303-9525-361be514fd8b")
+		)
+		(pin "04"
+			(uuid "aae72c15-0df2-4aed-ad38-f0c6aaa308ca")
+		)
+		(pin "11"
+			(uuid "5e9559b0-c534-4910-b2d6-cf5e74467551")
+		)
+		(pin "15"
+			(uuid "64df120b-19ba-4acf-a8e3-a084209ddd95")
+		)
+		(pin "32"
+			(uuid "1abd232e-fb0f-4f4f-9d20-511e512c9c2c")
+		)
+		(pin "33"
+			(uuid "9bfa3bee-327c-45ee-a87c-165e8a82dee6")
+		)
+		(pin "35"
+			(uuid "d2c6c2c3-6f2e-4749-9663-a62349226948")
+		)
+		(pin "17"
+			(uuid "50bb28a6-9f98-4fa1-a862-6378884ef2b5")
+		)
+		(pin "36"
+			(uuid "288c9fed-0ec7-4f9c-8d6f-50d1d353d118")
+		)
+		(pin "50"
+			(uuid "9cc9b806-af73-4e8e-98f4-87de88e3e592")
+		)
+		(pin "39"
+			(uuid "f6d94734-82db-43d0-a0a2-17e3b463adb8")
+		)
+		(pin "01"
+			(uuid "4b7f3692-0e1f-49de-a485-1d313c4aa5e8")
+		)
+		(pin "09"
+			(uuid "072fce7d-8e1d-4791-9055-64ca8a487eda")
+		)
+		(pin "25"
+			(uuid "4b558c41-e21b-4973-b47c-40b7c7afccb9")
+		)
+		(pin "51"
+			(uuid "a6558f97-448e-431e-a69c-aab7503be8e4")
+		)
+		(pin "10"
+			(uuid "5d5af15d-a0d2-4d22-b173-c839f5e39637")
+		)
+		(pin "21"
+			(uuid "7de927c8-75f0-4498-b76d-2f03d4c2de94")
+		)
+		(pin "06"
+			(uuid "b5a7e60d-add3-457f-8021-b706455c25a8")
+		)
+		(pin "40"
+			(uuid "3d3b1d2a-d258-41ca-b534-261b750fc0fc")
+		)
+		(pin "23"
+			(uuid "8fcb943b-d895-40ae-b9ed-baf7fa4e5e30")
+		)
+		(pin "67"
+			(uuid "df9bd36c-ab66-4670-8c08-916d4fcfd356")
+		)
+		(pin "75"
+			(uuid "4189e397-5394-4eec-964e-21591a2d7448")
+		)
+		(pin "66"
+			(uuid "ebcaebf2-95d9-44db-b893-b8d87300a4bf")
+		)
+		(pin "74"
+			(uuid "4d36fc5b-5143-40bc-bb05-a47846bb0b72")
+		)
+		(pin "79"
+			(uuid "87fa18cd-e28b-4174-8a17-5f1af9902178")
+		)
+		(pin "70"
+			(uuid "e5b7bac3-1647-4d8f-89ae-c715195a291e")
+		)
+		(pin "77"
+			(uuid "cf2dbdaf-5ff7-4bfb-82c8-5f0ac42279fd")
+		)
+		(pin "73"
+			(uuid "66d5a1f5-939f-4f44-97f6-fd5ef63c3541")
+		)
+		(pin "68"
+			(uuid "6227251f-be1c-4936-aa0d-f9017aff3f60")
+		)
+		(pin "69"
+			(uuid "f78a69e5-dfa4-4673-8aad-908b019870fa")
+		)
+		(pin "80"
+			(uuid "d99f0f93-cff3-4af6-87b9-374c118f1ebb")
+		)
+		(pin "76"
+			(uuid "e5d1db67-4639-4ff2-b553-1000dd78069e")
+		)
+		(pin "64"
+			(uuid "616b7fd2-5548-4e12-9fcd-53b75af49093")
+		)
+		(pin "78"
+			(uuid "ec47994a-6f84-43ef-a786-8a51fcfb05b5")
+		)
+		(pin "72"
+			(uuid "63d80af1-88e5-47ea-8427-c4cb7fdc77fd")
+		)
+		(pin "71"
+			(uuid "1f1cc4a6-5dc6-4343-87a1-b391c7065732")
+		)
+		(pin "65"
+			(uuid "7ce82396-723c-4f3c-96c7-027aef25dafc")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 154.94 464.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fbda58e-92db-4f00-8618-f74348ed37da")
+		(property "Reference" "J5"
+			(at 154.94 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 154.94 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 154.94 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "b6a775b5-f160-4f9b-9d73-ce96661667a0")
+		)
+		(pin "45"
+			(uuid "6cbf876b-76b1-4be6-8ebe-2e43ee33b840")
+		)
+		(pin "52"
+			(uuid "dc47eacb-e53d-48c0-83d2-775c442c00d0")
+		)
+		(pin "18"
+			(uuid "13e3a0ee-ea49-46c5-a7a5-7fd70343281b")
+		)
+		(pin "20"
+			(uuid "748b4226-f2af-4b64-9b1f-86956138c6e8")
+		)
+		(pin "43"
+			(uuid "89095d84-da12-4050-871a-b7f4917301e4")
+		)
+		(pin "41"
+			(uuid "1251d3d0-7d02-476d-b089-3f9fa4506e81")
+		)
+		(pin "26"
+			(uuid "2ad7902f-bff0-49e9-a0c7-c3531b879939")
+		)
+		(pin "31"
+			(uuid "27061381-5154-481e-a8e9-b60c69019569")
+		)
+		(pin "46"
+			(uuid "e9cd7d57-e9eb-4a03-be98-ab88ccdfc209")
+		)
+		(pin "13"
+			(uuid "a0892892-649c-42bc-90b1-b71c30aafacf")
+		)
+		(pin "34"
+			(uuid "73ff3332-34a2-4f46-b9a2-5dfb544c0ffa")
+		)
+		(pin "38"
+			(uuid "2cef7107-a94c-4f94-96e3-1d5e51d6d698")
+		)
+		(pin "53"
+			(uuid "d7c4c589-33ca-4844-a4b2-f9a345331b80")
+		)
+		(pin "16"
+			(uuid "a56c850c-6a96-42bf-aaff-95b5bd09a5d2")
+		)
+		(pin "28"
+			(uuid "4a1e947c-5a3b-4e4d-a053-b235130b3794")
+		)
+		(pin "54"
+			(uuid "ad9e9771-79d8-4257-bf21-598d20b0ae82")
+		)
+		(pin "02"
+			(uuid "75b25891-95a5-4f1d-93b7-64432a070f23")
+		)
+		(pin "55"
+			(uuid "17352d79-b7f2-4cc4-abde-ba915a655924")
+		)
+		(pin "42"
+			(uuid "5174e0cf-1562-4bcc-b1f7-91fe6b1f8057")
+		)
+		(pin "30"
+			(uuid "59e079e7-03e8-4db8-8153-e6da8d6e76ce")
+		)
+		(pin "57"
+			(uuid "2339ddc3-3113-45a9-a4be-0a53ed28d052")
+		)
+		(pin "56"
+			(uuid "beb4cfcd-31b6-437c-ba2c-82ce5bb91d91")
+		)
+		(pin "59"
+			(uuid "f8e8fd15-0470-4020-973d-dff5cb7394c2")
+		)
+		(pin "12"
+			(uuid "c71a61f8-90fb-473d-a6dd-f0e0f16d8500")
+		)
+		(pin "60"
+			(uuid "2c1c6af4-87a6-45b3-8bee-2d424be1a3c2")
+		)
+		(pin "22"
+			(uuid "6689cb78-76ea-4b06-bcc8-6d1ae3aea340")
+		)
+		(pin "29"
+			(uuid "4ec3623c-f762-41e1-b638-70a8fc71990d")
+		)
+		(pin "47"
+			(uuid "4429c99b-a06a-4dbb-9ae4-99e36368d46d")
+		)
+		(pin "61"
+			(uuid "2473b56a-ebbb-4690-9cb1-81c2afbdd6dc")
+		)
+		(pin "58"
+			(uuid "10eccf3b-e3e8-431e-bcda-ac572f89ad2b")
+		)
+		(pin "62"
+			(uuid "5392b9dc-2030-4d1a-93ad-18966348decb")
+		)
+		(pin "07"
+			(uuid "09740592-c229-4f11-9ce7-55dc86b94aca")
+		)
+		(pin "27"
+			(uuid "03f50f1c-3d1c-49dc-b8af-9effcb23217c")
+		)
+		(pin "49"
+			(uuid "ee8e6d16-587f-4107-ae7d-54bb09fd4a4e")
+		)
+		(pin "24"
+			(uuid "c699fade-25a3-4b4e-a24a-71414a56ced1")
+		)
+		(pin "63"
+			(uuid "2b795fb3-4554-4c0e-8b98-23375c3a5846")
+		)
+		(pin "37"
+			(uuid "a3795f2a-4f97-432f-935f-8a11212fe2d6")
+		)
+		(pin "19"
+			(uuid "852cb1a0-7cac-4405-9bed-bb985ceaaaf0")
+		)
+		(pin "48"
+			(uuid "44ffd92d-7da5-427b-b554-d1c0a641ddd1")
+		)
+		(pin "14"
+			(uuid "c8921683-6598-40de-80df-9ff840932513")
+		)
+		(pin "08"
+			(uuid "af091b34-f70f-4a9f-835c-063766dfab72")
+		)
+		(pin "03"
+			(uuid "da6062d5-c36e-4d8d-ba3a-509712f6409f")
+		)
+		(pin "05"
+			(uuid "1e30707e-a65f-4e80-925f-d26ef64c1272")
+		)
+		(pin "04"
+			(uuid "b09415b7-969e-40ac-ac7a-1f42579c3720")
+		)
+		(pin "11"
+			(uuid "2b7a135f-217f-4d67-903d-506a3f859f16")
+		)
+		(pin "15"
+			(uuid "aa4d1812-6dda-4c5e-bfee-64b7739f7e0c")
+		)
+		(pin "32"
+			(uuid "ae372538-e344-44c6-b6e4-a9e39db71966")
+		)
+		(pin "33"
+			(uuid "8ec46e50-2b86-43a5-bae1-be2d290dabe3")
+		)
+		(pin "35"
+			(uuid "ca1096ca-c7ef-44b1-9c1c-0f299d7560eb")
+		)
+		(pin "17"
+			(uuid "cb921861-d7c3-46eb-a921-9b29f5667916")
+		)
+		(pin "36"
+			(uuid "7fd5122c-1c6c-4f3f-9884-46998b2f7048")
+		)
+		(pin "50"
+			(uuid "602b9092-4ef8-49d8-bea8-601dc702a7e5")
+		)
+		(pin "39"
+			(uuid "553958c3-d68b-4afc-8188-4d6546b9cb4f")
+		)
+		(pin "01"
+			(uuid "fbb97df8-17df-44ed-8272-8cb942635fd2")
+		)
+		(pin "09"
+			(uuid "3a3cd79c-92cd-44e5-b038-b0883018cb4a")
+		)
+		(pin "25"
+			(uuid "10e5f730-b946-4947-a1bb-87e5555ab2f2")
+		)
+		(pin "51"
+			(uuid "303c033f-b774-47a5-8248-193fa184ce11")
+		)
+		(pin "10"
+			(uuid "ceec0420-b620-466a-99e3-58a2514a3650")
+		)
+		(pin "21"
+			(uuid "b73b33fa-7781-4e92-b48c-9e26728d958a")
+		)
+		(pin "06"
+			(uuid "a132828f-76ca-4476-96eb-b23ebc96fc32")
+		)
+		(pin "40"
+			(uuid "06df6e7a-a643-46fa-aa65-ad10c51b2463")
+		)
+		(pin "23"
+			(uuid "8061873a-dda6-41be-8c0a-1deef788651d")
+		)
+		(pin "67"
+			(uuid "71580e49-43c4-43bd-90c7-7aec274cd224")
+		)
+		(pin "75"
+			(uuid "a650b6dc-573d-4ce6-a1d9-53fa68c8dae7")
+		)
+		(pin "66"
+			(uuid "250888e2-53e1-4125-9b92-6e6d3fdb656c")
+		)
+		(pin "74"
+			(uuid "2b056261-743a-4ecc-821c-3cf12f30a77d")
+		)
+		(pin "79"
+			(uuid "c612dab6-4a96-4eea-be77-1052bac1b984")
+		)
+		(pin "70"
+			(uuid "95e9429e-3d81-4103-bcc7-02ca92cdc63c")
+		)
+		(pin "77"
+			(uuid "d7c95ec4-b5a0-4c51-9704-21b54af77202")
+		)
+		(pin "73"
+			(uuid "ee6dbe6e-0231-40de-b254-9fed39c7ca3e")
+		)
+		(pin "68"
+			(uuid "531e9b70-03f1-435a-bae4-28f9b1b23d69")
+		)
+		(pin "69"
+			(uuid "89995b4f-7ce0-4181-a065-5eee292f680b")
+		)
+		(pin "80"
+			(uuid "9d473be4-8d6a-4449-b548-85bfe3c59f4d")
+		)
+		(pin "76"
+			(uuid "4d465598-e8dd-4ca5-bb45-abf366b96a9b")
+		)
+		(pin "64"
+			(uuid "4bacd7c2-0fa1-461e-8b55-b4d37bfa1837")
+		)
+		(pin "78"
+			(uuid "32249bbe-c8ff-41d8-97b3-95dbf25326c7")
+		)
+		(pin "72"
+			(uuid "fee9694f-97c8-4524-a96a-538f8f6225e9")
+		)
+		(pin "71"
+			(uuid "b4b1be78-62f8-4799-86d1-289fce11d9f0")
+		)
+		(pin "65"
+			(uuid "52a5eabc-7a73-4770-986e-8060fd69bba4")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HV_Connector:1778764")
+		(at 594.36 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a93a57cb-725d-4a6c-9808-d1a04b967e59")
+		(property "Reference" "J1"
+			(at 600.71 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1778764"
+			(at 600.71 393.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HV_Connector:PHOENIX_1778764"
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "11.03.2024"
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 594.36 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9de9d9a-4b13-4e7e-9def-474195299c10")
+		)
+		(pin "1"
+			(uuid "bf550e6c-136a-4ff0-a913-4b91553314ca")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 586.74 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b865a258-f0c6-4774-af97-3076e6744b10")
+		(property "Reference" "#PWR01"
+			(at 586.74 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 586.74 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 586.74 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 586.74 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 586.74 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "200d8845-b15a-4e4d-8b27-70662bcefea1")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 407.67 463.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf307e2c-3f52-4fc9-b652-3405c48cb448")
+		(property "Reference" "J11"
+			(at 407.67 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 407.67 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 407.67 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "4c7bc64a-adca-4c6b-a7ed-7b9c44f0e2cc")
+		)
+		(pin "45"
+			(uuid "7e558d42-5d1c-4caf-9964-406da72a97f0")
+		)
+		(pin "52"
+			(uuid "0e315eeb-b1fd-4dd2-94a1-c1538249bea7")
+		)
+		(pin "18"
+			(uuid "ee4623d1-45d4-4b2a-8688-0034f1c4e0a2")
+		)
+		(pin "20"
+			(uuid "a15090d3-6a11-44d3-aff3-9893383eb906")
+		)
+		(pin "43"
+			(uuid "1feee041-1281-4261-9e95-b7094dbe4ee0")
+		)
+		(pin "41"
+			(uuid "54fff0d8-d186-4eeb-bccb-bdeaa1aa089e")
+		)
+		(pin "26"
+			(uuid "3a9c7005-c166-4174-97d2-c711dc872d48")
+		)
+		(pin "31"
+			(uuid "32d21ae8-def6-4a68-bbc4-1d93988a6dd4")
+		)
+		(pin "46"
+			(uuid "e7f79be3-68f6-4bb5-9b89-266d2636dbb0")
+		)
+		(pin "13"
+			(uuid "45df04bc-a758-4b62-b4d6-cb53bbfd03bc")
+		)
+		(pin "34"
+			(uuid "8f07c4d2-55f7-4359-abeb-3ab95d6cb357")
+		)
+		(pin "38"
+			(uuid "9be472b0-37a6-4735-a629-b11a400bdbe1")
+		)
+		(pin "53"
+			(uuid "00c9cbab-3792-4878-9098-36d0e4a3fb79")
+		)
+		(pin "16"
+			(uuid "72751a27-9a6a-41b7-8899-ae063c56d4c9")
+		)
+		(pin "28"
+			(uuid "963ba156-09d6-4525-a329-3315a6df4ef8")
+		)
+		(pin "54"
+			(uuid "266d00d0-606a-4c41-9c16-269eb206ab27")
+		)
+		(pin "02"
+			(uuid "7f5f6b87-3fc5-432a-afd9-1b0f28c95bab")
+		)
+		(pin "55"
+			(uuid "5fe5ba18-d38d-4dd0-abd2-b288796bdf48")
+		)
+		(pin "42"
+			(uuid "0104026a-61ed-4ba8-833a-fc79a3c61f48")
+		)
+		(pin "30"
+			(uuid "ac1e3f4b-2d14-4367-8d83-fe0814ec5d2e")
+		)
+		(pin "57"
+			(uuid "ab59a6ff-0ccb-42cd-9b1f-e576c6c60dff")
+		)
+		(pin "56"
+			(uuid "9ae4fd73-9669-44a5-9949-6c6c69999178")
+		)
+		(pin "59"
+			(uuid "a1427ff3-aff2-4e47-a6e0-abfc8e9b9405")
+		)
+		(pin "12"
+			(uuid "f08099ba-5197-4ced-8a42-40cc10f2ae05")
+		)
+		(pin "60"
+			(uuid "c5502245-96b2-4dc1-9607-6e6891e081fa")
+		)
+		(pin "22"
+			(uuid "699a8256-7b37-4a44-ab02-87a053d87e80")
+		)
+		(pin "29"
+			(uuid "28bd83d9-f79e-497b-9a88-7028a783dbcf")
+		)
+		(pin "47"
+			(uuid "9d919447-39b8-4d85-a6ae-7aa7a5341f01")
+		)
+		(pin "61"
+			(uuid "3912dded-a4c3-422d-860b-116869f374ef")
+		)
+		(pin "58"
+			(uuid "7c9f4fbe-0239-4d77-8c93-25dcde833067")
+		)
+		(pin "62"
+			(uuid "5f86d34a-1de8-4a62-ab38-20921b5f2b57")
+		)
+		(pin "07"
+			(uuid "5c42a1c4-e897-45b6-a2a2-18d2dcb7b9df")
+		)
+		(pin "27"
+			(uuid "cbf112f9-d658-488d-92b9-61939b9fb230")
+		)
+		(pin "49"
+			(uuid "8391632f-2315-4aab-b8b2-e38e2ca0cdc5")
+		)
+		(pin "24"
+			(uuid "43621df2-abe4-4660-a922-e6d54a55cac1")
+		)
+		(pin "63"
+			(uuid "3bb12db1-cbc0-4f16-9a40-ed9972ccd381")
+		)
+		(pin "37"
+			(uuid "c1a619b5-91fb-4b52-b256-cfd0a3d2b03d")
+		)
+		(pin "19"
+			(uuid "d6c9fd87-6878-4d2e-bf5e-a6c50500f8d6")
+		)
+		(pin "48"
+			(uuid "ba13eab8-3a34-4ba9-b244-f08324a99929")
+		)
+		(pin "14"
+			(uuid "803263eb-ff21-4adb-9a83-d81011d6e185")
+		)
+		(pin "08"
+			(uuid "255cedf3-e0d6-4b67-8342-c24988525807")
+		)
+		(pin "03"
+			(uuid "41922eb3-c6e6-41b6-9476-51e791b95ba7")
+		)
+		(pin "05"
+			(uuid "92d7fd67-e3a6-4507-beed-f112a7a9ef27")
+		)
+		(pin "04"
+			(uuid "af2dc10e-b916-488f-9bb3-11e5eddb14c3")
+		)
+		(pin "11"
+			(uuid "a948284f-cbb2-494d-acff-81ed93043f27")
+		)
+		(pin "15"
+			(uuid "d91f6913-4a18-4b51-ad15-fa91f70860a8")
+		)
+		(pin "32"
+			(uuid "c51d6ab6-7a09-4e0f-855d-1aadb8d3fcc8")
+		)
+		(pin "33"
+			(uuid "007c99fb-5025-4016-9f4b-f3efcef65b93")
+		)
+		(pin "35"
+			(uuid "7247179d-15a6-4892-9a75-b56477f1fa40")
+		)
+		(pin "17"
+			(uuid "3be9e2f9-90a2-447f-8614-123540daf627")
+		)
+		(pin "36"
+			(uuid "b9fa0701-a8f9-4339-a2f0-a82e9ca86762")
+		)
+		(pin "50"
+			(uuid "c92050d6-a095-4104-b2bd-e4fbaef61e9a")
+		)
+		(pin "39"
+			(uuid "591510eb-d7cc-4fd2-a4dc-9e29ed170062")
+		)
+		(pin "01"
+			(uuid "42380f80-3148-4f65-93e3-4020acd31ea3")
+		)
+		(pin "09"
+			(uuid "5e429884-9add-4749-b9b4-c9096d159814")
+		)
+		(pin "25"
+			(uuid "83412bbc-379d-497c-a209-ab396dfee1e3")
+		)
+		(pin "51"
+			(uuid "88aa092b-b2a1-47b3-a082-37097752e49a")
+		)
+		(pin "10"
+			(uuid "a851147c-e612-4d1c-8402-dec4432003fd")
+		)
+		(pin "21"
+			(uuid "acbf33cc-e2d8-40c9-8f4d-8b499648865a")
+		)
+		(pin "06"
+			(uuid "e11b332b-a9e4-4b83-be11-1b3a2c96434f")
+		)
+		(pin "40"
+			(uuid "d3756835-6f07-4aa8-aba3-356ebd6e809c")
+		)
+		(pin "23"
+			(uuid "9925a359-bc11-47cb-a51a-450eb52b4a06")
+		)
+		(pin "67"
+			(uuid "e010bc4d-bd79-4ce9-8816-01c67f1a3d9f")
+		)
+		(pin "75"
+			(uuid "bdd39406-e375-41bb-a0e7-68c5378575a1")
+		)
+		(pin "66"
+			(uuid "08e5b8ef-fbe3-4d99-a496-0957b16b60a4")
+		)
+		(pin "74"
+			(uuid "4285e029-a7f0-4314-b378-c39b02bf1287")
+		)
+		(pin "79"
+			(uuid "c89fe47b-bf13-417e-bd0f-6546ec784d30")
+		)
+		(pin "70"
+			(uuid "1d6395be-4243-4c3e-9274-5b261162a1f4")
+		)
+		(pin "77"
+			(uuid "489439cb-6344-4804-9c2c-8c002b2c7f09")
+		)
+		(pin "73"
+			(uuid "ece71d2f-0aa7-4528-a884-d8182e297eb9")
+		)
+		(pin "68"
+			(uuid "a491010e-e7c5-4a6d-832b-e3abefade049")
+		)
+		(pin "69"
+			(uuid "c5756fc2-0348-41cf-84eb-3bc2177b3e49")
+		)
+		(pin "80"
+			(uuid "ca88d9e8-909d-460c-9c92-2486d8ec1caa")
+		)
+		(pin "76"
+			(uuid "1105aac0-320b-43bf-b55f-75480998e515")
+		)
+		(pin "64"
+			(uuid "34958388-ecf6-4ba5-8f5a-e3dfe260c117")
+		)
+		(pin "78"
+			(uuid "9484ff1e-9b74-4b54-97c3-cf85d7de67f1")
+		)
+		(pin "72"
+			(uuid "b698a08f-adf8-448b-9e36-123ba92a9287")
+		)
+		(pin "71"
+			(uuid "69139895-2dcd-4714-87fc-dec15007f11c")
+		)
+		(pin "65"
+			(uuid "d9cc60c3-d818-44a4-8aeb-ad5fdb69e95a")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM:S13552")
+		(at 732.79 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ba4bbf-9b79-49c3-b65b-0ef904ee9e81")
+		(property "Reference" "MPPC4"
+			(at 731.52 27.94 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 731.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM:S13552"
+			(at 715.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 715.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 732.79 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,42 +10335,43 @@
 		)
 	)
 	(symbol
-		(lib_id "SiPM:S13552")
-		(at 156.21 142.24 0)
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 93.98 328.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3905d41-bf8b-4649-aedf-a85229efcb26")
-		(property "Reference" "MPPC2"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 5 5)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 154.94 30.48 0)
+		(uuid "c6dd87d7-fab1-4a26-b8f3-fdaedd63b896")
+		(property "Reference" "J2"
+			(at 93.98 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SiPM:S13552"
-			(at 138.43 80.01 0)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 93.98 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 80.01 0)
+			(at 93.98 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +10380,439 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 142.24 0)
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 93.98 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "87d32737-d678-4195-bcbc-dc0c3c367643")
+		)
+		(pin "45"
+			(uuid "386f7867-a86a-4e49-8ba6-0293ae44e6fe")
+		)
+		(pin "52"
+			(uuid "1dca2cd9-2b44-4d2c-952f-a6a6d6188e9c")
+		)
+		(pin "18"
+			(uuid "7cb627cb-df70-4224-8cfd-9d28cc1c6781")
+		)
+		(pin "20"
+			(uuid "d1144aac-05a3-49f0-b1ab-3cfa6f15e647")
+		)
+		(pin "43"
+			(uuid "b7fa0ef6-f81f-4323-87b7-eef16db8e584")
+		)
+		(pin "41"
+			(uuid "048ea7d4-a6eb-4974-873d-0ba4e554a7b2")
+		)
+		(pin "26"
+			(uuid "7a36630c-6c50-4832-8583-6bb7cd1034f9")
+		)
+		(pin "31"
+			(uuid "4ed957d3-de47-4964-a194-e8cbd648ebe6")
+		)
+		(pin "46"
+			(uuid "262c94b7-98bb-4abc-824a-c69a6d39ce3e")
+		)
+		(pin "13"
+			(uuid "e0f3d669-8a69-4585-b609-6fd5249063b4")
+		)
+		(pin "34"
+			(uuid "e927ce43-a5ec-4215-84b3-7fc414582585")
+		)
+		(pin "38"
+			(uuid "0b162819-3972-4714-8cd3-513260892be4")
+		)
+		(pin "53"
+			(uuid "bcf6a81e-27a7-4c84-b270-7f02dc1c08b9")
+		)
+		(pin "16"
+			(uuid "69a7d957-258c-4d26-a1f0-2787bff64d35")
+		)
+		(pin "28"
+			(uuid "7b8625b5-a7da-47a9-8792-52d42e9c7676")
+		)
+		(pin "54"
+			(uuid "9d75a015-3030-462f-8e8a-40e0b37d7f86")
+		)
+		(pin "02"
+			(uuid "bad00b37-0f11-44e9-bdf9-b7494fe91622")
+		)
+		(pin "55"
+			(uuid "fd6282c4-d87b-42cf-9cdb-36c16d1dd39e")
+		)
+		(pin "42"
+			(uuid "e07929fe-e8c9-439e-a003-b60c95d574c5")
+		)
+		(pin "30"
+			(uuid "bc58c0d1-8256-4ffa-95aa-b013c678ea41")
+		)
+		(pin "57"
+			(uuid "936da98c-3982-4273-ba0f-1eacc69edd07")
+		)
+		(pin "56"
+			(uuid "6c1c66b9-8080-480f-849b-3918109c226d")
+		)
+		(pin "59"
+			(uuid "80dcebdf-c1be-4411-9b47-f568aff76ea2")
+		)
+		(pin "12"
+			(uuid "76a552c9-19e2-4bbf-9664-7cd569d943b4")
+		)
+		(pin "60"
+			(uuid "fad8553d-4cb5-4588-b0da-6bc29058bde3")
+		)
+		(pin "22"
+			(uuid "c177548f-5fd2-4003-8f3b-bcc63b0c6136")
+		)
+		(pin "29"
+			(uuid "81f6e4b9-88e5-4c08-9ab9-042db0adae50")
+		)
+		(pin "47"
+			(uuid "5268ec5e-3ced-4e4f-b318-48b385e55c6c")
+		)
+		(pin "61"
+			(uuid "8973371b-03bd-4b94-8bd3-eeec48550b6c")
+		)
+		(pin "58"
+			(uuid "0984b682-1d9f-427c-960b-41f4ff419440")
+		)
+		(pin "62"
+			(uuid "e88590da-41fa-4d6a-9e33-8c7ad62bf374")
+		)
+		(pin "07"
+			(uuid "996ccdfb-559c-4921-ab87-41026b424f3b")
+		)
+		(pin "27"
+			(uuid "481803ad-08d4-4c19-89ae-aaee73a071b3")
+		)
+		(pin "49"
+			(uuid "4f4c2ec6-bd60-47c8-9c77-272856e61124")
+		)
+		(pin "24"
+			(uuid "9f8b2c4b-ea22-420f-9596-75b469a217a0")
+		)
+		(pin "63"
+			(uuid "7a647232-5290-4dd0-b9d5-e4e7dd499702")
+		)
+		(pin "37"
+			(uuid "62b0903a-562a-4222-ba6f-9005b5b48829")
+		)
+		(pin "19"
+			(uuid "f13c3290-1c8a-4f59-b4e8-8ce0b20ee59c")
+		)
+		(pin "48"
+			(uuid "2d5fb764-0bbf-4045-816c-5dea949deeba")
+		)
+		(pin "14"
+			(uuid "f3e9fc66-d52c-4bdb-a032-85babf02e84c")
+		)
+		(pin "08"
+			(uuid "a702fdc2-a1b4-45f9-bb24-c94f6cb1dc20")
+		)
+		(pin "03"
+			(uuid "a74b4dad-1969-49fa-869f-86476b030d97")
+		)
+		(pin "05"
+			(uuid "93195f96-5e94-42d6-ac6b-8cff9f07533c")
+		)
+		(pin "04"
+			(uuid "973f05c7-64a6-4454-b6d7-11833edee32e")
+		)
+		(pin "11"
+			(uuid "5ccb5eba-4808-4dfe-acab-ec7f4c7e85e8")
+		)
+		(pin "15"
+			(uuid "6ab25883-b3d9-4e37-835b-7657dcfa467f")
+		)
+		(pin "32"
+			(uuid "932e651f-e802-49da-8b8a-d8e5a0324a4b")
+		)
+		(pin "33"
+			(uuid "0b9baaf2-b7f7-4219-b15b-e1cd2d723ee8")
+		)
+		(pin "35"
+			(uuid "18eb248b-b61f-4ed8-a2c0-957025f0fe5c")
+		)
+		(pin "17"
+			(uuid "3f6c315c-b051-4470-b257-d44dcff89538")
+		)
+		(pin "36"
+			(uuid "b51f09e1-0e1f-4bba-848d-9a5e13be3b80")
+		)
+		(pin "50"
+			(uuid "f0654173-5a02-473e-bbea-0e45713f4bff")
+		)
+		(pin "39"
+			(uuid "70a7f11e-86aa-4dc0-8897-3b469cc4e586")
+		)
+		(pin "01"
+			(uuid "3c7374f6-eb88-4825-a795-cb2a500b8928")
+		)
+		(pin "09"
+			(uuid "07f3b577-5f6a-42fa-bb34-c5de5a14e2e8")
+		)
+		(pin "25"
+			(uuid "3bc0a066-ace8-4287-b54e-270923b8e5f6")
+		)
+		(pin "51"
+			(uuid "9e6a619d-ab0f-4243-b48d-5e8b858d4ccd")
+		)
+		(pin "10"
+			(uuid "9a4124ba-d0a8-4e22-9403-d5611037084f")
+		)
+		(pin "21"
+			(uuid "93866d3e-f14b-4e65-bf2e-4d3184472ec7")
+		)
+		(pin "06"
+			(uuid "886161f0-da3c-4870-b39b-9550e9c8df9b")
+		)
+		(pin "40"
+			(uuid "69b291a5-9ac1-4d9d-a6f7-db776b0f199b")
+		)
+		(pin "23"
+			(uuid "7dfc0911-e34a-476c-b543-fdc986929489")
+		)
+		(pin "67"
+			(uuid "52436287-4831-4cd7-8de6-2038e1222282")
+		)
+		(pin "75"
+			(uuid "c69cffcc-c45c-4575-8100-eded82b23b46")
+		)
+		(pin "66"
+			(uuid "9ee93b8d-913f-48ec-a0e4-bf7e164410df")
+		)
+		(pin "74"
+			(uuid "7425a4a6-cdd2-4545-a90c-cc6123b96f2f")
+		)
+		(pin "79"
+			(uuid "319dddcb-3f9c-400f-ab76-b6001993411c")
+		)
+		(pin "70"
+			(uuid "9ecf63cc-20d1-43c0-8cdd-24ce605ea6d7")
+		)
+		(pin "77"
+			(uuid "52e7b526-d2bb-4813-8d8f-a63c0b9d6a94")
+		)
+		(pin "73"
+			(uuid "9acba5cd-643c-4498-a448-3faa85042298")
+		)
+		(pin "68"
+			(uuid "77d18c88-242c-465e-b55d-f86adaada255")
+		)
+		(pin "69"
+			(uuid "82ad87a7-eaca-4b31-9c53-9fce4a850b21")
+		)
+		(pin "80"
+			(uuid "371376a8-7fd0-4ab9-a757-8a2e179c294c")
+		)
+		(pin "76"
+			(uuid "f7cf0763-ae40-4781-be76-a41a406c65f0")
+		)
+		(pin "64"
+			(uuid "ce731dd5-e5c9-44a6-8aa0-8d4a31d8b1ad")
+		)
+		(pin "78"
+			(uuid "fddfe47f-ddc9-400e-9757-f6f677406e3f")
+		)
+		(pin "72"
+			(uuid "aacbd1f7-6ce7-498a-8c9a-1c92cccb8c76")
+		)
+		(pin "71"
+			(uuid "2533c8e5-bcc4-4a4b-ae6e-c895c70f424e")
+		)
+		(pin "65"
+			(uuid "1ccab00c-638c-4d7a-b8ef-14e81166835f")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM:S13552")
+		(at 335.28 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3905d41-bf8b-4649-aedf-a85229efcb26")
+		(property "Reference" "MPPC2"
+			(at 334.01 22.86 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 334.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM:S13552"
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,6 +11310,1305 @@
 			(project "4-MPPC_FARICH_Prototype"
 				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
 					(reference "MPPC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 311.15 332.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b6a957-8554-4fcf-8538-16b2a0a0961c")
+		(property "Reference" "J8"
+			(at 311.15 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 311.15 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 311.15 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "21d7a4a6-0487-4ad0-9333-bf8ec59910b6")
+		)
+		(pin "45"
+			(uuid "36ac5d48-9f40-42fe-9d26-0891c74dcc8b")
+		)
+		(pin "52"
+			(uuid "0c309424-ca3a-4862-b768-22c128a85559")
+		)
+		(pin "18"
+			(uuid "d328a9cc-9271-4f11-9fd4-6d1aa5c5615e")
+		)
+		(pin "20"
+			(uuid "270761af-5f92-4392-bbfa-5322aaa5b1af")
+		)
+		(pin "43"
+			(uuid "bab847ea-7db9-4fed-ac6d-f156df57227c")
+		)
+		(pin "41"
+			(uuid "571c59fa-52fa-450c-ac57-b7cab663d8da")
+		)
+		(pin "26"
+			(uuid "398b8153-cccf-44e9-a099-759cdd4b352f")
+		)
+		(pin "31"
+			(uuid "0b9ec772-49f7-41c9-be5b-9abfd4249271")
+		)
+		(pin "46"
+			(uuid "4d47ce62-65a1-4aac-b94b-96fca3d97c42")
+		)
+		(pin "13"
+			(uuid "ba1ea75d-2570-4526-9ec3-abe2d6fbc965")
+		)
+		(pin "34"
+			(uuid "2bd08892-2088-4540-a4a3-8288f7e41d4a")
+		)
+		(pin "38"
+			(uuid "c6829434-903a-4209-abd7-c33bc148cc1c")
+		)
+		(pin "53"
+			(uuid "7b848264-f0e7-494e-b80f-06e8f405575a")
+		)
+		(pin "16"
+			(uuid "d938d64b-7b1b-4ea8-8070-03c774e5ba40")
+		)
+		(pin "28"
+			(uuid "4be58098-3c62-49d5-8890-ee556287d26b")
+		)
+		(pin "54"
+			(uuid "5de771eb-d03a-4af8-8e39-6174f07f8f83")
+		)
+		(pin "02"
+			(uuid "29a4b9c6-3c5f-496d-a4ce-080e11f367a2")
+		)
+		(pin "55"
+			(uuid "53b0f4a1-998c-4f08-bb90-0f7313695795")
+		)
+		(pin "42"
+			(uuid "fa70a55b-f21f-4403-a8e3-ea2e44512328")
+		)
+		(pin "30"
+			(uuid "531c0bb3-8ef5-428d-b5d8-283db679d8d1")
+		)
+		(pin "57"
+			(uuid "e2b0b8bd-d4bf-43bd-831a-f7483d7acbb2")
+		)
+		(pin "56"
+			(uuid "f457e466-f99f-4219-8ee0-e13a332abd31")
+		)
+		(pin "59"
+			(uuid "d5b9c31e-3805-4c10-8049-e12600a3aef1")
+		)
+		(pin "12"
+			(uuid "309c6e49-a61a-4ae0-ba54-f0c407ef587d")
+		)
+		(pin "60"
+			(uuid "573a1435-6d93-495b-9564-94aef73b9501")
+		)
+		(pin "22"
+			(uuid "17ed0440-7384-4fef-8962-ca18ad902715")
+		)
+		(pin "29"
+			(uuid "d34a5611-6982-472a-9403-24be3ab78f03")
+		)
+		(pin "47"
+			(uuid "c9b499d6-288e-4e9c-be30-bfc43f3c9976")
+		)
+		(pin "61"
+			(uuid "ca08d0e1-4810-4777-aafb-e6841da978b0")
+		)
+		(pin "58"
+			(uuid "3dec650d-e4dd-4371-8cf6-f742f41c61e0")
+		)
+		(pin "62"
+			(uuid "a721041c-81af-4044-99bb-33a915ff6ea7")
+		)
+		(pin "07"
+			(uuid "c543ad56-6413-4855-87f9-8d0ffa4982c2")
+		)
+		(pin "27"
+			(uuid "94eaec3a-f8b0-40fd-9cce-5d4b642ea2ba")
+		)
+		(pin "49"
+			(uuid "cc55c1fc-8614-4c35-ad3c-5f0f5e6b09bf")
+		)
+		(pin "24"
+			(uuid "a53c6e2a-c647-46cc-bf79-8bf7c4cdb63c")
+		)
+		(pin "63"
+			(uuid "9b08f680-e2b5-49f6-a75c-4140fc4a0d6d")
+		)
+		(pin "37"
+			(uuid "87fd105f-fef2-4e4b-b0e3-9290a2546d46")
+		)
+		(pin "19"
+			(uuid "38c37a92-374b-47b0-b36d-85d90c27bde5")
+		)
+		(pin "48"
+			(uuid "8474d375-d7a9-4766-b7bf-ceac22d41d51")
+		)
+		(pin "14"
+			(uuid "70688548-d0d6-478b-aac4-f7bec42db1f4")
+		)
+		(pin "08"
+			(uuid "42f08a5b-aef1-4537-bd4d-fbbf1cc7bace")
+		)
+		(pin "03"
+			(uuid "c406b659-ecc3-4557-b99c-1fd92d2b910f")
+		)
+		(pin "05"
+			(uuid "ecc448c3-b410-4d0c-9488-762b67fd6cd4")
+		)
+		(pin "04"
+			(uuid "9711cf0c-d91f-4381-8b29-56def49ec30f")
+		)
+		(pin "11"
+			(uuid "828d62de-645b-4d28-be57-86b4343f5747")
+		)
+		(pin "15"
+			(uuid "f81fc9d1-a6df-4635-b3f6-0d3eee9ec649")
+		)
+		(pin "32"
+			(uuid "45163f6e-f82a-4a39-97e9-03ac2134b923")
+		)
+		(pin "33"
+			(uuid "ab394d6f-7c0f-4930-8be5-0866be383285")
+		)
+		(pin "35"
+			(uuid "6052d5f0-7fc4-4913-9db6-8364273554d1")
+		)
+		(pin "17"
+			(uuid "65c2dd95-f6af-4289-a8ab-acf6b0a44823")
+		)
+		(pin "36"
+			(uuid "24b5bd3e-775b-4935-8596-e859965318d7")
+		)
+		(pin "50"
+			(uuid "f123787a-1bfe-4560-9ca1-3fdb656c7512")
+		)
+		(pin "39"
+			(uuid "86773097-9203-4c9c-aa4c-46d12268f567")
+		)
+		(pin "01"
+			(uuid "11d2424f-4f30-4d8c-b714-3a9085f36964")
+		)
+		(pin "09"
+			(uuid "e238f204-a615-43e8-8624-4dbfd067923b")
+		)
+		(pin "25"
+			(uuid "3c57e52c-ebb8-4a91-9a4e-017050338338")
+		)
+		(pin "51"
+			(uuid "0ed16719-6b4f-48bd-9019-63b671881eab")
+		)
+		(pin "10"
+			(uuid "b4e17580-f182-41f0-9413-9cb66f29c7c6")
+		)
+		(pin "21"
+			(uuid "e6088997-e77f-4c40-b3ec-5dc24b9dfee4")
+		)
+		(pin "06"
+			(uuid "d6245fda-8d7a-457b-b618-5b060c710c57")
+		)
+		(pin "40"
+			(uuid "f86debfc-d682-41d7-9b2d-c481d8a8baf4")
+		)
+		(pin "23"
+			(uuid "cb6de604-498d-46c8-bb9f-d74f69c798d0")
+		)
+		(pin "67"
+			(uuid "751941ce-689e-40d0-bc9c-86b052e2ca2b")
+		)
+		(pin "75"
+			(uuid "cfb82253-fcd8-4ada-a6ce-d53a72b06ffd")
+		)
+		(pin "66"
+			(uuid "396e9998-b0a4-4a27-b097-cf26fd86538b")
+		)
+		(pin "74"
+			(uuid "a195d005-3120-4e82-bc8a-4f0053410378")
+		)
+		(pin "79"
+			(uuid "859d64ed-656f-4f05-bd14-b91cb95dc54e")
+		)
+		(pin "70"
+			(uuid "978c9c63-7b01-4c9e-b14c-080092ce324d")
+		)
+		(pin "77"
+			(uuid "0d05d5d7-f277-4485-a5c2-a3d44f76ca3d")
+		)
+		(pin "73"
+			(uuid "e976b11f-8a01-42fd-8f9b-8bbc21bd87da")
+		)
+		(pin "68"
+			(uuid "d0eee005-f3c4-4343-b616-20a67e40f521")
+		)
+		(pin "69"
+			(uuid "9cc91572-c936-47e1-bdf2-56ffb9ed06c0")
+		)
+		(pin "80"
+			(uuid "b7739d92-97a0-4107-863f-1a088a88e119")
+		)
+		(pin "76"
+			(uuid "5f9214fc-62b9-43d1-913d-2cb67c2775ae")
+		)
+		(pin "64"
+			(uuid "27deed66-d703-4397-86eb-1f964e448766")
+		)
+		(pin "78"
+			(uuid "79a9390a-0b5b-4779-8c66-4ced8aff13e2")
+		)
+		(pin "72"
+			(uuid "cfe330bd-b8b2-4dfa-8d9f-463df71b301d")
+		)
+		(pin "71"
+			(uuid "65b1f791-c7fd-488a-baa9-36a2cf5a04d2")
+		)
+		(pin "65"
+			(uuid "cc484d09-e336-4f5f-a2f7-8dc6e4538493")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 250.19 463.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f344a3f5-da7b-4156-b4e9-d573460a4446")
+		(property "Reference" "J7"
+			(at 250.19 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 250.19 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 250.19 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "3e3ffc82-ab87-458c-ac6a-fba49def8aae")
+		)
+		(pin "45"
+			(uuid "6eda79dd-b4bf-4563-a9c3-4234849f3364")
+		)
+		(pin "52"
+			(uuid "550b3186-4efe-4052-b5b7-4c82d219a786")
+		)
+		(pin "18"
+			(uuid "5c15435d-6eb1-498e-8258-6c07964d666f")
+		)
+		(pin "20"
+			(uuid "375cc592-4cc7-4721-bf94-e888f0ea0a3b")
+		)
+		(pin "43"
+			(uuid "d28a03ff-fca8-46b0-8c51-8ae5721ee8f3")
+		)
+		(pin "41"
+			(uuid "13f3851f-092f-48de-97c4-9067177904ae")
+		)
+		(pin "26"
+			(uuid "0a8216b8-4962-40d5-a011-630e677199cd")
+		)
+		(pin "31"
+			(uuid "3642c816-cf24-483b-b777-4a0ab7683bca")
+		)
+		(pin "46"
+			(uuid "a68030dd-2273-47e5-b2c8-444a724db9a1")
+		)
+		(pin "13"
+			(uuid "32ada665-bb88-48e4-b226-6606511a93c7")
+		)
+		(pin "34"
+			(uuid "51831805-e032-4bdc-abc2-6070f23c521a")
+		)
+		(pin "38"
+			(uuid "7b68c728-d9f0-451c-a44f-c6a88b3a6332")
+		)
+		(pin "53"
+			(uuid "d7b1f79f-f382-4bf9-8943-0cf2da06aa0d")
+		)
+		(pin "16"
+			(uuid "312452a0-b87e-4a2d-a469-18b80ffb0f78")
+		)
+		(pin "28"
+			(uuid "1e5cba2c-082d-4b7b-b3a6-88aecf1f479b")
+		)
+		(pin "54"
+			(uuid "2d93af6c-17e2-4d84-90fa-2e5aa130b945")
+		)
+		(pin "02"
+			(uuid "c3b174b1-2259-4b62-9970-95c09ca91f0f")
+		)
+		(pin "55"
+			(uuid "dc808cf4-bd0f-4cb8-8d48-b69b2d6a4244")
+		)
+		(pin "42"
+			(uuid "30067fa3-1ec4-49dc-9f13-b2104047b8a1")
+		)
+		(pin "30"
+			(uuid "95f0600c-1c51-48be-b32b-7555d5e641df")
+		)
+		(pin "57"
+			(uuid "87bfa5e6-f0ea-4c19-9f92-b2438f589924")
+		)
+		(pin "56"
+			(uuid "0f439bb1-dd71-4f72-a918-bd9ec012ac09")
+		)
+		(pin "59"
+			(uuid "36a9c64d-24c3-49c5-ac7f-3c7d5a95e794")
+		)
+		(pin "12"
+			(uuid "ef706741-8d07-4048-82b5-d0d649e0ffa0")
+		)
+		(pin "60"
+			(uuid "dc91bde4-a76e-4e42-a70b-b7251f9e89d7")
+		)
+		(pin "22"
+			(uuid "c0a544d1-e771-4adf-9343-9559f6f3f766")
+		)
+		(pin "29"
+			(uuid "a3ad1b1a-1963-45e0-8837-e0ae535db8af")
+		)
+		(pin "47"
+			(uuid "585b36f5-e9f1-4fb2-ab3b-630b8244fcff")
+		)
+		(pin "61"
+			(uuid "b6cbe5a1-decf-4b6c-9c81-274f77483854")
+		)
+		(pin "58"
+			(uuid "a059f0c3-d0ec-48cb-b021-a42709f2cb8c")
+		)
+		(pin "62"
+			(uuid "5d8c877e-95a8-4a0e-970a-eb36bc1d691e")
+		)
+		(pin "07"
+			(uuid "8a5951cc-da97-47fb-8353-c7a8a4c50021")
+		)
+		(pin "27"
+			(uuid "3c6a44ec-dd74-47a8-b3d7-d35e4e61901f")
+		)
+		(pin "49"
+			(uuid "bcafee62-ff0b-404a-8e3d-944b3baa52e1")
+		)
+		(pin "24"
+			(uuid "248aa197-78c3-43b4-a77f-e0f5a0df3b48")
+		)
+		(pin "63"
+			(uuid "8321bdd4-d08b-43bd-aea9-2cce74fccb10")
+		)
+		(pin "37"
+			(uuid "b360dd20-f90d-4e36-b92b-883394643b46")
+		)
+		(pin "19"
+			(uuid "bbd6cf94-3a79-49ff-966e-9ea99141a0bb")
+		)
+		(pin "48"
+			(uuid "26d445d5-8fc8-485d-a8ba-aa37fe9d7f44")
+		)
+		(pin "14"
+			(uuid "2de999f0-1c21-441b-8f6d-860a1f098a1f")
+		)
+		(pin "08"
+			(uuid "6b4a8ffc-71f1-45e3-a233-f0bca8a40a49")
+		)
+		(pin "03"
+			(uuid "4d392d99-58a3-4b16-ab3d-be0b1b5a2040")
+		)
+		(pin "05"
+			(uuid "9ebb4562-988e-4960-a440-3ee187fb7130")
+		)
+		(pin "04"
+			(uuid "9e4d3837-9e90-444a-a23b-2b5f38af924a")
+		)
+		(pin "11"
+			(uuid "d41bb0cd-c3eb-4f56-aa17-e65b69c1dc88")
+		)
+		(pin "15"
+			(uuid "ffd7e6d4-843d-45a5-bce9-2b67f8875e58")
+		)
+		(pin "32"
+			(uuid "5195ce5b-52f8-49ba-8045-1492efc082a9")
+		)
+		(pin "33"
+			(uuid "cee6d05e-3a01-4c6d-9a60-ceaed59af5b3")
+		)
+		(pin "35"
+			(uuid "aa97b2a2-3219-4fb5-90c9-b9482e082eb9")
+		)
+		(pin "17"
+			(uuid "742afc6a-7eb0-44a3-a403-6d8fa83f93c2")
+		)
+		(pin "36"
+			(uuid "4601b55b-7c10-4661-918f-995db9cf3f31")
+		)
+		(pin "50"
+			(uuid "1c49e446-b55b-4285-b2d7-bab098d5ec9c")
+		)
+		(pin "39"
+			(uuid "a7a0f8c6-9332-4267-957c-ac9bfa220452")
+		)
+		(pin "01"
+			(uuid "6cd7cf3b-e13e-4607-8ac6-4df3592e8838")
+		)
+		(pin "09"
+			(uuid "379ca1ef-3f7e-47ed-b136-fb25b756355e")
+		)
+		(pin "25"
+			(uuid "92fb57cf-2cd5-4079-9702-8a8a2dd151c7")
+		)
+		(pin "51"
+			(uuid "2b531acb-bd4e-4120-b74e-f306bafd0676")
+		)
+		(pin "10"
+			(uuid "6c48c98e-8372-45a8-abec-cd3fdaa747f0")
+		)
+		(pin "21"
+			(uuid "06ead08b-5bbe-4d44-bc5d-dc3a488fe3f3")
+		)
+		(pin "06"
+			(uuid "04474c28-f56c-46e3-9b09-c85c518f59ce")
+		)
+		(pin "40"
+			(uuid "3448b4cc-bb10-4d3a-b393-648c698c4c66")
+		)
+		(pin "23"
+			(uuid "77c677d6-6442-43f4-ad90-454736ae6137")
+		)
+		(pin "67"
+			(uuid "98e7c15d-50bb-4c65-9c62-120e2f0bcf14")
+		)
+		(pin "75"
+			(uuid "6010eb35-a5c2-4191-904a-424460a232c7")
+		)
+		(pin "66"
+			(uuid "344313f3-d345-497c-b52e-d59249996b43")
+		)
+		(pin "74"
+			(uuid "817ff7d8-dcee-45a4-966f-0977d6616201")
+		)
+		(pin "79"
+			(uuid "fb23544c-3414-4d47-8d09-2a9537b05b3c")
+		)
+		(pin "70"
+			(uuid "5f4e17e1-9470-44fc-90d2-ee93be7b5e5e")
+		)
+		(pin "77"
+			(uuid "06bc9a71-c825-42bc-abea-00c38f3b10d9")
+		)
+		(pin "73"
+			(uuid "1d3fd5a8-a33a-4bbe-a550-fcf23b33238a")
+		)
+		(pin "68"
+			(uuid "6e0acd8f-3760-4079-81d8-00b5bae605d0")
+		)
+		(pin "69"
+			(uuid "977ed929-c428-4207-b3d7-3b1a3cdaa4e8")
+		)
+		(pin "80"
+			(uuid "9304d632-8940-4c8c-9bf3-1fae5a57ba28")
+		)
+		(pin "76"
+			(uuid "e3df7e63-5c94-422c-b5c2-6dcca5bc432c")
+		)
+		(pin "64"
+			(uuid "d7025cbf-06cc-4baa-9a0d-d4fbbe8a4369")
+		)
+		(pin "78"
+			(uuid "f6179c03-359a-4182-b654-59ab247d892c")
+		)
+		(pin "72"
+			(uuid "8a1ec00f-e925-42b5-b119-07fef22031a8")
+		)
+		(pin "71"
+			(uuid "a58ea791-46cb-47c8-be4d-0d2b57ce76a9")
+		)
+		(pin "65"
+			(uuid "2fd3dfe1-c24d-4981-bd8e-20d305153581")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FARICH:ST4-40-1.00-L-D-P-TR")
+		(at 407.67 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55de3c2-c5df-4682-9100-a2067d053763")
+		(property "Reference" "J10"
+			(at 407.67 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST4-40-1.00-L-D-P-TR"
+			(at 407.67 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FARICH:SAMTEC_ST4-40-1.00-L-D-P-TR"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "J"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST4-40-1.00-L-D-P-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST4-40-1.00-L-D-P-TR"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557673&manufacturer=Samtec&part_name=ST4-40-1.00-L-D-P-TR&search_term=st4-40-1.00-l-d-p-tr"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n80 Position Connector Header, Center Strip Contacts Surface Mount Gold\n"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 407.67 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "2dd987c2-5158-4029-ad71-fed30e657e47")
+		)
+		(pin "45"
+			(uuid "d06c7ecc-7b26-4f79-92f8-3e7dc923dafb")
+		)
+		(pin "52"
+			(uuid "3efe1159-8475-4052-ac2c-9986707a2720")
+		)
+		(pin "18"
+			(uuid "13eb5088-7e35-4840-a6cd-bf7ddf7609ee")
+		)
+		(pin "20"
+			(uuid "3e77d1c4-8b93-4756-83da-5e3f750a4dc6")
+		)
+		(pin "43"
+			(uuid "80eaecd5-815f-42ec-a26b-97ce900f8fa9")
+		)
+		(pin "41"
+			(uuid "d5df31ba-a21e-4356-a79c-a9d05d7ba16f")
+		)
+		(pin "26"
+			(uuid "7ac75877-9f92-4ac1-9ec9-8f3afb60f371")
+		)
+		(pin "31"
+			(uuid "7d98be64-e530-44ab-a679-f765c1924f99")
+		)
+		(pin "46"
+			(uuid "5899f00e-e80e-4237-b93f-b17ba39d0e2e")
+		)
+		(pin "13"
+			(uuid "af7f414c-1bce-49fc-89b3-93b3b6b2f358")
+		)
+		(pin "34"
+			(uuid "d983411f-95c2-4b56-a717-39cf8ed5152d")
+		)
+		(pin "38"
+			(uuid "8b70dbf7-6496-4872-8676-d0398652635c")
+		)
+		(pin "53"
+			(uuid "7aa445ce-13ce-4669-b446-33e331c5447c")
+		)
+		(pin "16"
+			(uuid "8de3fb6e-58df-49d3-80d2-bb6f70516af6")
+		)
+		(pin "28"
+			(uuid "94ac2cd9-41c0-4b59-927a-a3b04317cc0f")
+		)
+		(pin "54"
+			(uuid "bf471f16-6243-4513-94e8-29b50d62d9c0")
+		)
+		(pin "02"
+			(uuid "d58ef488-3f7e-413b-b6be-b24c90b7e888")
+		)
+		(pin "55"
+			(uuid "4eb70c0a-1a42-4b01-a7c9-d86ced4941be")
+		)
+		(pin "42"
+			(uuid "0b507bfe-f5a6-4102-8a26-ba5e145d0d03")
+		)
+		(pin "30"
+			(uuid "b8e5799e-ec1f-4d99-a518-f8312733b677")
+		)
+		(pin "57"
+			(uuid "563c7831-ac2f-4e05-a7f1-9f6112451e22")
+		)
+		(pin "56"
+			(uuid "245bf4e2-35a5-4960-9b4e-a8ecf4235cf9")
+		)
+		(pin "59"
+			(uuid "6f47399c-7938-45a5-8e0c-87319ba18a27")
+		)
+		(pin "12"
+			(uuid "a6095cc3-5c81-4a89-883a-a65c100a46d2")
+		)
+		(pin "60"
+			(uuid "ed5d1191-03c3-47f2-aa55-29a63404ac30")
+		)
+		(pin "22"
+			(uuid "e2862a6a-98c9-4d19-8189-d9d3b5c1dc6f")
+		)
+		(pin "29"
+			(uuid "c8ca7ada-cbc0-487a-be22-d8de2a2da6f4")
+		)
+		(pin "47"
+			(uuid "35f10f9d-1101-488b-bce9-31819fe058a5")
+		)
+		(pin "61"
+			(uuid "f9e6eedb-c520-4800-b8d6-10c5f95debd0")
+		)
+		(pin "58"
+			(uuid "ab9c4c15-bf34-482d-bfdb-3a1571cb44f9")
+		)
+		(pin "62"
+			(uuid "c412f3a5-1438-4ee9-8853-6d0dd9a35060")
+		)
+		(pin "07"
+			(uuid "e0aec7f3-d80b-44e5-b44d-c822dcda8599")
+		)
+		(pin "27"
+			(uuid "01c029e4-e3c2-4521-bddb-678e4dfbbd95")
+		)
+		(pin "49"
+			(uuid "f7d278b5-905e-422c-9fd3-aa07aac0547f")
+		)
+		(pin "24"
+			(uuid "41d7b275-8b23-4bd5-8840-37fa0e84deef")
+		)
+		(pin "63"
+			(uuid "66c5ec4d-afb2-42e5-bd0a-7057b7dd4bd8")
+		)
+		(pin "37"
+			(uuid "6af4f0e6-e078-4f99-8fd0-ed28a0baaa4a")
+		)
+		(pin "19"
+			(uuid "e6171cfa-d059-466e-bd9b-177eec3aa9c1")
+		)
+		(pin "48"
+			(uuid "ed95fcd5-d7f9-459f-bd8e-ab7bfa916f29")
+		)
+		(pin "14"
+			(uuid "6790d1e9-4bf4-485a-8166-efa464fe59b2")
+		)
+		(pin "08"
+			(uuid "c9b06d29-e9c6-42d0-a172-1d8929b0a86b")
+		)
+		(pin "03"
+			(uuid "b3df40e2-82a0-474f-b947-17598e99c507")
+		)
+		(pin "05"
+			(uuid "d365c2a1-2e4f-4e41-ac1a-81c4c470f855")
+		)
+		(pin "04"
+			(uuid "2ca067a1-f641-4a48-b855-e601d85075b8")
+		)
+		(pin "11"
+			(uuid "cdef9632-52f4-4a3e-82d4-30462f62ccd1")
+		)
+		(pin "15"
+			(uuid "cc283201-7c6d-43ee-aa1a-5327d6c392b1")
+		)
+		(pin "32"
+			(uuid "83122034-e18e-4d24-b280-d89ee80fc4ae")
+		)
+		(pin "33"
+			(uuid "cb6e2948-ce04-4e41-adf2-426b094da085")
+		)
+		(pin "35"
+			(uuid "28e407a0-e60a-4c56-ba47-23bd0fe3532c")
+		)
+		(pin "17"
+			(uuid "71a4a1f0-6839-481e-a025-e4c2258340d3")
+		)
+		(pin "36"
+			(uuid "f7e13c61-517b-4c18-9f14-d0e16af8c70c")
+		)
+		(pin "50"
+			(uuid "884ee2a8-867b-4431-a6b2-4baac79e642f")
+		)
+		(pin "39"
+			(uuid "b08bb3c5-6b9c-435d-ab13-b87fe4a0f1bc")
+		)
+		(pin "01"
+			(uuid "1024ab7d-fbf2-485e-a331-bd72784f59f4")
+		)
+		(pin "09"
+			(uuid "4b2b6501-e59c-43b7-b5f5-9471fda9131b")
+		)
+		(pin "25"
+			(uuid "95842e96-20c9-45d6-bb2d-30b1efda446b")
+		)
+		(pin "51"
+			(uuid "42765c4e-6756-422e-9d3e-4c1952b0755d")
+		)
+		(pin "10"
+			(uuid "27feaeeb-d122-463d-ac10-f1cf01d1e7d5")
+		)
+		(pin "21"
+			(uuid "385910d7-be83-4d46-8caf-ed9936419e04")
+		)
+		(pin "06"
+			(uuid "d642a2e8-aa17-4438-8197-4a86bef291af")
+		)
+		(pin "40"
+			(uuid "b23dab3b-4338-4f12-b237-357c8fe9992b")
+		)
+		(pin "23"
+			(uuid "0d79aeae-728d-4ab3-839f-2cdaadbe608b")
+		)
+		(pin "67"
+			(uuid "77bf9c0c-ce56-48c0-8f06-58163a95d44f")
+		)
+		(pin "75"
+			(uuid "5a309b37-9c34-4a00-b5a0-871ff796257e")
+		)
+		(pin "66"
+			(uuid "e4107a75-420b-445b-942c-0ea07fdd0f5b")
+		)
+		(pin "74"
+			(uuid "581efdc0-1b0f-40e6-973e-1cb4f397a2df")
+		)
+		(pin "79"
+			(uuid "f7ef98c1-fa84-4125-98a8-f59059943656")
+		)
+		(pin "70"
+			(uuid "07dd64e5-a7db-43b1-a3a9-203283c69fa5")
+		)
+		(pin "77"
+			(uuid "74ce7ce1-e607-4e6c-a215-5bd94e587701")
+		)
+		(pin "73"
+			(uuid "62e2ab55-8d35-40d2-af61-3ce99c4b5761")
+		)
+		(pin "68"
+			(uuid "f376f529-065f-4301-a314-1d8405764e58")
+		)
+		(pin "69"
+			(uuid "ef0a76f2-5050-4622-9a30-71474b0a9e0c")
+		)
+		(pin "80"
+			(uuid "a678d0fd-6d14-40d6-a9ae-24cd8fbcefb4")
+		)
+		(pin "76"
+			(uuid "b921f3bf-80a5-46f7-adee-bf66814cf0da")
+		)
+		(pin "64"
+			(uuid "b6476f46-d3be-49d7-968f-f192b0b40906")
+		)
+		(pin "78"
+			(uuid "1c4c73c8-45f6-46c9-b6a1-33f694f965ad")
+		)
+		(pin "72"
+			(uuid "85e488c0-6732-4268-a0f9-85058a6ca7d5")
+		)
+		(pin "71"
+			(uuid "e753d6e2-dfad-48dc-9905-ccb0ada06236")
+		)
+		(pin "65"
+			(uuid "8a975413-866a-4af2-9a83-0e5a55ff9c77")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "J10")
 					(unit 1)
 				)
 			)
