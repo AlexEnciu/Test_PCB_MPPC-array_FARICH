@@ -13994,7 +13994,7 @@
 	(footprint "HV_Connector:PHOENIX_1778764"
 		(layer "B.Cu")
 		(uuid "0ae4ce15-65ff-4749-890d-076f1f25fd3f")
-		(at 214.78 84.9575)
+		(at 214.78 85.007107)
 		(property "Reference" "J1"
 			(at 3.175 11.385 0)
 			(layer "B.SilkS")
@@ -42404,8 +42404,8 @@
 		(layer "Edge.Cuts")
 		(uuid "fc6895ea-f430-4f52-a2fb-0d81a37d88bc")
 	)
-	(gr_text "NOTEs:\n	FARICH: \n			d=12.8 (distance between two connectors in one cube)\n			D=26.84 (distance between two cubes)"
-		(at 17.21 28.61 0)
+	(gr_text "NOTEs:\n	FARICH: \n			d=12.8 (distance between two connectors in one cube)\n			D=26.84 (distance between two cubes)\n	MPPCs:\n			MPPC1 & MPPC2 2 pads combined\n			MPPC3 & MPPC4 individual pads"
+		(at 14.707107 36.207107 0)
 		(layer "F.Fab")
 		(uuid "7d5e647b-86e2-4b21-97ef-cd916d5f893c")
 		(effects
@@ -42433,7 +42433,7 @@
 		)
 		(polygon
 			(pts
-				(xy 57.2 44.13) (xy 241.3 44.13) (xy 241.3 141.93) (xy 57.2 141.93)
+				(xy 57.2 62.13) (xy 241.3 62.13) (xy 241.3 125.43) (xy 57.2 125.43)
 			)
 		)
 		(filled_polygon
