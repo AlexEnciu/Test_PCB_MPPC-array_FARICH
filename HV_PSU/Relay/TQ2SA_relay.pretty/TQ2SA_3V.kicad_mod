@@ -1,0 +1,325 @@
+(footprint "TQ2SA_3V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c639afd-b0f8-40d6-b1fe-1862b49b4a13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TQ2SA_3V"
+		(at 0 1 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8fab22e-b66e-4fe4-9661-0748b74060de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51cedc31-959c-4c89-9226-704cbb38ebb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d491a6a-db62-4c29-80ca-ec98481e4cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "195ba69e-8e60-46f5-9e6a-1b5c50b790f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.5 -7)
+		(end 4.5 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b447cd5-c1f7-4ef3-b742-ec6c2b5e4479")
+	)
+	(fp_line
+		(start -4.5 -5.78)
+		(end -4.5 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "006afd0a-1536-4547-b127-e77f055fa4fa")
+	)
+	(fp_line
+		(start -4.5 -3.18)
+		(end -4.5 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c94de331-caab-4134-87ea-d864bf69dc23")
+	)
+	(fp_line
+		(start -4.5 -0.62)
+		(end -4.5 -1.84)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43a1c31b-0d1a-4f1b-96bb-3a45110a1e18")
+	)
+	(fp_line
+		(start -4.5 1.9)
+		(end -4.5 0.68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a145bb9-0417-46ec-8512-f5b6f46f52e4")
+	)
+	(fp_line
+		(start -4.5 4.39)
+		(end -4.5 3.17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f31b702-b973-4fa4-b0be-234b4bbf32fa")
+	)
+	(fp_line
+		(start -4.4 7)
+		(end -4.4 5.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99033e12-cb46-4d16-a62c-7ace3e192b71")
+	)
+	(fp_line
+		(start -4.4 7)
+		(end 4.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d171f4d-fc2c-4a81-8d6d-a306247d3f67")
+	)
+	(fp_line
+		(start 4.5 -5.78)
+		(end 4.5 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3cb49071-9006-4f0a-a2c7-3db0542b33f9")
+	)
+	(fp_line
+		(start 4.5 -3.18)
+		(end 4.5 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f231fd4-6a3b-4aeb-98d6-56ac9a57febe")
+	)
+	(fp_line
+		(start 4.5 -0.62)
+		(end 4.5 -1.84)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c74a9a-8596-43c2-96d2-8307e1b157cb")
+	)
+	(fp_line
+		(start 4.5 1.9)
+		(end 4.5 0.68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5db45e24-3beb-4551-bc24-dc70f47cd0d1")
+	)
+	(fp_line
+		(start 4.5 4.39)
+		(end 4.5 3.17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40a6a5cf-6634-4af8-8382-31cf85789961")
+	)
+	(fp_line
+		(start 4.5 7)
+		(end 4.5 5.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0907d9b4-4140-427d-987c-f771264ba536")
+	)
+	(fp_poly
+		(pts
+			(xy -4.5 -5.78) (xy -3.25 -7) (xy -4.5 -7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0e17431d-df04-4347-adcf-827a77d21c8c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.03 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08f81541-f3a7-47fc-aa94-093d9c624884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.78 -5.08)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e91a40fd-de9c-4d4d-8e2b-90f6b99a886c")
+	)
+	(pad "2" smd roundrect
+		(at -4.78 -2.54)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0f894427-a681-4b93-bf01-91a4df6dd232")
+	)
+	(pad "3" smd roundrect
+		(at -4.78 0)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a1e97f3e-bb9d-437c-8bdb-56097e6f0ede")
+	)
+	(pad "4" smd roundrect
+		(at -4.78 2.54)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a0241027-59c1-4baf-9a75-2740f5e33dd9")
+	)
+	(pad "5" smd roundrect
+		(at -4.78 5.08)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "54d346e4-5b99-46f7-9da7-524339297ec1")
+	)
+	(pad "6" smd roundrect
+		(at 4.78 5.08)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "818d01e1-dbb7-4397-b6ae-4752612943cd")
+	)
+	(pad "7" smd roundrect
+		(at 4.78 2.54)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "826bf5c6-30c9-4dd0-bb29-d71661d758d8")
+	)
+	(pad "8" smd roundrect
+		(at 4.78 0)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ca13ded8-13e2-4214-9c17-8fe22dffdeb6")
+	)
+	(pad "9" smd roundrect
+		(at 4.78 -2.54)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d5e9f547-d6dc-4d47-a439-61ec70045cc0")
+	)
+	(pad "10" smd roundrect
+		(at 4.78 -5.08)
+		(size 2.94 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4ef32a93-1700-4765-a3bc-fa9ac7cf5dde")
+	)
+	(model "${CURRENT_PROJECT}/HV_PSU/Relay/User Library-TQ2SA.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
