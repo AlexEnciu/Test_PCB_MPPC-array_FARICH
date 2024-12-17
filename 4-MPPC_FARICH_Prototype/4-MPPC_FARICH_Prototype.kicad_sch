@@ -1906,25 +1906,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 3.302 0)
+			(property "Reference" "J1"
+				(at 6.35 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "1778764"
-				(at -2.54 -7.62 0)
+				(at 6.35 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "1778764:PHOENIX_1778764"
+			(property "Footprint" "HV_Connector:PHOENIX_1778764"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2058,6 +2058,44 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1778764_1_1"
+				(pin input line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7053,6 +7091,12 @@
 		(uuid "f1f13f8f-b0a4-46dd-80fa-63bf49096caf")
 	)
 	(junction
+		(at 674.37 434.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2904eb0-bdfc-4ce2-b321-47929e883339")
+	)
+	(junction
 		(at 326.39 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7407,6 +7451,16 @@
 			(type default)
 		)
 		(uuid "0c13efe6-85bf-4aae-b91e-4501c231adad")
+	)
+	(wire
+		(pts
+			(xy 673.1 434.34) (xy 674.37 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d63a12d-1ea7-4e57-b116-37e2f405712d")
 	)
 	(wire
 		(pts
@@ -8230,6 +8284,16 @@
 	)
 	(wire
 		(pts
+			(xy 675.64 434.34) (xy 674.37 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257de205-0ad8-4e85-9747-ec885be03199")
+	)
+	(wire
+		(pts
 			(xy 262.89 373.38) (xy 265.43 373.38)
 		)
 		(stroke
@@ -8847,6 +8911,16 @@
 			(type default)
 		)
 		(uuid "43777b3b-bc33-4d01-9379-266f2fbe0d5c")
+	)
+	(wire
+		(pts
+			(xy 673.1 433.07) (xy 673.1 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ee6bdb-48dd-4c28-bf75-1dfcd4e5ee66")
 	)
 	(wire
 		(pts
@@ -10687,6 +10761,16 @@
 			(type default)
 		)
 		(uuid "8f41c114-2e30-4077-baf0-645adfa7cf3b")
+	)
+	(wire
+		(pts
+			(xy 675.64 433.07) (xy 675.64 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f58ddcc-1a16-4baa-bff8-ef9b4f904405")
 	)
 	(wire
 		(pts
@@ -42905,6 +42989,12 @@
 		(pin "1"
 			(uuid "bf550e6c-136a-4ff0-a913-4b91553314ca")
 		)
+		(pin "SH2"
+			(uuid "79fb2dda-4d74-4ad1-9394-5b73ee2a1a27")
+		)
+		(pin "SH1"
+			(uuid "f686d225-bf4e-439d-aca8-95c4a51ea970")
+		)
 		(instances
 			(project "4-MPPC_FARICH_Prototype"
 				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
@@ -45976,6 +46066,72 @@
 			(project "4-MPPC_FARICH_Prototype"
 				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 674.37 434.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0cb3675-c331-4e14-b283-e807591d8aa2")
+		(property "Reference" "#PWR074"
+			(at 674.37 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 674.37 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 674.37 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 674.37 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 674.37 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac9a367-df2b-4fef-aa16-a8392cf1ba79")
+		)
+		(instances
+			(project "4-MPPC_FARICH_Prototype"
+				(path "/87fe9a77-45d2-4007-8a54-2fe097a18bc5"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)

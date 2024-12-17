@@ -1,0 +1,3 @@
+* UV-C LED Model for SU CULBN2.VC
+.model UV_C_LED D(IS=1e-20, N=2, BV=7.0, IBV=1e-10)
+.ends UV_C_LED
