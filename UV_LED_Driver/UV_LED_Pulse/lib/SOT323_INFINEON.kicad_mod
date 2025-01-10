@@ -1,0 +1,41 @@
+
+(footprint SOT323_INFINEON (layer F.Cu) (tedit 6780FCB9)
+  (descr "")
+  (attr smd)
+  (fp_text reference REF** (at 1.525 -1.385 0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value SOT323_INFINEON (at 7.875 1.365 0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad C smd rect (at -1.35 0.0) (size 1.0 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad A smd rect (at 1.35 0.0) (size 1.0 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -0.8 -0.55) (end 0.8 -0.55) (layer F.SilkS) (width 0.1016))
+  (fp_line (start 0.8 -0.55) (end 0.8 0.55) (layer F.Fab) (width 0.1016))
+  (fp_line (start 0.8 0.55) (end -0.8 0.55) (layer F.SilkS) (width 0.1016))
+  (fp_line (start -0.8 0.55) (end -0.8 -0.55) (layer F.Fab) (width 0.1016))
+  (fp_poly
+    (pts
+      (xy -0.8 -0.55)
+      (xy 0.0 -0.55)
+      (xy 0.0 0.55)
+      (xy -0.8 0.55)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.25 -0.15)
+      (xy -0.8 -0.15)
+      (xy -0.8 0.15)
+      (xy -1.25 0.15)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.8 -0.15)
+      (xy 1.25 -0.15)
+      (xy 1.25 0.15)
+      (xy 0.8 0.15)
+    ) (layer F.Fab) (width 0.01)
+  )
+)

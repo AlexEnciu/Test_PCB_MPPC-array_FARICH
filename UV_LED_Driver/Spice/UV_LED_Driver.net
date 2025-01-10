@@ -1,0 +1,22 @@
+* C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\UV_LED_Driver\Spice\UV_LED_Driver.asc
+R1 P001 N001 150
+V§PSU_LED P001 0 5.8
+Q1 N003 N005 0 0 2N2222
+R2 N005 N004 4.7k
+C1 N005 0 1µ
+V§GPIO_PWM N004 0 PULSE(0 3.3 0.15 0 0 2u 5u 1000000)
+M1 N001 N002 0 0 2N7002
+V§GPIO_Pulse N002 0 PULSE(0 3.3 0.2 0 0 100n 200n 10000)
+D1 N001 N003 UV_C_LED
+.model D D
+.lib C:\Users\alex_\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\alex_\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\alex_\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 0.8
+.include C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\UV_LED_Driver\Spice\UV_C_LED.lib
+.backanno
+.end
