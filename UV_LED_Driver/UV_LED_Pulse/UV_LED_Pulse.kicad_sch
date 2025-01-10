@@ -2541,7 +2541,7 @@
 		)
 		(uuid "8e6d3944-1d36-424e-baed-f523d002331b")
 	)
-	(text "LED current control via PWM"
+	(text "LED curent control via PWM"
 		(exclude_from_sim no)
 		(at 103.378 80.518 0)
 		(effects
