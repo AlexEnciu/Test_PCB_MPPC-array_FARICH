@@ -457,7 +457,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "5.8V": "rgb(255, 175, 17)",
+      "GPIO_PWM": "rgb(120, 199, 127)",
+      "GPIO_Pulse": "rgb(255, 90, 90)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -473,7 +477,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${CARD_V2}/DataSheet/Alexandru_Enciu_HYDRA_Template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -563,7 +567,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "C:\\Users\\alex\\Documents\\IKP\\HYDRA\\VMM3Adapter_FCI_CARD\\KiCAD\\Git\\HYDRA_VMM3_Adapter\\DataSheet\\Alexandru_Enciu_HYDRA_Template.kicad_wks",
+    "page_layout_descr_file": "${CARD_V2}/DataSheet/Alexandru_Enciu_HYDRA_Template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
