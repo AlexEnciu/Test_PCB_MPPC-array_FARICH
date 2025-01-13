@@ -209,7 +209,15 @@
       "mpn": ""
     },
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 30451155.10791368,
+        "name": "View1",
+        "w": 56332206.04316551,
+        "x": 57420053.525130175,
+        "y": 57103204.0287508
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -463,7 +471,12 @@
       "GPIO_Pulse": "rgb(255, 90, 90)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "5.8V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
