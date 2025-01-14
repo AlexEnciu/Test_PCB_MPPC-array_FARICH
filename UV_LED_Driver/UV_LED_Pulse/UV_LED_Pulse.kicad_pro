@@ -468,7 +468,10 @@
     "net_colors": {
       "5.8V": "rgb(255, 175, 17)",
       "GPIO_PWM": "rgb(120, 199, 127)",
-      "GPIO_Pulse": "rgb(255, 90, 90)"
+      "GPIO_Pulse": "rgb(255, 90, 90)",
+      "Net-(D1-A)": "rgb(58, 172, 255)",
+      "Net-(D1-K)": "rgb(120, 199, 127)",
+      "Net-(Q1-B)": "rgb(120, 199, 127)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
