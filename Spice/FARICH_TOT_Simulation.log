@@ -1,0 +1,15 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\alex\Documents\IKP\HYDRA\FiberDetector\KiCAD\Test_PCB_MPPC-array_FARICH\Spice\FARICH_TOT_Simulation.asc
+Start Time: Tue Jan 21 20:18:34 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+c2: Increased Cpar to 1e-18
+c7: Increased Cpar to 1e-18
+c12: Increased Cpar to 1e-18
+c17: Increased Cpar to 1e-18
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.128 seconds.
+
