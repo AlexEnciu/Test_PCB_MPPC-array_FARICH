@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FARICH_Amplifier_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/FARICH_Amplifier_Library.pretty")(options "")(descr ""))
+)
