@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\Spice\FARICH_TOT_Simulation.asc
-Start Time: Thu Jan 23 13:33:05 2025
+Start Time: Wed Jan 29 09:26:28 2025
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -12,9 +12,9 @@ c12: Increased Cpar to 1e-18
 c17: Increased Cpar to 1e-18
 Direct Newton iteration for .op point succeeded.
 
-v_max: MAX(v(sipm_out))=1.11667 FROM 0 TO 4e-08
-v_min: MIN(v(sipm_out))=0.925455 FROM 0 TO 4e-08
+v_max: MAX(v(sipm_out))=1.13698 FROM 0 TO 4e-08
+v_min: MIN(v(sipm_out))=0.738727 FROM 0 TO 4e-08
 v_pp=4e-08 FROM 0 TO 4e-08
 
-Total elapsed time: 0.189 seconds.
+Total elapsed time: 0.201 seconds.
 
