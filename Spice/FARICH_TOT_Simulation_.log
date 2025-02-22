@@ -1,27 +1,15 @@
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\Spice\FARICH_TOT_Simulation_.asc
-Start Time: Thu Feb 20 16:35:41 2025
+Circuit: * C:\Users\alex\Documents\IKP\HYDRA\FiberDetector\KiCAD\Test_PCB_MPPC-array_FARICH\Spice\FARICH_TOT_Simulation_.asc
+Start Time: Fri Feb 21 12:58:04 2025
 solver = Normal
-Maximum thread count: 20
+Maximum thread count: 16
 
 
 
 c2: Increased Cpar to 1e-18
-c7: Increased Cpar to 1e-18
+c7: Increased Cpar to 1e-17
 Direct Newton iteration for .op point succeeded.
 .step charge=0.0006
-
-
-
-.step charge=0.0007
-
-
-
-.step charge=0.0008
-
-
-
-.step charge=0.0009
 
 
 
@@ -29,31 +17,7 @@ Direct Newton iteration for .op point succeeded.
 
 
 
-.step charge=0.0011
-
-
-
-.step charge=0.0012
-
-
-
-.step charge=0.0013
-
-
-
 .step charge=0.0014
-
-
-
-.step charge=0.0015
-
-
-
-.step charge=0.0016
-
-
-
-.step charge=0.0017
 
 
 
@@ -61,31 +25,7 @@ Direct Newton iteration for .op point succeeded.
 
 
 
-.step charge=0.0019
-
-
-
-.step charge=0.002
-
-
-
-.step charge=0.0021
-
-
-
 .step charge=0.0022
-
-
-
-.step charge=0.0023
-
-
-
-.step charge=0.0024
-
-
-
-.step charge=0.0025
 
 
 
@@ -93,31 +33,7 @@ Direct Newton iteration for .op point succeeded.
 
 
 
-.step charge=0.0027
-
-
-
-.step charge=0.0028
-
-
-
-.step charge=0.0029
-
-
-
 .step charge=0.003
-
-
-
-.step charge=0.0031
-
-
-
-.step charge=0.0032
-
-
-
-.step charge=0.0033
 
 
 
@@ -125,31 +41,7 @@ Direct Newton iteration for .op point succeeded.
 
 
 
-.step charge=0.0035
-
-
-
-.step charge=0.0036
-
-
-
-.step charge=0.0037
-
-
-
 .step charge=0.0038
-
-
-
-.step charge=0.0039
-
-
-
-.step charge=0.004
-
-
-
-.step charge=0.0041
 
 
 
@@ -157,232 +49,57 @@ Direct Newton iteration for .op point succeeded.
 
 
 
-.step charge=0.0043
-
-
-
-.step charge=0.0044
-
-
-
-.step charge=0.0045
-
-
-
 .step charge=0.0046
-
-
-
-.step charge=0.0047
-
-
-
-.step charge=0.0048
-
-
-
-.step charge=0.0049
 tnom = 27
 temp = 27
 method = modified trap
 .step charge=0.005
 
 
-Measurement "v_max" FAIL'ed
-
-Measurement "v_min" FAIL'ed
-
-Measurement: v_pp
-  step	v_pp	FROM	TO
-     1	4e-08	0	4e-08
-     2	4e-08	0	4e-08
-     3	4e-08	0	4e-08
-     4	4e-08	0	4e-08
-     5	4e-08	0	4e-08
-     6	4e-08	0	4e-08
-     7	4e-08	0	4e-08
-     8	4e-08	0	4e-08
-     9	4e-08	0	4e-08
-    10	4e-08	0	4e-08
-    11	4e-08	0	4e-08
-    12	4e-08	0	4e-08
-    13	4e-08	0	4e-08
-    14	4e-08	0	4e-08
-    15	4e-08	0	4e-08
-    16	4e-08	0	4e-08
-    17	4e-08	0	4e-08
-    18	4e-08	0	4e-08
-    19	4e-08	0	4e-08
-    20	4e-08	0	4e-08
-    21	4e-08	0	4e-08
-    22	4e-08	0	4e-08
-    23	4e-08	0	4e-08
-    24	4e-08	0	4e-08
-    25	4e-08	0	4e-08
-    26	4e-08	0	4e-08
-    27	4e-08	0	4e-08
-    28	4e-08	0	4e-08
-    29	4e-08	0	4e-08
-    30	4e-08	0	4e-08
-    31	4e-08	0	4e-08
-    32	4e-08	0	4e-08
-    33	4e-08	0	4e-08
-    34	4e-08	0	4e-08
-    35	4e-08	0	4e-08
-    36	4e-08	0	4e-08
-    37	4e-08	0	4e-08
-    38	4e-08	0	4e-08
-    39	4e-08	0	4e-08
-    40	4e-08	0	4e-08
-    41	4e-08	0	4e-08
-    42	4e-08	0	4e-08
-    43	4e-08	0	4e-08
-    44	4e-08	0	4e-08
-    45	4e-08	0	4e-08
-
 Measurement: trise
-  step	v(amplifier_out)=1.085
-     1	1.30709e-08
-     2	1.31769e-08
-     3	1.32606e-08
-     4	1.3328e-08
-     5	1.3383e-08
-     6	1.34286e-08
-     7	1.34666e-08
-     8	1.34986e-08
-     9	1.35256e-08
-    10	1.35484e-08
-    11	1.35677e-08
-    12	1.3584e-08
-    13	1.3598e-08
-    14	1.36095e-08
-    15	1.36193e-08
-    16	1.36275e-08
-    17	1.36339e-08
-    18	1.36394e-08
-    19	1.36434e-08
-    20	1.36466e-08
-    21	1.36488e-08
-    22	1.36502e-08
-    23	1.36508e-08
-    24	1.36507e-08
-    25	1.365e-08
-    26	1.36488e-08
-    27	1.3647e-08
-    28	1.36449e-08
-    29	1.36423e-08
-    30	1.36393e-08
-    31	1.36358e-08
-    32	1.36321e-08
-    33	1.36282e-08
-    34	1.36239e-08
-    35	1.36194e-08
-    36	1.36147e-08
-    37	1.36097e-08
-    38	1.36045e-08
-    39	1.35991e-08
-    40	1.35935e-08
-    41	1.35879e-08
-    42	1.35821e-08
-    43	1.35761e-08
-    44	1.357e-08
-    45	1.35635e-08
+  step	v(amplifier_out)=1.04
+     1	0
+     2	2.73199e-09
+     3	3.63132e-09
+     4	4.00767e-09
+     5	4.23681e-09
+     6	4.39075e-09
+     7	4.49946e-09
+     8	4.57844e-09
+     9	4.63673e-09
+    10	4.68003e-09
+    11	4.71214e-09
+    12	4.73573e-09
 
 Measurement: tfall
-  step	v(amplifier_out)=1.085
-     1	1.01901e-08
-     2	1.01786e-08
-     3	1.01696e-08
-     4	1.01614e-08
-     5	1.01545e-08
-     6	1.01489e-08
-     7	1.01442e-08
-     8	1.014e-08
-     9	1.01361e-08
-    10	1.01325e-08
-    11	1.01297e-08
-    12	1.01271e-08
-    13	1.01248e-08
-    14	1.01225e-08
-    15	1.01205e-08
-    16	1.01189e-08
-    17	1.01169e-08
-    18	1.01151e-08
-    19	1.01136e-08
-    20	1.01122e-08
-    21	1.01108e-08
-    22	1.01094e-08
-    23	1.01081e-08
-    24	1.01069e-08
-    25	1.01057e-08
-    26	1.01046e-08
-    27	1.01035e-08
-    28	1.01024e-08
-    29	1.01014e-08
-    30	1.01005e-08
-    31	1.00995e-08
-    32	1.00987e-08
-    33	1.00978e-08
-    34	1.00969e-08
-    35	1.00961e-08
-    36	1.00953e-08
-    37	1.00945e-08
-    38	1.00937e-08
-    39	1.00929e-08
-    40	1.00922e-08
-    41	1.00913e-08
-    42	1.00907e-08
-    43	1.00901e-08
-    44	1.00894e-08
-    45	1.00888e-08
+  step	v(amplifier_out)=1.04
+     1	0
+     2	2.12547e-09
+     3	1.58521e-09
+     4	1.43446e-09
+     5	1.35671e-09
+     6	1.32018e-09
+     7	1.29006e-09
+     8	1.24932e-09
+     9	1.20764e-09
+    10	1.18732e-09
+    11	1.17461e-09
+    12	1.16518e-09
 
 Measurement: tot
   step	(-tfall +trise)
-     1	2.88077e-09
-     2	2.99836e-09
-     3	3.09092e-09
-     4	3.16661e-09
-     5	3.2285e-09
-     6	3.27974e-09
-     7	3.32241e-09
-     8	3.35858e-09
-     9	3.38945e-09
-    10	3.41582e-09
-    11	3.43808e-09
-    12	3.45694e-09
-    13	3.4732e-09
-    14	3.48707e-09
-    15	3.49876e-09
-    16	3.5086e-09
-    17	3.51707e-09
-    18	3.52423e-09
-    19	3.52981e-09
-    20	3.53441e-09
-    21	3.538e-09
-    22	3.54076e-09
-    23	3.54265e-09
-    24	3.54377e-09
-    25	3.54424e-09
-    26	3.54419e-09
-    27	3.54356e-09
-    28	3.54248e-09
-    29	3.54084e-09
-    30	3.53876e-09
-    31	3.53625e-09
-    32	3.5335e-09
-    33	3.53036e-09
-    34	3.52695e-09
-    35	3.52333e-09
-    36	3.51942e-09
-    37	3.51523e-09
-    38	3.51082e-09
-    39	3.50616e-09
-    40	3.50135e-09
-    41	3.49663e-09
-    42	3.49139e-09
-    43	3.48603e-09
-    44	3.48056e-09
-    45	3.47462e-09
+     1	0
+     2	6.06516e-10
+     3	2.04611e-09
+     4	2.57321e-09
+     5	2.88011e-09
+     6	3.07057e-09
+     7	3.2094e-09
+     8	3.32912e-09
+     9	3.42909e-09
+    10	3.49271e-09
+    11	3.53753e-09
+    12	3.57055e-09
 
-Total elapsed time: 2.250 seconds.
+Total elapsed time: 0.475 seconds.
 
