@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_Hirose70P")(type "KiCad")(uri "C:/Users/alex_/Documents/IKP/HYDRA/FiberDetector/KiCAD/Library_Hirose")(options "")(descr ""))
+  (lib (name "IPEX_Coaxial")(type "KiCad")(uri "C:/Users/alex_/Documents/IKP/HYDRA/FiberDetector/KiCAD/Library_IPEX")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)

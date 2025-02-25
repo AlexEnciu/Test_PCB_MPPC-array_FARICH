@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IPEX Coaxial")(type "KiCad")(uri "D:/IKP/HYDRA/FiberDetector/KiCAD/Library_IPEX/20449-001E-03.kicad_sym")(options "")(descr ""))
+)
