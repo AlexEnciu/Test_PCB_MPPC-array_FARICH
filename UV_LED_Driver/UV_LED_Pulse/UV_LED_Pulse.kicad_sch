@@ -4345,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Value" "0.68uH"
+		(property "Value" "4.7 uH"
 			(at 44.45 24.13 90)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component" "WURTH WE-MAPI 3012 744383340068"
+		(property "Component" "WE 744029004"
 			(at 44.45 26.67 90)
 			(effects
 				(font
