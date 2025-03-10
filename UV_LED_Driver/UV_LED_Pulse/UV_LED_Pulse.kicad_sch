@@ -3563,10 +3563,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "30cc8f3b-fd6f-4914-bac0-4fe3392394c9")
 		(property "Reference" "R2"
-			(at 137.16 77.216 90)
+			(at 137.16 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 74.93 90)
+			(at 137.16 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4074,7 @@
 				)
 			)
 		)
-		(property "Value" "35.7k"
+		(property "Value" "35k7"
 			(at 60.96 46.99 90)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Value" "90.9k"
+		(property "Value" "90k9"
 			(at 60.96 38.1 90)
 			(effects
 				(font
@@ -5586,10 +5586,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d98e98c6-3a81-41a0-86fa-541cad90e8ba")
 		(property "Reference" "R3"
-			(at 147.32 77.216 90)
+			(at 147.32 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5597,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 147.32 74.93 90)
+			(at 147.32 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)

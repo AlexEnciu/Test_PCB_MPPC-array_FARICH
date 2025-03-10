@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/UV_LED_Pulse.step",
       "svg": "",
       "vrml": ""
     },
