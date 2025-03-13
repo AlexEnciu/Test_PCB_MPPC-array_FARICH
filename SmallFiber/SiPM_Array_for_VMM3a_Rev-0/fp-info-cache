@@ -1,4 +1,4 @@
-24739043158072175
+24740830144903581
 0_lib
 Hirose-FX10
 
@@ -12,7 +12,14 @@ S13552
 
 0
 162
-162
+130
+0_lib
+SAMTEC_ERM6-30-01.5-L-DV-A-K-TR
+
+
+0
+60
+60
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
