@@ -1412,6 +1412,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4114,12 +4276,6 @@
 		(uuid "3180358c-2150-420b-a6db-96b004515b27")
 	)
 	(junction
-		(at 185.42 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ad22c01-1e9d-44b4-ad1a-bbef1ff426fe")
-	)
-	(junction
 		(at 83.82 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4162,7 +4318,7 @@
 		(uuid "4f9001d2-cf91-4dc7-8b1e-880ce426f687")
 	)
 	(junction
-		(at 199.39 161.29)
+		(at 181.61 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5214c2bf-9006-46e5-8240-df0e1d0ecc5b")
@@ -4222,7 +4378,7 @@
 		(uuid "71afc888-5ed1-4674-ba57-8859cd1cc7bc")
 	)
 	(junction
-		(at 199.39 203.2)
+		(at 181.61 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1c0818-fc88-47e6-8864-9945f3618f0d")
@@ -4324,12 +4480,6 @@
 		(uuid "9f1fa3a7-a1a3-4c7d-b064-7fed659fb742")
 	)
 	(junction
-		(at 185.42 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a18dfab9-5b11-473e-b8a8-8a2016f2df05")
-	)
-	(junction
 		(at 83.82 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4360,12 +4510,6 @@
 		(uuid "c2450a61-726d-4ac2-a397-36a3074a95d6")
 	)
 	(junction
-		(at 171.45 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c338a5f0-21e0-4529-a96e-f3cb318f2919")
-	)
-	(junction
 		(at 50.8 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4394,12 +4538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec7432e-fa47-4eef-b46c-dde695ed40db")
-	)
-	(junction
-		(at 171.45 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df826d15-cc1d-4783-9e99-04dce8eaeec4")
 	)
 	(junction
 		(at 83.82 102.87)
@@ -4749,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 203.2) (xy 207.01 203.2)
+			(xy 181.61 203.2) (xy 190.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5089,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 203.2) (xy 175.26 203.2)
+			(xy 163.83 203.2) (xy 168.91 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5269,7 +5407,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 161.29) (xy 207.01 161.29)
+			(xy 181.61 161.29) (xy 187.96 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5619,17 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 161.29) (xy 163.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "771eda60-ddc9-448b-a5f3-3a0671bf2a22")
-	)
-	(wire
-		(pts
-			(xy 163.83 161.29) (xy 171.45 161.29)
+			(xy 163.83 161.29) (xy 170.18 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 203.2) (xy 185.42 203.2)
+			(xy 176.53 203.2) (xy 181.61 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5939,16 +6067,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 203.2) (xy 163.83 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd1e05c-0420-42bc-b2b7-d13ddd52dd9d")
-	)
-	(wire
-		(pts
 			(xy 48.26 39.37) (xy 50.8 39.37)
 		)
 		(stroke
@@ -5976,16 +6094,6 @@
 			(type default)
 		)
 		(uuid "8f9ed175-0289-4792-b84c-e06764e0728f")
-	)
-	(wire
-		(pts
-			(xy 163.83 203.2) (xy 171.45 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd92a62-9fb7-404b-88e0-ad596bdc6873")
 	)
 	(wire
 		(pts
@@ -6369,7 +6477,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 161.29) (xy 185.42 161.29)
+			(xy 177.8 161.29) (xy 181.61 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6406,16 +6514,6 @@
 			(type default)
 		)
 		(uuid "b1a888e2-6bcf-4f30-b158-c77f65bcb437")
-	)
-	(wire
-		(pts
-			(xy 185.42 203.2) (xy 199.39 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a8aea3-3802-4826-bfe5-5133537dd8a0")
 	)
 	(wire
 		(pts
@@ -6466,16 +6564,6 @@
 			(type default)
 		)
 		(uuid "b7d721af-f2fc-4073-a7dd-56ebfcb956a7")
-	)
-	(wire
-		(pts
-			(xy 185.42 161.29) (xy 199.39 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8acedef-3110-4c91-82f3-87a495549099")
 	)
 	(wire
 		(pts
@@ -6566,16 +6654,6 @@
 			(type default)
 		)
 		(uuid "c864c00a-efb7-4746-aa55-095cf62b22ad")
-	)
-	(wire
-		(pts
-			(xy 171.45 161.29) (xy 175.26 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9106218-7668-4415-9960-d197dc393fb4")
 	)
 	(wire
 		(pts
@@ -7513,7 +7591,7 @@
 	)
 	(global_label "HV_1-64"
 		(shape input)
-		(at 207.01 203.2 0)
+		(at 190.5 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7523,7 +7601,7 @@
 		)
 		(uuid "2471b4fb-e0c4-44af-a74a-28290fe230ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.5828 203.2 0)
+			(at 202.0728 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10209,7 @@
 	)
 	(global_label "HV_65-128"
 		(shape input)
-		(at 207.01 161.29 0)
+		(at 187.96 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10141,7 +10219,7 @@
 		)
 		(uuid "f753447e-75df-4931-981c-6387561fed1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.0018 161.29 0)
+			(at 201.9518 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,26 +10274,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 195.58 180)
+		(lib_id "Device:L")
+		(at 173.99 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01ac4632-d28f-4790-8ef3-f219ee911178")
-		(property "Reference" "#PWR012"
-			(at 185.42 189.23 0)
+		(uuid "00ed08b7-1231-4693-8ff2-2112233925f6")
+		(property "Reference" "L101"
+			(at 173.99 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 185.42 190.5 0)
+		(property "Value" "L"
+			(at 173.99 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,73 +10300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00540ce0-fac9-42e1-a1c4-5e37121b0508")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 199.39 199.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0587a6c7-29a5-4110-880a-22d24fc8ea56")
-		(property "Reference" "C11"
-			(at 198.374 201.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 199.136 197.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 198.4248 195.58 0)
+			(at 173.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 199.39 0)
+			(at 173.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,8 +10317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 199.39 0)
+		(property "Description" "Inductor"
+			(at 173.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,15 +10327,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a7b2035-e66d-4972-8783-5f8e6c021a93")
+			(uuid "939cba75-590c-4440-ae62-5d23c9bd05af")
 		)
 		(pin "1"
-			(uuid "2088b3e2-4ebb-4407-879b-5da5d371e36b")
+			(uuid "c7ddf2b2-a3aa-4807-90b6-b61cdce58a81")
 		)
 		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
+			(project ""
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C11")
+					(reference "L101")
 					(unit 1)
 				)
 			)
@@ -10401,77 +10412,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e130186-e0a7-4bf0-9bf5-e75f543a50aa")
-		(property "Reference" "C4"
-			(at 184.404 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 185.166 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 184.4548 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e6bf0ae-ef09-4802-9cbc-deca83ba77d7")
-		)
-		(pin "1"
-			(uuid "c201697d-1544-4583-9211-676a310c4eb5")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 199.39 210.82 0)
+		(at 181.61 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10480,7 +10422,7 @@
 		(fields_autoplaced yes)
 		(uuid "14e4d154-ae12-45a0-bfa5-b4b6d67aa82e")
 		(property "Reference" "#PWR015"
-			(at 199.39 217.17 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10431,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 215.9 0)
+			(at 181.61 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +10439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 210.82 0)
+			(at 181.61 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 210.82 0)
+			(at 181.61 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 210.82 0)
+			(at 181.61 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,72 +10472,6 @@
 			(project "SiPM_Array_for_VMM3a_Rev-0"
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1912865b-9d65-478c-a5ae-39074e0c0108")
-		(property "Reference" "#PWR06"
-			(at 185.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4d1bbc6-98ba-44fd-9f47-4e73a77bbcd4")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10668,75 +10544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "204ad252-f767-4239-8123-b504e7f4c2ae")
-		(property "Reference" "C7"
-			(at 149.606 204.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 149.098 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 149.5552 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efbeaf77-2444-4510-b25f-d20abb5b3548")
-		)
-		(pin "1"
-			(uuid "74dc10a0-848c-4e4e-ae15-07e99f23f97d")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 123.19 0)
 		(unit 1)
@@ -10803,74 +10610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2136644c-de27-406c-bde5-976a0c93ed8b")
-		(property "Reference" "#PWR02"
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cee157e-ef12-4e2a-8ebc-8cdec6a1ddc1")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 199.39 207.01 0)
+		(at 181.61 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10878,7 +10619,7 @@
 		(dnp no)
 		(uuid "2606d1fa-8f88-45ef-ad07-318c9436fd43")
 		(property "Reference" "C12"
-			(at 200.406 204.724 0)
+			(at 182.626 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10628,7 @@
 			)
 		)
 		(property "Value" "100nF/100V"
-			(at 199.644 209.042 0)
+			(at 181.864 209.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,8 +10636,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 200.3552 210.82 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 182.5752 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +10646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 207.01 0)
+			(at 181.61 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +10655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 199.39 207.01 0)
+			(at 181.61 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,144 +10673,6 @@
 			(project "SiPM_Array_for_VMM3a_Rev-0"
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2982c012-ce6f-42a1-b015-735588adcdf5")
-		(property "Reference" "C3"
-			(at 186.436 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 185.928 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 186.3852 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27ddd183-a967-4ce7-9090-b4c93b61d146")
-		)
-		(pin "1"
-			(uuid "b7839bb7-2660-4c49-a718-7a1081db11ad")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d437ea6-81c9-4e0d-aaa9-ccc38e961975")
-		(property "Reference" "C1"
-			(at 149.606 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 149.098 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 149.5552 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1849d71-4909-4e24-bd9c-04f460054d7b")
-		)
-		(pin "1"
-			(uuid "334501c5-a95c-4008-97e8-ce15235d9b08")
-		)
-		(instances
-			(project ""
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11509,74 +11112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c631b3-a016-4232-bfb6-375d12002023")
-		(property "Reference" "#PWR013"
-			(at 185.42 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47212c75-5cd1-4a78-9b7a-bbf347625826")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 199.39 165.1 0)
+		(at 181.61 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11584,7 +11121,7 @@
 		(dnp no)
 		(uuid "5537ae16-18f1-4e0b-9d7d-2e72c3bf2b5a")
 		(property "Reference" "C6"
-			(at 200.406 162.814 0)
+			(at 182.626 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11593,7 +11130,7 @@
 			)
 		)
 		(property "Value" "100nF/100V"
-			(at 199.644 167.132 0)
+			(at 181.864 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,8 +11138,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 200.3552 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 182.5752 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +11148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 165.1 0)
+			(at 181.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11157,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 199.39 165.1 0)
+			(at 181.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,74 +11181,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56fb4b70-34ab-43af-9f2b-e58bec72b158")
-		(property "Reference" "#PWR05"
-			(at 185.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae4c278f-570c-4cb3-9b57-7a8c987dca30")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 179.07 161.29 90)
+		(at 173.99 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11719,7 +11190,7 @@
 		(dnp no)
 		(uuid "60142e60-912f-4b4b-8fe2-d3573ee47e32")
 		(property "Reference" "R3"
-			(at 179.07 161.29 90)
+			(at 173.99 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11198,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 179.07 159.258 90)
+			(at 173.99 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11206,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 179.07 163.068 90)
+			(at 173.99 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11215,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 161.29 0)
+			(at 173.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11224,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 161.29 0)
+			(at 173.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11778,7 +11249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 168.91 0)
+		(at 181.61 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11787,7 +11258,7 @@
 		(fields_autoplaced yes)
 		(uuid "6076c9e8-aadc-4804-9391-763c8c42f7dc")
 		(property "Reference" "#PWR08"
-			(at 199.39 175.26 0)
+			(at 181.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +11267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 173.99 0)
+			(at 181.61 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +11275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 168.91 0)
+			(at 181.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +11284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 168.91 0)
+			(at 181.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 168.91 0)
+			(at 181.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,210 +11765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 171.45 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73dfb9b3-98f6-4a89-9859-09a8f55148a6")
-		(property "Reference" "C8"
-			(at 172.466 204.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 171.958 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 172.4152 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c85ce2c6-1b60-4be7-9b4d-cf2cf5578f60")
-		)
-		(pin "1"
-			(uuid "e4d2efb2-497d-4774-a2e9-5216374e7862")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "965b6638-106c-4877-8997-16d86302f7b7")
-		(property "Reference" "C10"
-			(at 186.436 204.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 185.928 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 186.3852 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58b0b857-b4ad-4641-9f20-ed997652b98b")
-		)
-		(pin "1"
-			(uuid "3f466e01-d2f0-48b9-9cd7-202e0d92e47d")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "998ac961-9fc7-4cd8-b5a1-85308a35f1aa")
-		(property "Reference" "#PWR09"
-			(at 148.59 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a465fd9-e403-4c25-b62c-812b872d5b58")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 163.83 157.48 0)
 		(unit 1)
@@ -12562,72 +11829,6 @@
 			(project ""
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6ffcfeb-a885-4136-84e8-dde718bf9e9c")
-		(property "Reference" "#PWR07"
-			(at 199.39 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11d4ebd9-a66b-4e66-8a94-82befac07a5e")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13133,77 +12334,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 171.45 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd4b6a4b-1dbb-4fb1-af01-b880c8f41c00")
-		(property "Reference" "C2"
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 171.958 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 172.4152 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c5bd6c4-7a81-4441-9837-769ccec514ca")
-		)
-		(pin "1"
-			(uuid "dcd714af-6692-431b-9e8b-93794c7f726b")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 179.07 203.2 90)
+		(at 172.72 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13211,7 +12343,7 @@
 		(dnp no)
 		(uuid "c0065de3-221d-4ec8-becd-9cea8ed86825")
 		(property "Reference" "R6"
-			(at 179.07 203.2 90)
+			(at 172.72 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13219,7 +12351,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 179.07 201.168 90)
+			(at 172.72 201.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +12359,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 179.07 204.978 90)
+			(at 172.72 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +12368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 203.2 0)
+			(at 172.72 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +12377,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 203.2 0)
+			(at 172.72 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,342 +12395,6 @@
 			(project "SiPM_Array_for_VMM3a_Rev-0"
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2bd985c-7854-41bb-bd6b-611c789d001b")
-		(property "Reference" "#PWR04"
-			(at 171.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b97fae3f-a43c-4555-b7ea-9258b4554a4b")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 199.39 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c43451c7-08b8-4154-ba61-779bed6debea")
-		(property "Reference" "C5"
-			(at 198.374 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 199.136 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 198.4248 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0bd978b-9d02-439b-9a6e-f79fb8e0c123")
-		)
-		(pin "1"
-			(uuid "0f1207e4-bf75-49d4-93d9-0954ed4c0500")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9e7435d-d95e-4794-ae9c-e88d2376920d")
-		(property "Reference" "#PWR011"
-			(at 171.45 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd00e07b-984d-4c2f-a0dc-80e1d0ce17dd")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 199.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dffe16a6-7b0f-4250-9a33-4ed91b9df8ab")
-		(property "Reference" "C9"
-			(at 184.404 201.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/100V"
-			(at 185.166 197.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 184.4548 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f3a037c-ad13-431b-94ee-3d6ec2902fba")
-		)
-		(pin "1"
-			(uuid "f7a126af-d100-4c5b-828f-6af13bd822cb")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e266817d-3a92-4df0-88b4-d0c28f204445")
-		(property "Reference" "#PWR014"
-			(at 199.39 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "251eb29f-6ed6-403b-ade2-bc47173fcc54")
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
