@@ -11293,7 +11293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 129.794 187.452 0)
 			(effects
 				(font
@@ -11562,7 +11562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 145.034 187.452 0)
 			(effects
 				(font
@@ -12258,7 +12258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 129.794 145.542 0)
 			(effects
 				(font
@@ -13043,7 +13043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 129.286 133.858 0)
 			(effects
 				(font
@@ -13176,7 +13176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 129.286 175.768 0)
 			(effects
 				(font
@@ -13245,7 +13245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 143.764 145.542 0)
 			(effects
 				(font
@@ -13380,7 +13380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 143.256 133.858 0)
 			(effects
 				(font
@@ -13785,7 +13785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "10nF/100V"
 			(at 144.526 175.768 0)
 			(effects
 				(font
