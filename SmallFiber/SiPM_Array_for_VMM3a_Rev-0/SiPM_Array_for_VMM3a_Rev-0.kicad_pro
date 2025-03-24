@@ -650,10 +650,6 @@
     [
       "0fb97f82-6dac-4756-9e99-da1cf8056c45",
       "Root"
-    ],
-    [
-      "daa61ce0-0783-4df7-a554-06def20673f5",
-      "VoltageControl"
     ]
   ],
   "text_variables": {}

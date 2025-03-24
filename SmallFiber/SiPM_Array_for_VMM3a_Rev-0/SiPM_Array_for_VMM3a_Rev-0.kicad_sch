@@ -15070,49 +15070,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 109.22 203.2)
-		(size 39.37 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "daa61ce0-0783-4df7-a554-06def20673f5")
-		(property "Sheetname" "VoltageControl"
-			(at 109.22 202.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VoltageControl.kicad_sch"
-			(at 109.22 226.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SiPM_Array_for_VMM3a_Rev-0"
-				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
