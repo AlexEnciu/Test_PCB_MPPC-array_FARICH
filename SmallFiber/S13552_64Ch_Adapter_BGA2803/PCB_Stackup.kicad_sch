@@ -2,8 +2,8 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c520d5db-5661-458d-90e9-1c6779915ed1")
-	(paper "A4")
+	(uuid "5be282c7-d0c2-4cae-a755-0f0a3598eb78")
+	(paper "A5")
 	(title_block
 		(title "Hamamatsu S13552 64 Channels Amplifier")
 	)
@@ -31,6 +31,18 @@
 			)
 		)
 		(uuid "2514a4f8-3d73-49b2-bb3f-1754566f33ca")
+	)
+	(text "PCB Stackup"
+		(exclude_from_sim no)
+		(at 32.258 100.838 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6ff20920-4c19-49d7-8f87-6ee2410db265")
 	)
 	(image
 		(at 48.26 39.37)
