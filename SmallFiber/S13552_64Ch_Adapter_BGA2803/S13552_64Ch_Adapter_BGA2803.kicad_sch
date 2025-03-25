@@ -5,7 +5,7 @@
 	(uuid "0fb97f82-6dac-4756-9e99-da1cf8056c45")
 	(paper "A3")
 	(title_block
-		(title "Hamamatsu S13552 carrier board")
+		(title "Hamamatsu S13552 64 Channels Amplifier")
 		(date "2025-03-20")
 		(rev "0")
 	)
@@ -12827,15 +12827,15 @@
 		(dnp no)
 		(uuid "99a8f95a-7f78-4ce0-b1ef-b7bf677fbc1f")
 		(property "Reference" "R1"
-			(at 85.09 157.48 90)
+			(at 85.09 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 85.09 155.448 90)
+		(property "Value" "1k"
+			(at 85.09 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13462,15 +13462,15 @@
 		(dnp no)
 		(uuid "b690982a-80d2-4900-bf70-45adacffa5d9")
 		(property "Reference" "R2"
-			(at 85.09 162.56 90)
+			(at 85.09 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 85.09 164.592 90)
+		(property "Value" "1k"
+			(at 85.09 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,6 +17030,50 @@
 			(project "S13552_64Ch_Adapter_BGA2803"
 				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 270.51)
+		(size 29.21 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 176 249 1.0000)
+		)
+		(uuid "c6ff9d7a-392e-44dd-9504-bfbc69d0bbac")
+		(property "Sheetname" "Stackup Info"
+			(at 16.002 277.876 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCB_Stackup.kicad_sch"
+			(at 13.97 307.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "S13552_64Ch_Adapter_BGA2803"
+				(path "/0fb97f82-6dac-4756-9e99-da1cf8056c45"
+					(page "66")
 				)
 			)
 		)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.46
+          "height": 1.0,
+          "width": 0.35
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -905,6 +905,10 @@
     [
       "15182b4c-9013-4535-9c98-faf50e8dd55a",
       "amp_64"
+    ],
+    [
+      "c6ff9d7a-392e-44dd-9504-bfbc69d0bbac",
+      "Stackup Info"
     ]
   ],
   "text_variables": {}
