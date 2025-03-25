@@ -13851,7 +13851,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 215.9)
+		(at 274.32 215.9)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13866,7 +13866,7 @@
 		)
 		(uuid "15182b4c-9013-4535-9c98-faf50e8dd55a")
 		(property "Sheetname" "amp_64"
-			(at 288.544 219.202 0)
+			(at 278.384 219.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13878,7 +13878,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 227.9146 0)
+			(at 274.32 227.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13888,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 218.44 180)
+			(at 274.32 218.44 180)
 			(uuid "eff1e9b6-5ada-4905-9152-ede63c35fb58")
 			(effects
 				(font
@@ -13898,7 +13898,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 218.44 0)
+			(at 292.1 218.44 0)
 			(uuid "cdb3a7d6-ea56-4767-aef0-9719bb96cd65")
 			(effects
 				(font
@@ -13916,7 +13916,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 177.8)
+		(at 274.32 177.8)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13931,7 +13931,7 @@
 		)
 		(uuid "1696ef7e-9537-4d60-ae42-2a7ef83b4431")
 		(property "Sheetname" "amp_58"
-			(at 288.544 181.102 0)
+			(at 278.384 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +13943,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 189.8146 0)
+			(at 274.32 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +13953,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 180.34 180)
+			(at 274.32 180.34 180)
 			(uuid "53042c16-45d3-4822-a6b4-dacd830cd3d4")
 			(effects
 				(font
@@ -13963,7 +13963,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 180.34 0)
+			(at 292.1 180.34 0)
 			(uuid "0371849d-750a-4b14-b466-69026c103c9a")
 			(effects
 				(font
@@ -14046,7 +14046,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 44.45)
+		(at 274.32 44.45)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14061,7 +14061,7 @@
 		)
 		(uuid "1b8e0066-446c-484c-a35c-b6bd653bd712")
 		(property "Sheetname" "amp_37"
-			(at 288.544 47.752 0)
+			(at 278.384 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +14073,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 56.4646 0)
+			(at 274.32 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +14083,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 46.99 180)
+			(at 274.32 46.99 180)
 			(uuid "3b49f79f-d9b6-4cf3-89dd-cf00e88c659f")
 			(effects
 				(font
@@ -14093,7 +14093,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 46.99 0)
+			(at 292.1 46.99 0)
 			(uuid "c878d46a-8c02-4e27-8fbd-21d2261a1732")
 			(effects
 				(font
@@ -14176,7 +14176,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 203.2)
+		(at 274.32 203.2)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14191,7 +14191,7 @@
 		)
 		(uuid "2592da8e-963d-4a50-b741-1f7fe40aee76")
 		(property "Sheetname" "amp_62"
-			(at 288.544 206.502 0)
+			(at 278.384 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +14203,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 215.2146 0)
+			(at 274.32 215.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14213,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 205.74 180)
+			(at 274.32 205.74 180)
 			(uuid "d42198de-e996-4662-847b-525c7db3483c")
 			(effects
 				(font
@@ -14223,7 +14223,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 205.74 0)
+			(at 292.1 205.74 0)
 			(uuid "084a01df-e740-4025-893a-bbd2e2373955")
 			(effects
 				(font
@@ -14241,7 +14241,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 146.05)
+		(at 274.32 146.05)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14256,7 +14256,7 @@
 		)
 		(uuid "27dd617c-1a48-42e5-9a6b-b88fcc94b978")
 		(property "Sheetname" "amp_53"
-			(at 288.544 149.352 0)
+			(at 278.384 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14268,7 +14268,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 158.0646 0)
+			(at 274.32 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14278,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 148.59 180)
+			(at 274.32 148.59 180)
 			(uuid "99be6497-b66b-4bbc-a70c-dd047c315f4a")
 			(effects
 				(font
@@ -14288,7 +14288,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 148.59 0)
+			(at 292.1 148.59 0)
 			(uuid "3791d160-15bf-4032-97e9-f3c57188653c")
 			(effects
 				(font
@@ -14566,7 +14566,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 95.25)
+		(at 274.32 95.25)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14581,7 +14581,7 @@
 		)
 		(uuid "468ee104-b302-4d35-9bfc-8ed0e4c52d90")
 		(property "Sheetname" "amp_45"
-			(at 288.544 98.552 0)
+			(at 278.384 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,7 +14593,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 107.2646 0)
+			(at 274.32 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14603,7 +14603,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 97.79 180)
+			(at 274.32 97.79 180)
 			(uuid "485f25ab-bebf-44aa-9cc5-a732874a1191")
 			(effects
 				(font
@@ -14613,7 +14613,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 97.79 0)
+			(at 292.1 97.79 0)
 			(uuid "4bd2c294-c7ef-41f2-ab07-680d057deed8")
 			(effects
 				(font
@@ -14696,7 +14696,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 63.5)
+		(at 274.32 63.5)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14711,7 +14711,7 @@
 		)
 		(uuid "4c35997c-8d62-4538-972f-4585e89f0d47")
 		(property "Sheetname" "amp_40"
-			(at 288.544 66.802 0)
+			(at 278.384 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14723,7 +14723,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 75.5146 0)
+			(at 274.32 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14733,7 +14733,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 66.04 180)
+			(at 274.32 66.04 180)
 			(uuid "ed111860-bfd1-4977-b74a-6fb916fa82ba")
 			(effects
 				(font
@@ -14743,7 +14743,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 66.04 0)
+			(at 292.1 66.04 0)
 			(uuid "50da1cda-e401-4583-938e-e2b48baa4fb4")
 			(effects
 				(font
@@ -14891,7 +14891,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 190.5)
+		(at 274.32 190.5)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14906,7 +14906,7 @@
 		)
 		(uuid "5495b641-889e-49cd-819e-653d8b441888")
 		(property "Sheetname" "amp_60"
-			(at 288.544 193.802 0)
+			(at 278.384 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,7 +14918,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 202.5146 0)
+			(at 274.32 202.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +14928,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 193.04 180)
+			(at 274.32 193.04 180)
 			(uuid "f8779d47-5be5-4b10-80b0-6382dbae9566")
 			(effects
 				(font
@@ -14938,7 +14938,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 193.04 0)
+			(at 292.1 193.04 0)
 			(uuid "d0b24fa3-c083-49b8-a227-ddfcd1d0407c")
 			(effects
 				(font
@@ -14956,7 +14956,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 25.4)
+		(at 274.32 25.4)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14971,7 +14971,7 @@
 		)
 		(uuid "5b0f2ee3-7076-45e8-ae24-cd4ff8a310f4")
 		(property "Sheetname" "amp_34"
-			(at 288.544 28.702 0)
+			(at 278.384 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,7 +14983,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 37.4146 0)
+			(at 274.32 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +14993,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 27.94 180)
+			(at 274.32 27.94 180)
 			(uuid "239a0e7b-4772-4afe-b37b-6294e00e5fc8")
 			(effects
 				(font
@@ -15003,7 +15003,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 27.94 0)
+			(at 292.1 27.94 0)
 			(uuid "7c7bc47c-fc52-4440-a204-d79d031bd75b")
 			(effects
 				(font
@@ -15021,7 +15021,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 107.95)
+		(at 274.32 107.95)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15036,7 +15036,7 @@
 		)
 		(uuid "5b83b337-6947-4490-85e0-8f9a08ff733e")
 		(property "Sheetname" "amp_47"
-			(at 288.544 111.252 0)
+			(at 278.384 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15048,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 119.9646 0)
+			(at 274.32 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15058,7 +15058,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 110.49 180)
+			(at 274.32 110.49 180)
 			(uuid "f8c785fe-afe7-42da-b1c7-5cf57d4aa970")
 			(effects
 				(font
@@ -15068,7 +15068,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 110.49 0)
+			(at 292.1 110.49 0)
 			(uuid "bb981d1f-7e94-428a-833d-490e220909d8")
 			(effects
 				(font
@@ -15086,7 +15086,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 127)
+		(at 274.32 127)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15101,7 +15101,7 @@
 		)
 		(uuid "5eee6809-06a4-46d2-b060-588017485db6")
 		(property "Sheetname" "amp_50"
-			(at 288.544 130.302 0)
+			(at 278.384 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15113,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 139.0146 0)
+			(at 274.32 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15123,7 +15123,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 129.54 180)
+			(at 274.32 129.54 180)
 			(uuid "d79e5fc5-a4a2-42cf-9c51-f8147f852c9f")
 			(effects
 				(font
@@ -15133,7 +15133,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 129.54 0)
+			(at 292.1 129.54 0)
 			(uuid "0bb710d6-fc9b-4e87-9985-8e1b802b2061")
 			(effects
 				(font
@@ -15346,7 +15346,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 184.15)
+		(at 274.32 184.15)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15361,7 +15361,7 @@
 		)
 		(uuid "7018dc4a-7b4b-42f7-9f24-7f40a567388f")
 		(property "Sheetname" "amp_59"
-			(at 288.544 187.452 0)
+			(at 278.384 187.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15373,7 +15373,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 196.1646 0)
+			(at 274.32 196.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,7 +15383,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 186.69 180)
+			(at 274.32 186.69 180)
 			(uuid "44e16624-d318-41db-b914-c666ce09fe58")
 			(effects
 				(font
@@ -15393,7 +15393,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 186.69 0)
+			(at 292.1 186.69 0)
 			(uuid "21d65c04-d5c8-4f73-922f-45655bb91653")
 			(effects
 				(font
@@ -15411,7 +15411,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 196.85)
+		(at 274.32 196.85)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15426,7 +15426,7 @@
 		)
 		(uuid "76279cd8-bae4-4501-8256-b67c03531853")
 		(property "Sheetname" "amp_61"
-			(at 288.544 200.152 0)
+			(at 278.384 200.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +15438,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 208.8646 0)
+			(at 274.32 208.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15448,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 199.39 180)
+			(at 274.32 199.39 180)
 			(uuid "c52b1cd8-58ff-4600-8117-b8aac304139d")
 			(effects
 				(font
@@ -15458,7 +15458,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 199.39 0)
+			(at 292.1 199.39 0)
 			(uuid "03c90b9d-2def-4068-a0a2-625d9193109a")
 			(effects
 				(font
@@ -15541,7 +15541,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 171.45)
+		(at 274.32 171.45)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15556,7 +15556,7 @@
 		)
 		(uuid "789f89f8-9dbc-40f1-9f6d-5d1b2b66e96d")
 		(property "Sheetname" "amp_57"
-			(at 288.544 174.752 0)
+			(at 278.384 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15568,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 183.4646 0)
+			(at 274.32 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15578,7 +15578,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 173.99 180)
+			(at 274.32 173.99 180)
 			(uuid "21b64dc8-3c29-4384-9b00-cc305b33bfdd")
 			(effects
 				(font
@@ -15588,7 +15588,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 173.99 0)
+			(at 292.1 173.99 0)
 			(uuid "017f10e5-4f0f-4b4a-b1dd-2d98a9f7769e")
 			(effects
 				(font
@@ -15606,7 +15606,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 152.4)
+		(at 274.32 152.4)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15621,7 +15621,7 @@
 		)
 		(uuid "79af957d-9170-4157-a9e9-f87dbde7507e")
 		(property "Sheetname" "amp_54"
-			(at 288.544 155.702 0)
+			(at 278.384 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,7 +15633,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 164.4146 0)
+			(at 274.32 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +15643,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 154.94 180)
+			(at 274.32 154.94 180)
 			(uuid "ed41bfa1-5919-4e63-8091-28ebef5150fe")
 			(effects
 				(font
@@ -15653,7 +15653,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 154.94 0)
+			(at 292.1 154.94 0)
 			(uuid "68814a83-1210-4b3f-abf8-083b82c83348")
 			(effects
 				(font
@@ -15671,7 +15671,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 133.35)
+		(at 274.32 133.35)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15686,7 +15686,7 @@
 		)
 		(uuid "7e6839e7-e070-49e6-80f9-a63284fc6b42")
 		(property "Sheetname" "amp_51"
-			(at 288.544 136.652 0)
+			(at 278.384 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15698,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 145.3646 0)
+			(at 274.32 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15708,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 135.89 180)
+			(at 274.32 135.89 180)
 			(uuid "ed5bbc3c-489d-4141-b63d-ded9777ca7b5")
 			(effects
 				(font
@@ -15718,7 +15718,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 135.89 0)
+			(at 292.1 135.89 0)
 			(uuid "2a8f3cc7-d103-4af8-94ea-988e1daf409a")
 			(effects
 				(font
@@ -15931,7 +15931,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 69.85)
+		(at 274.32 69.85)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15946,7 +15946,7 @@
 		)
 		(uuid "8c888a1a-7e7c-41f7-b174-005d6ad04bec")
 		(property "Sheetname" "amp_41"
-			(at 288.544 73.152 0)
+			(at 278.384 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15958,7 +15958,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 81.8646 0)
+			(at 274.32 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +15968,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 72.39 180)
+			(at 274.32 72.39 180)
 			(uuid "4c2cfa21-315c-462b-b78b-0245ab41e6ae")
 			(effects
 				(font
@@ -15978,7 +15978,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 72.39 0)
+			(at 292.1 72.39 0)
 			(uuid "3a80e666-4515-4c6f-9186-6314e340678e")
 			(effects
 				(font
@@ -15996,7 +15996,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 31.75)
+		(at 274.32 31.75)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16011,7 +16011,7 @@
 		)
 		(uuid "95cf235d-220e-408e-bc1a-1cd5eff524e0")
 		(property "Sheetname" "amp_35"
-			(at 288.544 35.052 0)
+			(at 278.384 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16023,7 +16023,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 43.7646 0)
+			(at 274.32 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16033,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 34.29 180)
+			(at 274.32 34.29 180)
 			(uuid "c552ebe1-7e13-4119-b7fd-de8e2d59acf3")
 			(effects
 				(font
@@ -16043,7 +16043,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 34.29 0)
+			(at 292.1 34.29 0)
 			(uuid "f88598df-1ec1-497c-abcd-9a4de1c894d2")
 			(effects
 				(font
@@ -16126,7 +16126,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 209.55)
+		(at 274.32 209.55)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16141,7 +16141,7 @@
 		)
 		(uuid "9f6257a7-2257-49b1-b1e3-322e6021ef2d")
 		(property "Sheetname" "amp_63"
-			(at 288.544 212.852 0)
+			(at 278.384 212.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +16153,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 221.5646 0)
+			(at 274.32 221.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16163,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 212.09 180)
+			(at 274.32 212.09 180)
 			(uuid "2133cf2d-eb2d-4716-b6cb-8df50814ee85")
 			(effects
 				(font
@@ -16173,7 +16173,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 212.09 0)
+			(at 292.1 212.09 0)
 			(uuid "150ee099-ad3c-415d-b2a9-bfd958b0e452")
 			(effects
 				(font
@@ -16191,7 +16191,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 50.8)
+		(at 274.32 50.8)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16206,7 +16206,7 @@
 		)
 		(uuid "a1483d86-6112-4492-9cfe-f475a7fea3d4")
 		(property "Sheetname" "amp_38"
-			(at 288.544 54.102 0)
+			(at 278.384 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +16218,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 62.8146 0)
+			(at 274.32 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +16228,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 53.34 180)
+			(at 274.32 53.34 180)
 			(uuid "cd837f88-e628-4331-99f5-e771a9324dab")
 			(effects
 				(font
@@ -16238,7 +16238,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 53.34 0)
+			(at 292.1 53.34 0)
 			(uuid "2d23b425-a64e-42c8-87ca-101086a1de48")
 			(effects
 				(font
@@ -16256,7 +16256,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 139.7)
+		(at 274.32 139.7)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16271,7 +16271,7 @@
 		)
 		(uuid "a1c795e6-a32d-418b-8559-c9473de86ae6")
 		(property "Sheetname" "amp_52"
-			(at 288.544 143.002 0)
+			(at 278.384 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16283,7 +16283,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 151.7146 0)
+			(at 274.32 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +16293,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 142.24 180)
+			(at 274.32 142.24 180)
 			(uuid "38f33c1d-328d-4ef2-a859-e0eec9aeba15")
 			(effects
 				(font
@@ -16303,7 +16303,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 142.24 0)
+			(at 292.1 142.24 0)
 			(uuid "6d4ad7cf-5450-499b-972c-5c583c88e8df")
 			(effects
 				(font
@@ -16386,7 +16386,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 158.75)
+		(at 274.32 158.75)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16401,7 +16401,7 @@
 		)
 		(uuid "af49135b-8fef-4215-9c31-b9311307eb1d")
 		(property "Sheetname" "amp_55"
-			(at 288.544 162.052 0)
+			(at 278.384 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16413,7 +16413,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 170.7646 0)
+			(at 274.32 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16423,7 +16423,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 161.29 180)
+			(at 274.32 161.29 180)
 			(uuid "2a5cc370-e0de-4314-bb7b-894dcc9131ac")
 			(effects
 				(font
@@ -16433,7 +16433,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 161.29 0)
+			(at 292.1 161.29 0)
 			(uuid "0cefbd92-c6fa-466f-9f61-362546983a6d")
 			(effects
 				(font
@@ -16451,7 +16451,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 57.15)
+		(at 274.32 57.15)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16466,7 +16466,7 @@
 		)
 		(uuid "b041d1fb-a6fb-4256-bd14-d80da132353a")
 		(property "Sheetname" "amp_39"
-			(at 288.544 60.452 0)
+			(at 278.384 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16478,7 +16478,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 69.1646 0)
+			(at 274.32 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16488,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 59.69 180)
+			(at 274.32 59.69 180)
 			(uuid "445f4fde-3108-46bf-bdba-c94731e9d30a")
 			(effects
 				(font
@@ -16498,7 +16498,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 59.69 0)
+			(at 292.1 59.69 0)
 			(uuid "140cfa73-8c07-44b4-899a-06c04487ff1a")
 			(effects
 				(font
@@ -16516,7 +16516,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 82.55)
+		(at 274.32 82.55)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16531,7 +16531,7 @@
 		)
 		(uuid "b6ce2bbe-c00b-4922-8c30-f8e785d4e891")
 		(property "Sheetname" "amp_43"
-			(at 288.544 85.852 0)
+			(at 278.384 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,7 +16543,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 94.5646 0)
+			(at 274.32 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16553,7 +16553,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 85.09 180)
+			(at 274.32 85.09 180)
 			(uuid "4a7d843c-c463-463e-a1dd-5ab9eaee6e04")
 			(effects
 				(font
@@ -16563,7 +16563,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 85.09 0)
+			(at 292.1 85.09 0)
 			(uuid "6cb87ac6-2516-4ceb-9738-adb5a12e8db4")
 			(effects
 				(font
@@ -16646,7 +16646,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 165.1)
+		(at 274.32 165.1)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16661,7 +16661,7 @@
 		)
 		(uuid "bc2a510c-f5fe-4074-9868-58f7d30a871c")
 		(property "Sheetname" "amp_56"
-			(at 288.544 168.402 0)
+			(at 278.384 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16673,7 +16673,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 177.1146 0)
+			(at 274.32 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16683,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 167.64 180)
+			(at 274.32 167.64 180)
 			(uuid "b5677ba0-db89-48be-bd4f-7228d57b21e3")
 			(effects
 				(font
@@ -16693,7 +16693,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 167.64 0)
+			(at 292.1 167.64 0)
 			(uuid "9b3352fd-3235-45a6-8119-cdfa93031334")
 			(effects
 				(font
@@ -16841,7 +16841,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 19.05)
+		(at 274.32 19.05)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16856,7 +16856,7 @@
 		)
 		(uuid "c55892a7-a42a-483c-8966-d6457ba4d429")
 		(property "Sheetname" "amp_33"
-			(at 288.544 22.352 0)
+			(at 278.384 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +16868,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 31.0646 0)
+			(at 274.32 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16878,7 +16878,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 21.59 180)
+			(at 274.32 21.59 180)
 			(uuid "2f3363a9-3c6c-48f7-b5b3-3a33f9eed535")
 			(effects
 				(font
@@ -16888,7 +16888,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 21.59 0)
+			(at 292.1 21.59 0)
 			(uuid "c0fd59fd-70b6-4306-b56e-60953694c539")
 			(effects
 				(font
@@ -16906,7 +16906,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 38.1)
+		(at 274.32 38.1)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16921,7 +16921,7 @@
 		)
 		(uuid "c55c4421-f774-48bd-87b9-26897cedf096")
 		(property "Sheetname" "amp_36"
-			(at 288.544 41.402 0)
+			(at 278.384 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16933,7 +16933,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 50.1146 0)
+			(at 274.32 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16943,7 +16943,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 40.64 180)
+			(at 274.32 40.64 180)
 			(uuid "dea11fdb-82cb-4351-b5df-c4c769cf5e32")
 			(effects
 				(font
@@ -16953,7 +16953,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 40.64 0)
+			(at 292.1 40.64 0)
 			(uuid "e59206ca-9605-4853-a3b3-c37c7598a491")
 			(effects
 				(font
@@ -17210,7 +17210,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 88.9)
+		(at 274.32 88.9)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17225,7 +17225,7 @@
 		)
 		(uuid "ce5a630b-dfa3-4d44-b7a2-202b3d25bac2")
 		(property "Sheetname" "amp_44"
-			(at 288.544 92.202 0)
+			(at 278.384 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17237,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 100.9146 0)
+			(at 274.32 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17247,7 +17247,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 91.44 180)
+			(at 274.32 91.44 180)
 			(uuid "edd45a29-25a9-42ca-9e22-1a9df8537841")
 			(effects
 				(font
@@ -17257,7 +17257,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 91.44 0)
+			(at 292.1 91.44 0)
 			(uuid "5aed4372-b3c7-4455-b344-d73834b4b788")
 			(effects
 				(font
@@ -17600,7 +17600,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 114.3)
+		(at 274.32 114.3)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17615,7 +17615,7 @@
 		)
 		(uuid "f21a8413-51ab-4e1f-8fd2-5e0ecf0d1fdf")
 		(property "Sheetname" "amp_48"
-			(at 288.544 117.602 0)
+			(at 278.384 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,7 +17627,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 126.3146 0)
+			(at 274.32 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17637,7 +17637,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 116.84 180)
+			(at 274.32 116.84 180)
 			(uuid "2e647eb9-1920-4926-88a8-c6ad6afed8a3")
 			(effects
 				(font
@@ -17647,7 +17647,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 116.84 0)
+			(at 292.1 116.84 0)
 			(uuid "6134e7f2-e62c-4b55-a8dd-1e04de427658")
 			(effects
 				(font
@@ -17665,7 +17665,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 101.6)
+		(at 274.32 101.6)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17680,7 +17680,7 @@
 		)
 		(uuid "f55179b0-3c6f-407f-ba7c-c91e42e572a9")
 		(property "Sheetname" "amp_46"
-			(at 288.544 104.902 0)
+			(at 278.384 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17692,7 +17692,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 113.6146 0)
+			(at 274.32 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17702,7 +17702,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 104.14 180)
+			(at 274.32 104.14 180)
 			(uuid "5fee529b-251e-4ff6-a106-306346a23f2f")
 			(effects
 				(font
@@ -17712,7 +17712,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 104.14 0)
+			(at 292.1 104.14 0)
 			(uuid "60318df2-896e-41c9-8a0d-27e21ecc40b7")
 			(effects
 				(font
@@ -17730,7 +17730,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 76.2)
+		(at 274.32 76.2)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17745,7 +17745,7 @@
 		)
 		(uuid "f6af6522-b17a-473b-a70d-2d0cbc773f14")
 		(property "Sheetname" "amp_42"
-			(at 288.544 79.502 0)
+			(at 278.384 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17757,7 +17757,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 88.2146 0)
+			(at 274.32 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +17767,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 78.74 180)
+			(at 274.32 78.74 180)
 			(uuid "b164f22d-77c7-46a8-b28f-1594f8850080")
 			(effects
 				(font
@@ -17777,7 +17777,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 78.74 0)
+			(at 292.1 78.74 0)
 			(uuid "5f39d287-61b9-4641-b4df-6d08a118b8bb")
 			(effects
 				(font
@@ -17860,7 +17860,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 120.65)
+		(at 274.32 120.65)
 		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17875,7 +17875,7 @@
 		)
 		(uuid "fa9a607c-dd09-4709-962a-8f75cdb5bbac")
 		(property "Sheetname" "amp_49"
-			(at 288.544 123.952 0)
+			(at 278.384 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +17887,7 @@
 			)
 		)
 		(property "Sheetfile" "BGA2803_amplifier.kicad_sch"
-			(at 284.48 132.6646 0)
+			(at 274.32 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,7 +17897,7 @@
 			)
 		)
 		(pin "In" input
-			(at 284.48 123.19 180)
+			(at 274.32 123.19 180)
 			(uuid "e732d05d-36f6-47a8-90a7-2b461c0eaaf8")
 			(effects
 				(font
@@ -17907,7 +17907,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 302.26 123.19 0)
+			(at 292.1 123.19 0)
 			(uuid "42af45d0-b0c2-4180-9d51-218689c8903d")
 			(effects
 				(font
