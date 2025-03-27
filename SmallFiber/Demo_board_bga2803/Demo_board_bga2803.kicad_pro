@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.1,
+          "width": 0.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.025
         }
       },
       "diff_pair_dimensions": [
@@ -124,7 +124,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -188,7 +188,8 @@
       "track_widths": [
         0.0,
         0.1,
-        0.2
+        0.2,
+        0.245
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,6 +221,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -630,6 +635,10 @@
     [
       "7a33027c-1312-4493-97ad-aa26dbfa74a1",
       "Amp_1"
+    ],
+    [
+      "b84275d1-ff53-45a9-81b7-08d7176cb80f",
+      "Amp_2"
     ]
   ],
   "text_variables": {}
