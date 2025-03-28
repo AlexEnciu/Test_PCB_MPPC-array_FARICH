@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "0_USB-C")(type "KiCad")(uri "${KIPRJMOD}/lib/12401945E212A.kicad_sym")(options "")(descr ""))
+  (lib (name "0_BuckConverter")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX5026EUT_T.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Potentiometer")(type "KiCad")(uri "${KIPRJMOD}/lib/PVG5A503C03R00.kicad_sym")(options "")(descr ""))
+  (lib (name "0_SiPM")(type "KiCad")(uri "${KIPRJMOD}/lib/MICROFC-10035-SMT-TR1.kicad_sym")(options "")(descr ""))
 )

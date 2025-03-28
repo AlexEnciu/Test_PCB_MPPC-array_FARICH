@@ -1,0 +1,230 @@
+(footprint "XDCR_MICROFC-10035-SMT-TR1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -1.9064 0)
+		(layer "F.SilkS")
+		(uuid "a710cd9b-a292-44ea-95b7-c98e1803ebb2")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_MICROFC-10035-SMT-TR1"
+		(at 8.5664 1.9064 0)
+		(layer "F.Fab")
+		(uuid "aa4e10ae-90d6-4ac1-b348-61a33b8eabfa")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "848a146c-520c-4c38-89b6-64f38b2bf198")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "710955dd-313b-4682-ad1d-bdd3dff19086")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfc1e066-f1bb-4da7-b972-68cf4768ce0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.895)
+		(end 0.9 -0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fc0a9a7-688b-4aff-bf17-14c00ba4d72a")
+	)
+	(fp_line
+		(start 0.9 0.895)
+		(end -0.9 0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4d4d9be-0e3b-4443-977c-a6d01e270659")
+	)
+	(fp_circle
+		(center -1.5 -0.5)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f74edb1d-3ecc-4cea-a95a-0c5def27d5c4")
+	)
+	(fp_line
+		(start -1.15 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b773515-01d7-4b36-a9b5-aede956afd95")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.15 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e59a10d8-eee4-4ca1-8595-727089aa9fe4")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.15 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70e27115-6ce1-4ab3-a223-701dd065e0af")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24547fab-f5ff-40d8-abde-01a2179120f8")
+	)
+	(fp_line
+		(start -0.9 -0.75)
+		(end 0.9 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2fe5d80-8a60-4a0a-9735-0bf5034d0f69")
+	)
+	(fp_line
+		(start -0.9 0.75)
+		(end -0.9 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7509b290-a8fc-4353-a63e-461fe356169b")
+	)
+	(fp_line
+		(start 0.9 -0.75)
+		(end 0.9 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f7ee5ea-513f-4015-afc3-94990b79712c")
+	)
+	(fp_line
+		(start 0.9 0.75)
+		(end -0.9 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36171c5a-299c-4d3a-b8f5-a6d727b4c503")
+	)
+	(fp_circle
+		(center -1.5 -0.5)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8f6537a3-b8cc-4fc5-8a2b-0b63e583bb93")
+	)
+	(pad "1" smd roundrect
+		(at -0.625 -0.4)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.26)
+		(solder_mask_margin 0.102)
+		(uuid "40c87312-08b5-40e1-9787-a3e1bf34e5ea")
+	)
+	(pad "2" smd roundrect
+		(at -0.625 0.4)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.26)
+		(solder_mask_margin 0.102)
+		(uuid "bffc7dda-a255-41ef-912f-d15dd0c59a61")
+	)
+	(pad "3" smd roundrect
+		(at 0.625 0.4)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.26)
+		(solder_mask_margin 0.102)
+		(uuid "20a1596e-da31-4540-a014-9fe84fd1b65f")
+	)
+	(pad "4" smd roundrect
+		(at 0.625 -0.4)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.26)
+		(solder_mask_margin 0.102)
+		(uuid "c62476de-2f45-4309-b78c-a8c8b59c30bb")
+	)
+	(model "${CARD_V2}/VMM3-Hybrid_to_Coax/VMM3_Hybrid_to_MPPC/lib/Onsemi_Micro-FC_10035.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.1,
-          "width": 0.1
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -639,6 +639,10 @@
     [
       "b84275d1-ff53-45a9-81b7-08d7176cb80f",
       "Amp_2"
+    ],
+    [
+      "3efee57e-12e8-4cdc-92fb-64142ac1f136",
+      "HV_PSU"
     ]
   ],
   "text_variables": {}
