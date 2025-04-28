@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\Spice\FARICH_TOT_Simulation_.asc
-Start Time: Wed Mar 26 09:32:28 2025
+Start Time: Wed Apr 23 10:06:35 2025
 solver = Normal
 Maximum thread count: 20
 
@@ -87,5 +87,5 @@ Measurement: tot
      9	2.90494e-09
     10	2.92067e-09
 
-Total elapsed time: 0.600 seconds.
+Total elapsed time: 0.773 seconds.
 
