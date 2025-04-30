@@ -1,5 +1,5 @@
 % Folder with .mat files
-folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\Cosmics_1-0002';
+folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\Cosmics_hardware_coincidence';
 files = dir(fullfile(folder, '*.mat'));
 
 % Pre-allocate big arrays for all waveform values

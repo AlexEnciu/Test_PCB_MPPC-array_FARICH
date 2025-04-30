@@ -1,6 +1,6 @@
 % Folder with .mat files
 %folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\noise-0004';  % <<--- Set your path here
-folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\Cosmics_1-0002';  % <<--- Set your path here
+folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\Cosmics_hardware_coincidence';  % <<--- Set your path here
 %folder = 'C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\SmallFiber\Demo_board_bga2803\osciloscope\americiu_241';  % <<--- Set your path here
 
 files = dir(fullfile(folder, '*.mat'));
