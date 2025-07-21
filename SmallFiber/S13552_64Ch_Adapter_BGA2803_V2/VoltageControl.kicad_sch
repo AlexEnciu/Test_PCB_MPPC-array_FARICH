@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0b54c348-4eef-4299-b893-d521de0c710e")
+	(paper "A4" portrait)
+	(title_block
+		(title "Hamamatsu S13552 carrier board")
+	)
+	(lib_symbols)
+)
