@@ -34,7 +34,7 @@
 	)
 	(text "PCB Stackup"
 		(exclude_from_sim no)
-		(at 31.242 100.838 0)
+		(at 31.242 105.41 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -39746,7 +39746,7 @@
 			)
 		)
 		(column_widths 8.89 17.78)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "Top"
 				(exclude_from_sim no)
@@ -39901,7 +39901,7 @@
 				)
 				(uuid "ad055de2-4e29-40bd-9b2f-0d6bbec78962")
 			)
-			(table_cell "Power 3V3/1V1"
+			(table_cell "Power 3V3"
 				(exclude_from_sim no)
 				(at 26.67 87.63 0)
 				(size 17.78 2.54)
@@ -39960,6 +39960,40 @@
 				(span 1 1)
 				(fill
 					(type color)
+					(color 255 122 120 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f2a5c270-490f-40ef-bc79-b3d1fcd958af")
+			)
+			(table_cell "1V1"
+				(exclude_from_sim no)
+				(at 26.67 92.71 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 122 120 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "a6376eb0-7591-4ffc-8c8c-15d2a9df9acf")
+			)
+			(table_cell "Inner_7"
+				(exclude_from_sim no)
+				(at 17.78 95.25 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
 					(color 12 255 191 1)
 				)
 				(effects
@@ -39971,7 +40005,7 @@
 			)
 			(table_cell "Ground"
 				(exclude_from_sim no)
-				(at 26.67 92.71 0)
+				(at 26.67 95.25 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -39986,9 +40020,43 @@
 				)
 				(uuid "cbd974e9-25ea-40df-bcb7-bedaa6484906")
 			)
+			(table_cell "Inner_8"
+				(exclude_from_sim no)
+				(at 17.78 97.79 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 12 255 191 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "83e2761a-dca5-4222-83d0-5f3a3f5b5287")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 26.67 97.79 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 12 255 191 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "c77c55a5-1abc-468c-a2fb-a80eb8aa3092")
+			)
 			(table_cell "Bottom"
 				(exclude_from_sim no)
-				(at 17.78 95.25 0)
+				(at 17.78 100.33 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -40005,7 +40073,7 @@
 			)
 			(table_cell "Signal"
 				(exclude_from_sim no)
-				(at 26.67 95.25 0)
+				(at 26.67 100.33 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
