@@ -1,0 +1,12 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\alex\Documents\IKP\HYDRA\FiberDetector\KiCAD\Test_PCB_MPPC-array_FARICH\Spice\Draft5.asc
+Start Time: Mon Aug  4 10:37:13 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node n002.  This node is used by r2.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.056 seconds.
+
