@@ -1,0 +1,16 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\Spice\Draft5.asc
+Start Time: Mon Aug 18 11:02:38 2025
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+c1: Increased Cpar to 1e-13
+c2: Increased Cpar to 1e-12
+c3: Increased Cpar to 1e-13
+c4: Increased Cpar to 1e-12
+c5: Increased Cpar to 1e-14
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.076 seconds.
+
