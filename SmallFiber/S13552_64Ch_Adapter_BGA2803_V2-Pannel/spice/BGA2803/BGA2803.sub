@@ -1,0 +1,19 @@
+* BGA2803 - Simplified SPICE Model with external VDD
+* Common-emitter broadband amplifier (approximate)
+
+.SUBCKT BGA2803 IN GND OUT VDD
+
+* Biasing resistor to enable base current from VDD
+RB1 VDD BIAS 500
+
+* Amplifier stage
+Q1 IN BIAS GND QMOD
+
+* Collector and emitter resistors
+RC BIAS OUT 1k
+RE GND GND 50
+
+* Transistor model
+.MODEL QMOD NPN (BF=100 TF=0.08n CJE=1p CJC=0.5p VAF=50)
+
+.ENDS BGA2803
