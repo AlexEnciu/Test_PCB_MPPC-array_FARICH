@@ -1,0 +1,17 @@
+* C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\HV_MPPC_Ballance\SPICE\LTC6090_prototype.asc
+XU1 0 N001 DAC N004 N003 N002 HV_In N003 LTC6090
+V1 HV_In 0 65
+R1 HV_Out N002 49
+C1 HV_Out 0 2.2µ
+R2 0 HV_Out 11k
+V5 DAC 0 PWL(0 0 0.01 0.5 0.02 1 0.03 1.5 0.04 2 0.05 2.5 0.06 3 0.07 3.5 0.08 4)
+R3 N002 N001 82k
+R4 N001 0 3.9k
+V2 N004 0 -5
+.tran 0.1
+* Negative Charge Pump
+* Feedback
+* LoadSim
+.lib LTC5.lib
+.backanno
+.end
