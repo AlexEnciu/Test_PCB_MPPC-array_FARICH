@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\Test_PCB_MPPC-array_FARICH\HV_MPPC_Ballance\SPICE\LTC6090_prototype.asc
-Start Time: Fri Nov 21 11:59:05 2025
+Start Time: Fri Dec  5 10:03:42 2025
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -44,5 +44,5 @@ Gmin = 1.28552e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.350 seconds.
+Total elapsed time: 0.197 seconds.
 
