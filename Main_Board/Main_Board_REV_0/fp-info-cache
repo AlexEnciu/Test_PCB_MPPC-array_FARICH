@@ -1,4 +1,4 @@
-26539044623340031
+26540809809496850
 0-lib
 SAMTEC_ERF6-30-03.5-L-DV-A-K-TR
 
@@ -6,6 +6,13 @@ SAMTEC_ERF6-30-03.5-L-DV-A-K-TR
 0
 60
 60
+0-lib
+insert
+
+
+0
+1
+1
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

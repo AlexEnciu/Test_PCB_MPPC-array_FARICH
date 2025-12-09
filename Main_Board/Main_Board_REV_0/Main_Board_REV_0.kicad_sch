@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7125c2d5-be96-492e-8b70-c56cceaf676d")
-	(paper "A3")
+	(paper "A1")
 	(title_block
-		(title "Fibers Main Board")
-		(date "2025-12-05")
+		(title "Fiber - Main Board")
+		(date "2025-12-09")
 		(rev "0")
 	)
 	(lib_symbols
@@ -1407,9 +1407,817 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 378.46 298.45)
+		(end 542.29 422.91)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e859305-f436-4ee4-8534-848becc5ed84)
+	)
+	(rectangle
+		(start 722.63 13.97)
+		(end 826.77 90.17)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25d41156-c0b2-485a-8483-82417dd498c0)
+	)
+	(rectangle
+		(start 15.24 13.97)
+		(end 157.48 129.54)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f89d027-5329-478d-b31d-b965282e167a)
+	)
+	(rectangle
+		(start 299.72 13.97)
+		(end 441.96 129.54)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f62bef1-3815-4a79-a299-193c5c840047)
+	)
+	(rectangle
+		(start 378.46 173.99)
+		(end 542.29 298.45)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 76f265e2-bb4b-47e9-ab28-0241e92f35de)
+	)
+	(rectangle
+		(start 214.63 298.45)
+		(end 378.46 422.91)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79e3a80c-0607-4e7f-b8cb-e7e56f5ccf08)
+	)
+	(rectangle
+		(start 15.24 13.97)
+		(end 584.2 146.05)
+		(stroke
+			(width 2.54)
+			(type solid)
+			(color 45 255 35 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86d29c56-7187-4300-9cba-aa4cd7c6cc19)
+	)
+	(rectangle
+		(start 214.63 173.99)
+		(end 378.46 298.45)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f6b3f50-42d6-4a7b-be1d-7b4e7ef0f0bf)
+	)
+	(rectangle
+		(start 50.8 298.45)
+		(end 214.63 422.91)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9144a9a4-11f3-4852-b350-56e63606f1aa)
+	)
+	(rectangle
+		(start 15.24 156.21)
+		(end 584.2 433.07)
+		(stroke
+			(width 2.54)
+			(type solid)
+			(color 255 6 227 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad828ab7-981e-4e86-a162-1a2807d97548)
+	)
+	(rectangle
+		(start 157.48 13.97)
+		(end 299.72 129.54)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd7eed9e-2b0e-40db-8d92-43f9477226f8)
+	)
+	(rectangle
+		(start 441.96 13.97)
+		(end 584.2 129.54)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7dc364d-91ed-4d59-9b62-33168906cb15)
+	)
+	(rectangle
+		(start 50.8 173.99)
+		(end 214.63 298.45)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eef031c0-e0a1-45c3-8ddb-017f6be42b52)
+	)
+	(text "Amplifiers"
+		(exclude_from_sim no)
+		(at 300.482 136.652 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "1a7a4bf5-f3f9-4ee8-b909-ada00256444e")
+	)
+	(text "FARICH"
+		(exclude_from_sim no)
+		(at 302.514 165.354 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "218f7791-34f3-4495-9e28-2fc06186a7ef")
+	)
+	(text "Cube_4"
+		(exclude_from_sim no)
+		(at 466.09 414.782 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "27480436-5389-4886-b1c8-b4eb37e6212b")
+	)
+	(text "Cube_1"
+		(exclude_from_sim no)
+		(at 131.826 291.084 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "33018d0f-8fba-4032-acdb-8dfc950731f3")
+	)
+	(text "Cube_3"
+		(exclude_from_sim no)
+		(at 462.788 290.322 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "4d60cc7e-2185-45e9-b67a-dad221d54f21")
+	)
+	(text "Mounting Inserts"
+		(exclude_from_sim no)
+		(at 774.192 82.55 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "52d1dc78-e3a5-4278-9d30-d8ff1fa25f27")
+	)
+	(text "Cube_2"
+		(exclude_from_sim no)
+		(at 131.318 415.036 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "6aaa579a-1f39-40cf-9c9e-facc34e63907")
+	)
+	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 163.83 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1bfa86-7232-4ad3-926f-a08be4207d80")
+		(property "Reference" "J12"
+			(at 163.83 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 163.83 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 163.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "807a8142-d24a-4ad7-a847-57f3c097d019")
+		)
+		(pin "31"
+			(uuid "6ba7d47b-3266-4792-a542-dad49129cee5")
+		)
+		(pin "29"
+			(uuid "214b0718-776b-4d35-96f6-7104e0a90c49")
+		)
+		(pin "01"
+			(uuid "95ce5aff-f4c4-4db9-ac0c-18dca1f2ad06")
+		)
+		(pin "07"
+			(uuid "295528fe-e1dd-46fb-8284-746e080477ec")
+		)
+		(pin "11"
+			(uuid "cdc89e79-9c79-4cb8-bd6c-0a38e0e07c83")
+		)
+		(pin "17"
+			(uuid "1907c2ee-d507-419b-8918-4bf61b6b9a45")
+		)
+		(pin "21"
+			(uuid "3a5a1683-8c66-4dbe-af46-23aecf407517")
+		)
+		(pin "27"
+			(uuid "f0760c49-d048-4a4e-8b8e-09977fa38f75")
+		)
+		(pin "03"
+			(uuid "2dde4813-f4f8-4369-bfac-2df1f3e1e358")
+		)
+		(pin "19"
+			(uuid "d7c815ba-5f23-4a7f-8758-ed1575026fa6")
+		)
+		(pin "33"
+			(uuid "d4cb8849-9e8e-4e0b-a57d-0c9a682c2a12")
+		)
+		(pin "35"
+			(uuid "cc4159c0-1605-4b88-b8e4-7a2fb5ece23c")
+		)
+		(pin "23"
+			(uuid "2f1da77f-e7bc-4780-9769-5bbbe961059e")
+		)
+		(pin "18"
+			(uuid "9d032397-2fd2-4ada-a6c8-206a06dc7a48")
+		)
+		(pin "51"
+			(uuid "7b16bfb9-a7f3-4c89-8567-60ec4e25726b")
+		)
+		(pin "15"
+			(uuid "381ed7a8-602d-42df-8236-71b8f7cb00fa")
+		)
+		(pin "49"
+			(uuid "e798b30c-eded-4fe4-bb7d-f735a5efd20b")
+		)
+		(pin "59"
+			(uuid "a3c737e4-c04a-403b-a2aa-ef6111f5ceef")
+		)
+		(pin "10"
+			(uuid "14aa48ac-acc1-4ecd-a360-6a091b75b47e")
+		)
+		(pin "12"
+			(uuid "4e48af92-b8a7-49a0-b50b-09d495cd571f")
+		)
+		(pin "41"
+			(uuid "238c2704-b8a0-4636-9414-2a83610bec15")
+		)
+		(pin "09"
+			(uuid "51c124d1-2e5e-474b-b342-bf12639a55f0")
+		)
+		(pin "25"
+			(uuid "60d2888a-074d-4421-995c-7a9515d06a81")
+		)
+		(pin "43"
+			(uuid "dc456a25-82f9-42fd-b60f-1d36f451859a")
+		)
+		(pin "13"
+			(uuid "5a99d8fc-287a-4e3e-82d5-6346d99a304b")
+		)
+		(pin "39"
+			(uuid "09693fc4-4cc1-48b1-b06e-199cd8933fd3")
+		)
+		(pin "47"
+			(uuid "0f4becd0-bd68-4cdf-bb1c-227dd3d2e290")
+		)
+		(pin "53"
+			(uuid "80f32cb5-c182-4766-a02f-443d7994f4dd")
+		)
+		(pin "55"
+			(uuid "1aee2fe7-f546-41db-901c-5c6eeb89b5b9")
+		)
+		(pin "57"
+			(uuid "285b6870-bc93-4440-966c-be6c2f16e8fe")
+		)
+		(pin "02"
+			(uuid "2f4d4fb8-2bf8-4b5e-a058-5b558a4e288a")
+		)
+		(pin "04"
+			(uuid "6423c92a-02aa-4004-91e7-1eb361cfc2e3")
+		)
+		(pin "14"
+			(uuid "fbe74756-858f-4352-952a-da3be6961995")
+		)
+		(pin "06"
+			(uuid "5e31f6c0-b817-4f8b-a3f0-7fdd90003093")
+		)
+		(pin "08"
+			(uuid "8bf8129a-6407-4407-be74-e5d6f9e25f6e")
+		)
+		(pin "37"
+			(uuid "44937383-7cd3-465d-8a90-0d2f89230516")
+		)
+		(pin "16"
+			(uuid "210bdde0-bc11-4419-8ce1-124f94e82877")
+		)
+		(pin "45"
+			(uuid "2defdffa-b5e9-4f11-9c8c-ee82257cf6b1")
+		)
+		(pin "26"
+			(uuid "cd8e7904-8d04-4312-bf64-2998fd09c1fb")
+		)
+		(pin "24"
+			(uuid "abe29edd-ffa1-494a-9297-7932fd656bb6")
+		)
+		(pin "44"
+			(uuid "1adf35c9-13b2-4189-9903-ac5405b2eb45")
+		)
+		(pin "34"
+			(uuid "eaff67ff-3b9c-4012-9ead-7e2fba3ea30b")
+		)
+		(pin "48"
+			(uuid "177b0bd7-149b-4e30-a2ea-e0d6ed1a9a01")
+		)
+		(pin "46"
+			(uuid "77a866a3-1939-4f09-b150-4f889cbd957e")
+		)
+		(pin "22"
+			(uuid "ebae4c50-2b27-4588-a743-916159dd294e")
+		)
+		(pin "32"
+			(uuid "800d99a1-b178-40da-a83f-f190e7be80c8")
+		)
+		(pin "50"
+			(uuid "6b5611ff-d43d-4034-b4af-62bccd775f87")
+		)
+		(pin "36"
+			(uuid "e6ae82bc-b006-482e-af38-a7e4780b3030")
+		)
+		(pin "54"
+			(uuid "3e80bac7-6136-4598-a433-d7bd2ae5d24e")
+		)
+		(pin "28"
+			(uuid "1e3422a7-156b-4a04-b689-842e36c45ab7")
+		)
+		(pin "38"
+			(uuid "de4c351c-a941-4346-8775-f4dfe9ad92e4")
+		)
+		(pin "56"
+			(uuid "c7088109-3877-45ce-8601-ddc1c5654635")
+		)
+		(pin "58"
+			(uuid "f414e352-d99a-4b6e-bd17-db7e2c2c5b65")
+		)
+		(pin "52"
+			(uuid "234fe5a4-1232-4734-9162-cb41a6b9dca5")
+		)
+		(pin "60"
+			(uuid "218dc2f8-ec8c-43ed-a74d-6856feb12440")
+		)
+		(pin "30"
+			(uuid "e34d574f-cca1-483c-ab0f-23d8ed3a3f63")
+		)
+		(pin "40"
+			(uuid "b0d468da-520a-4761-8940-a6b495a4933c")
+		)
+		(pin "42"
+			(uuid "76b2cef2-bf57-4352-99e3-f982465e8b61")
+		)
+		(pin "20"
+			(uuid "66a9e614-592d-462e-a7af-10023bcf7719")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 101.6 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa4d622-2594-46df-a6a1-f6558ccdff41")
+		(property "Reference" "J9"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "3bc9c062-0ae1-46d7-b94d-008aa0aabd87")
+		)
+		(pin "31"
+			(uuid "08d53504-30c4-46b9-9d24-12f1b2bf116d")
+		)
+		(pin "29"
+			(uuid "5b7374ee-efc7-4fa3-8827-470557bc9698")
+		)
+		(pin "01"
+			(uuid "4898f8e7-d132-419a-be01-77ec9cfdee40")
+		)
+		(pin "07"
+			(uuid "704a1d01-5503-457a-8d30-95ff68bb939d")
+		)
+		(pin "11"
+			(uuid "1e5cf44c-dbf8-445e-adf6-d9cf34abac91")
+		)
+		(pin "17"
+			(uuid "e39df8d2-0a7c-4161-88ea-608556bb364b")
+		)
+		(pin "21"
+			(uuid "6d1fc1e8-bd38-463a-8f93-37d024732873")
+		)
+		(pin "27"
+			(uuid "aae7d914-cfa1-4fdc-9c7d-2a9a670f1d7e")
+		)
+		(pin "03"
+			(uuid "2803afb1-7018-4ad8-a2f7-01ed16289bdf")
+		)
+		(pin "19"
+			(uuid "3e6c579e-641f-4576-9283-aec5369cb082")
+		)
+		(pin "33"
+			(uuid "5b53e71b-e377-442e-a2f2-2e3636808e68")
+		)
+		(pin "35"
+			(uuid "eafcdca8-a200-4277-93e6-5c774d2e075f")
+		)
+		(pin "23"
+			(uuid "e1af37d6-4be5-425d-8a23-d2c586f2bd97")
+		)
+		(pin "18"
+			(uuid "1c23ce70-81cf-48d8-a469-a102462637ed")
+		)
+		(pin "51"
+			(uuid "ca715559-c1a0-415a-93c3-521bde5742c2")
+		)
+		(pin "15"
+			(uuid "977b5af0-c1f6-476a-8ef4-37646cfe5180")
+		)
+		(pin "49"
+			(uuid "4b264fd1-10e4-4659-aa2e-ce8aa953bdc5")
+		)
+		(pin "59"
+			(uuid "9d639835-57e6-43b1-9fe9-b406b24495f3")
+		)
+		(pin "10"
+			(uuid "1fe95038-3b72-4b86-aebe-66060770032b")
+		)
+		(pin "12"
+			(uuid "960aee35-26fb-4d6e-a76d-68ad79f1adba")
+		)
+		(pin "41"
+			(uuid "f014dc2a-20fa-48bf-a1cc-6e734da3fbca")
+		)
+		(pin "09"
+			(uuid "ce4cee92-473f-411e-ae2c-a9eaf4ff23fd")
+		)
+		(pin "25"
+			(uuid "cb3f3f95-4cc0-4397-9756-1041de7ed590")
+		)
+		(pin "43"
+			(uuid "7f0643ef-10a1-4aa1-b640-548a812ce36c")
+		)
+		(pin "13"
+			(uuid "4d98fd17-a179-4829-a814-47a67478a446")
+		)
+		(pin "39"
+			(uuid "9854f4f8-af8c-44da-badf-4b9c2d6f2af7")
+		)
+		(pin "47"
+			(uuid "07b6429e-09c7-4d29-9208-388e6c3db474")
+		)
+		(pin "53"
+			(uuid "e350efb7-7e23-443c-bf09-474393a6091b")
+		)
+		(pin "55"
+			(uuid "0b7c4f09-4479-4bbf-81cd-a280cabe805d")
+		)
+		(pin "57"
+			(uuid "7a88512c-9a15-4ff0-bda2-27e4a292ba2c")
+		)
+		(pin "02"
+			(uuid "ea1d19fe-0763-481c-90de-1b34d13409c6")
+		)
+		(pin "04"
+			(uuid "eab59707-44f0-4d00-bc49-a0fbbb53907d")
+		)
+		(pin "14"
+			(uuid "b7d0db8b-c95e-4d08-a683-589cc8e33ea9")
+		)
+		(pin "06"
+			(uuid "86ffa082-881e-4ec0-8aac-ff219175c866")
+		)
+		(pin "08"
+			(uuid "2ff96be8-cb00-4df5-93de-1d0290d367f6")
+		)
+		(pin "37"
+			(uuid "1d6d5c50-2b3b-43a2-9ec2-9a8d776dfe6f")
+		)
+		(pin "16"
+			(uuid "80242dee-3b61-42d9-bb95-80e5ca791e8f")
+		)
+		(pin "45"
+			(uuid "535df441-7bd4-4f05-bd4f-dcbe83a66bc8")
+		)
+		(pin "26"
+			(uuid "a25ab2b5-bbce-40e1-a0e1-9a3808f9b30d")
+		)
+		(pin "24"
+			(uuid "ba0d43d5-f925-43e2-9b35-953fd5995279")
+		)
+		(pin "44"
+			(uuid "aee05913-5056-46c3-8435-0cb0a6927b4e")
+		)
+		(pin "34"
+			(uuid "c41180d5-6350-4a61-bf49-29404d3ec7fe")
+		)
+		(pin "48"
+			(uuid "648bdc1e-9228-4d80-9efa-290743164f8a")
+		)
+		(pin "46"
+			(uuid "d783779c-558a-49a8-aed2-53d2e644d5b9")
+		)
+		(pin "22"
+			(uuid "e28cc92b-601b-4d2f-90ea-1f4ef063f406")
+		)
+		(pin "32"
+			(uuid "2b91c715-9dd4-44a7-af1b-ad536fb14909")
+		)
+		(pin "50"
+			(uuid "a919d43c-0f28-4c63-b513-94e9408270b2")
+		)
+		(pin "36"
+			(uuid "b968d822-5538-4103-8a06-5309d25f057d")
+		)
+		(pin "54"
+			(uuid "1e5f8772-b2c7-464d-b65d-6324cd8520e9")
+		)
+		(pin "28"
+			(uuid "e6ab8c75-f111-49a1-837f-2197502a3ed4")
+		)
+		(pin "38"
+			(uuid "833633a9-f43b-43b8-afe1-bacc33eee258")
+		)
+		(pin "56"
+			(uuid "47fd1abd-e585-4aec-a800-e1f0a77be006")
+		)
+		(pin "58"
+			(uuid "1d26fd44-93fe-4142-84d3-18db04112ccb")
+		)
+		(pin "52"
+			(uuid "e95994dd-bae2-4fd1-8b8f-89295c98e8b6")
+		)
+		(pin "60"
+			(uuid "f6ae7d78-8f84-4021-8364-aba2707af6dc")
+		)
+		(pin "30"
+			(uuid "062f21fb-93e3-48f0-927e-f68740c2c956")
+		)
+		(pin "40"
+			(uuid "88281b60-bcd5-4e39-bc26-18c99608e544")
+		)
+		(pin "42"
+			(uuid "bc142b23-831b-4c74-b9d9-ef4f8fdaa798")
+		)
+		(pin "20"
+			(uuid "e70a581a-33ff-42e0-897d-551b203218e1")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 87.63 274.32 0)
+		(at 803.91 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1418,7 +2226,7 @@
 		(fields_autoplaced yes)
 		(uuid "12311e30-7637-46cc-b162-835d470a2b4f")
 		(property "Reference" "H16"
-			(at 90.17 271.7799 0)
+			(at 806.45 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +2235,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 90.17 274.3199 0)
+			(at 806.45 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,8 +2243,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 87.63 274.32 0)
+		(property "Footprint" "0-lib:insert"
+			(at 803.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +2253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 274.32 0)
+			(at 803.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +2262,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 87.63 274.32 0)
+			(at 803.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,8 +2283,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 429.26 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6a26c9-248d-45f4-95e1-7788bd087323")
+		(property "Reference" "J13"
+			(at 429.26 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 429.26 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "c0cfd49a-f350-43d1-947e-48436e3d4e60")
+		)
+		(pin "31"
+			(uuid "44d4b15c-89ba-4b40-a179-f6a53fe97f8b")
+		)
+		(pin "29"
+			(uuid "e15c15bd-e3eb-49e9-825d-80099ea42bda")
+		)
+		(pin "01"
+			(uuid "e0ce491c-2aa4-47ec-893c-57a1620c7fdb")
+		)
+		(pin "07"
+			(uuid "aaa945c8-9cee-4956-b80c-53a51315c67a")
+		)
+		(pin "11"
+			(uuid "102e9828-920b-4d21-92bd-39e736553d67")
+		)
+		(pin "17"
+			(uuid "e666f7bb-e061-44e9-8044-7d3dc03618e0")
+		)
+		(pin "21"
+			(uuid "800de47f-8cb5-4201-89d1-ef5a82cbb255")
+		)
+		(pin "27"
+			(uuid "d2efd061-a12c-429a-933d-69d76e9e42b4")
+		)
+		(pin "03"
+			(uuid "46f5aaa3-6e61-44e7-98d4-4aebd99871e5")
+		)
+		(pin "19"
+			(uuid "bb223ad6-19b3-48f0-8eeb-90e1e768f67a")
+		)
+		(pin "33"
+			(uuid "6a359dee-9fcc-459f-b8de-21ff7d7fe9ca")
+		)
+		(pin "35"
+			(uuid "464c2244-d134-471a-bd21-41464520494b")
+		)
+		(pin "23"
+			(uuid "74f1fb9b-eadd-4932-b5fd-76553b7f0d9a")
+		)
+		(pin "18"
+			(uuid "a8eafe3a-b1b8-4d82-805a-cd259a715c28")
+		)
+		(pin "51"
+			(uuid "fa369a66-8a15-4e3e-b790-5f5f5f71f95c")
+		)
+		(pin "15"
+			(uuid "63bbc99d-b5a3-4c4f-8d93-29225861cd7b")
+		)
+		(pin "49"
+			(uuid "05f2ecaf-07cf-4217-b816-f63cafcb5169")
+		)
+		(pin "59"
+			(uuid "64d38565-338f-4dc3-8080-a54a492083f1")
+		)
+		(pin "10"
+			(uuid "f6ec417d-5bed-4999-8d95-b107bdb3c269")
+		)
+		(pin "12"
+			(uuid "14ddabf7-07ea-4208-a8ee-266d311b7e8b")
+		)
+		(pin "41"
+			(uuid "fbb2f629-d590-4fd7-9d42-9e54d061e3ad")
+		)
+		(pin "09"
+			(uuid "bb9ef731-06b2-4034-9ebe-c7a4e0e53785")
+		)
+		(pin "25"
+			(uuid "16725fe5-7190-42e4-a43c-d1fd4762249d")
+		)
+		(pin "43"
+			(uuid "b8864b6f-9183-4e85-9704-93fddb1b9bc0")
+		)
+		(pin "13"
+			(uuid "0aa341c6-0105-4072-a81c-8f6208988db9")
+		)
+		(pin "39"
+			(uuid "b1bab849-b3b6-41e9-bccf-5c3876ca78a9")
+		)
+		(pin "47"
+			(uuid "24bf226f-2c47-46b8-81f9-4edaa0769f17")
+		)
+		(pin "53"
+			(uuid "a01660a3-dac8-4d9f-85f2-6f37b42ec253")
+		)
+		(pin "55"
+			(uuid "c9804c85-823f-4e69-82bf-b2a70ca630e9")
+		)
+		(pin "57"
+			(uuid "263fee80-59f1-476e-83f8-9f30a96ab499")
+		)
+		(pin "02"
+			(uuid "8da0cf14-a7f2-41a1-a769-7319d9854e27")
+		)
+		(pin "04"
+			(uuid "109cff10-2026-4300-8b3e-81393a8a2a11")
+		)
+		(pin "14"
+			(uuid "9abc49a0-a761-4937-bd87-c42cb305c682")
+		)
+		(pin "06"
+			(uuid "32a509af-eade-443c-a3cb-569994d2d080")
+		)
+		(pin "08"
+			(uuid "ed580f09-9088-40f8-8b57-e33d8bcf5fde")
+		)
+		(pin "37"
+			(uuid "89f48405-c5b6-4d55-b666-48f9f997b4e8")
+		)
+		(pin "16"
+			(uuid "25253e13-2f29-444d-8535-44be5e85f9fe")
+		)
+		(pin "45"
+			(uuid "dd2876a8-17f6-4b80-90c6-fa6290723b86")
+		)
+		(pin "26"
+			(uuid "ef799363-3fbc-4219-8e0d-c08a47fd51e3")
+		)
+		(pin "24"
+			(uuid "44ec4412-be94-4767-a5e0-5423e5cd2269")
+		)
+		(pin "44"
+			(uuid "57673219-a8e2-4065-9244-1618d6ea547d")
+		)
+		(pin "34"
+			(uuid "0e233152-d7a2-437a-a0b8-e2fef0b03f10")
+		)
+		(pin "48"
+			(uuid "7ad1e0e5-23dc-4b3c-b75e-ec72be9751f9")
+		)
+		(pin "46"
+			(uuid "788bea79-437b-4b06-868e-824fd7eaffe6")
+		)
+		(pin "22"
+			(uuid "145b2e6e-17c3-4bc4-9bc6-1226ff720906")
+		)
+		(pin "32"
+			(uuid "c95342ed-ed00-4bb9-97a8-b26b46bd92c3")
+		)
+		(pin "50"
+			(uuid "9faa17f2-b812-44f5-970e-03874571cf44")
+		)
+		(pin "36"
+			(uuid "576ff3bb-c07e-463f-bf99-80e2bcf839c5")
+		)
+		(pin "54"
+			(uuid "a5ab062e-a7f5-4c2f-9b6a-c264b7a205eb")
+		)
+		(pin "28"
+			(uuid "36943df5-391e-4d9f-bd07-407a4be83403")
+		)
+		(pin "38"
+			(uuid "acefce5c-0c30-46cc-9a5b-36773df03cf0")
+		)
+		(pin "56"
+			(uuid "87201111-6d65-421d-8861-507cbf5a71ed")
+		)
+		(pin "58"
+			(uuid "84625c68-d18d-4a02-ab2f-01d0412cff5a")
+		)
+		(pin "52"
+			(uuid "410fb9dc-5749-4b93-aea1-51d9b8edb2f4")
+		)
+		(pin "60"
+			(uuid "666e0609-528a-4d93-b16d-4e3b1295f73e")
+		)
+		(pin "30"
+			(uuid "0efbf8d9-b4ed-49d2-b973-349b6c7d1b62")
+		)
+		(pin "40"
+			(uuid "35ca9696-a7df-4efa-bff3-c5bd0da0d2d1")
+		)
+		(pin "42"
+			(uuid "15d2e708-1466-4472-a01c-4f1f0cfa8af3")
+		)
+		(pin "20"
+			(uuid "af736008-99f4-46c6-a796-4b58b411949d")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 17.78 276.86 0)
+		(at 734.06 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1485,7 +2576,7 @@
 		(fields_autoplaced yes)
 		(uuid "23ec9ea7-ca5c-4149-9b3b-b7183db750e6")
 		(property "Reference" "#PWR013"
-			(at 17.78 283.21 0)
+			(at 734.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +2585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 281.94 0)
+			(at 734.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 276.86 0)
+			(at 734.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 276.86 0)
+			(at 734.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +2611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 276.86 0)
+			(at 734.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +2633,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 87.63 231.14 0)
+		(at 803.91 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1551,7 +2642,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b60f007-2452-4625-92d8-1cea6d2226d7")
 		(property "Reference" "H4"
-			(at 90.17 228.5999 0)
+			(at 806.45 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +2651,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 90.17 231.1399 0)
+			(at 806.45 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,8 +2659,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 87.63 231.14 0)
+		(property "Footprint" "0-lib:insert"
+			(at 803.91 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 231.14 0)
+			(at 803.91 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +2678,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 87.63 231.14 0)
+			(at 803.91 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +2700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 248.92 0)
+		(at 803.91 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1618,7 +2709,7 @@
 		(fields_autoplaced yes)
 		(uuid "3607e807-4c8d-4551-9640-cf6796d41e49")
 		(property "Reference" "#PWR08"
-			(at 87.63 255.27 0)
+			(at 803.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +2718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 254 0)
+			(at 803.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +2726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 248.92 0)
+			(at 803.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +2735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 248.92 0)
+			(at 803.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +2744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 248.92 0)
+			(at 803.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 110.49 64.77 180)
+		(at 114.3 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1684,7 +2775,7 @@
 		(fields_autoplaced yes)
 		(uuid "372df64c-1de3-4b72-8a85-3c58a9c36bb1")
 		(property "Reference" "J2"
-			(at 110.49 19.05 0)
+			(at 114.3 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2783,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 110.49 21.59 0)
+			(at 114.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +2791,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +2810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +2819,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +2829,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +2839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2849,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 110.49 64.77 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 276.86 0)
+		(at 781.05 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1967,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "41ab8a3f-b693-4d2e-92e0-c62cbec6f3a1")
 		(property "Reference" "#PWR015"
-			(at 64.77 283.21 0)
+			(at 781.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +3067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 281.94 0)
+			(at 781.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +3075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 276.86 0)
+			(at 781.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +3084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 276.86 0)
+			(at 781.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +3093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 276.86 0)
+			(at 781.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 96.52 157.48 180)
+		(at 542.29 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2033,7 +3124,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ca541a3-f814-4711-81ce-40c0821f94f7")
 		(property "Reference" "J8"
-			(at 96.52 111.76 0)
+			(at 542.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +3132,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 96.52 114.3 0)
+			(at 542.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +3140,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +3159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +3168,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +3178,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +3188,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +3198,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 96.52 157.48 0)
+			(at 542.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +3398,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 17.78 260.35 0)
+		(at 734.06 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2316,7 +3407,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dddf488-c85c-4d2c-a07e-f675a1e0d8da")
 		(property "Reference" "H9"
-			(at 20.32 257.8099 0)
+			(at 736.6 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +3416,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 20.32 260.3499 0)
+			(at 736.6 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,8 +3424,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 17.78 260.35 0)
+		(property "Footprint" "0-lib:insert"
+			(at 734.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +3434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 260.35 0)
+			(at 734.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +3443,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 17.78 260.35 0)
+			(at 734.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 233.68 0)
+		(at 734.06 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2383,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "53f7794e-b1b7-4c24-b14b-b99802010164")
 		(property "Reference" "#PWR01"
-			(at 17.78 240.03 0)
+			(at 734.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +3483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 238.76 0)
+			(at 734.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +3491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 233.68 0)
+			(at 734.06 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +3500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 233.68 0)
+			(at 734.06 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +3509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 233.68 0)
+			(at 734.06 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +3531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 248.92 0)
+		(at 758.19 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,7 +3540,7 @@
 		(fields_autoplaced yes)
 		(uuid "548cae80-92b0-49eb-9618-c547d20d36f4")
 		(property "Reference" "#PWR06"
-			(at 41.91 255.27 0)
+			(at 758.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +3549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 254 0)
+			(at 758.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 248.92 0)
+			(at 758.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +3566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 248.92 0)
+			(at 758.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +3575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 248.92 0)
+			(at 758.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +3597,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 246.38 0)
+		(at 758.19 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2515,7 +3606,7 @@
 		(fields_autoplaced yes)
 		(uuid "57154120-5ffe-4d73-b7eb-9d887c25ad1c")
 		(property "Reference" "H6"
-			(at 44.45 243.8399 0)
+			(at 760.73 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +3615,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 44.45 246.3799 0)
+			(at 760.73 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,8 +3623,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 41.91 246.38 0)
+		(property "Footprint" "0-lib:insert"
+			(at 758.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 246.38 0)
+			(at 758.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +3642,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 41.91 246.38 0)
+			(at 758.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +3664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 233.68 0)
+		(at 803.91 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2582,7 +3673,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa39f17-8425-4b7f-9820-9b3542470e91")
 		(property "Reference" "#PWR04"
-			(at 87.63 240.03 0)
+			(at 803.91 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +3682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 238.76 0)
+			(at 803.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +3690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 233.68 0)
+			(at 803.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +3699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 233.68 0)
+			(at 803.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +3708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 233.68 0)
+			(at 803.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +3730,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 250.19 68.58 180)
+		(at 254 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2648,7 +3739,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c31422e-3523-47ec-816d-782ac6420f16")
 		(property "Reference" "J4"
-			(at 250.19 22.86 0)
+			(at 254 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +3747,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 250.19 25.4 0)
+			(at 254 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +3755,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3783,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +3793,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +3803,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +3813,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 250.19 68.58 0)
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +4013,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 262.89 0)
+		(at 758.19 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2931,7 +4022,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c504ad1-ceed-475b-ad93-ce34fed9089d")
 		(property "Reference" "#PWR010"
-			(at 41.91 269.24 0)
+			(at 758.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +4031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 267.97 0)
+			(at 758.19 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +4039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 262.89 0)
+			(at 758.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +4048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 262.89 0)
+			(at 758.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +4057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 262.89 0)
+			(at 758.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +4079,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 87.63 260.35 0)
+		(at 803.91 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2997,7 +4088,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d3829a9-8cd1-47ea-af58-eaff953fb364")
 		(property "Reference" "H12"
-			(at 90.17 257.8099 0)
+			(at 806.45 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +4097,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 90.17 260.3499 0)
+			(at 806.45 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,8 +4105,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 87.63 260.35 0)
+		(property "Footprint" "0-lib:insert"
+			(at 803.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +4115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 260.35 0)
+			(at 803.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +4124,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 87.63 260.35 0)
+			(at 803.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +4146,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 193.04 66.04 0)
+		(at 196.85 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3064,7 +4155,7 @@
 		(fields_autoplaced yes)
 		(uuid "65a15e22-91fd-4cd2-b5d9-78fbabecc926")
 		(property "Reference" "J3"
-			(at 193.04 22.86 0)
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +4163,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 193.04 25.4 0)
+			(at 196.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +4190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +4199,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +4209,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +4219,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +4229,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 193.04 66.04 0)
+			(at 196.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,8 +4428,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 163.83 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f8276d-6423-4844-8f71-96bd17f5cfcd")
+		(property "Reference" "J10"
+			(at 163.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "f1409816-1e97-49b5-98f4-9d5213dcb036")
+		)
+		(pin "31"
+			(uuid "a261a804-3b45-402f-b200-701d244093fa")
+		)
+		(pin "29"
+			(uuid "505376e5-5347-4f28-a8d4-b9d17404b399")
+		)
+		(pin "01"
+			(uuid "3e4245a3-1b18-412b-801b-5fe9f8bbc157")
+		)
+		(pin "07"
+			(uuid "7a642130-0bc9-428c-8657-2c9dfa9f6651")
+		)
+		(pin "11"
+			(uuid "2def2a98-0221-42ef-bccf-de14c3366056")
+		)
+		(pin "17"
+			(uuid "451a5d8d-b2b1-4b1f-aece-390ef7341669")
+		)
+		(pin "21"
+			(uuid "b5e16bbf-42ad-4c5c-b024-1c04a5d0c1a5")
+		)
+		(pin "27"
+			(uuid "2810d61b-b321-4a72-b5de-f974ad9fb0a5")
+		)
+		(pin "03"
+			(uuid "996fbe7c-277d-4f0a-919b-d4cd8f363089")
+		)
+		(pin "19"
+			(uuid "4ad143c0-8be9-4221-b6e7-58ea77f23699")
+		)
+		(pin "33"
+			(uuid "554ec743-0023-4f4a-a9dd-0ccf6e52a738")
+		)
+		(pin "35"
+			(uuid "e1151751-d694-4f4b-a6f6-1bb9d04ae7fe")
+		)
+		(pin "23"
+			(uuid "4ca7f157-a1ca-4393-91d8-8a594a108aec")
+		)
+		(pin "18"
+			(uuid "b5f5dd35-ff1d-41bd-b015-8db70ab74a99")
+		)
+		(pin "51"
+			(uuid "bcfd8f32-10bd-4c3b-b3a8-f45725ce7c3c")
+		)
+		(pin "15"
+			(uuid "e691d353-d81d-433b-bcdb-ab6c59df65bc")
+		)
+		(pin "49"
+			(uuid "a6e6eaee-aa26-4bbe-acb6-7251f5ca6503")
+		)
+		(pin "59"
+			(uuid "e046dc74-eceb-48fd-82c3-090c37cfae9d")
+		)
+		(pin "10"
+			(uuid "1f2888a3-5a85-437d-801e-1c70f91ad3ef")
+		)
+		(pin "12"
+			(uuid "4bfd8e92-b013-4eaa-8ec6-9ab617a17c00")
+		)
+		(pin "41"
+			(uuid "1b53fd9a-6262-4585-8d87-e1c48378b486")
+		)
+		(pin "09"
+			(uuid "b0e89800-f231-48f0-a4b4-773aeb14b0d9")
+		)
+		(pin "25"
+			(uuid "d356c224-788a-43bc-a1ea-d56f292264b2")
+		)
+		(pin "43"
+			(uuid "1fc04abe-f1ee-4b49-8f95-4e43a1788f75")
+		)
+		(pin "13"
+			(uuid "3c859840-ed66-40a7-9b24-7f60656da023")
+		)
+		(pin "39"
+			(uuid "d7d9a274-f6fb-46d4-b1b5-da24dd33c5c2")
+		)
+		(pin "47"
+			(uuid "16048d24-4f3c-45c9-960d-c7c88d214e94")
+		)
+		(pin "53"
+			(uuid "f8c0c59b-b2a8-4b39-a9e3-43a426c0bac3")
+		)
+		(pin "55"
+			(uuid "0c231bcb-b78d-46e1-9a09-9a1630428418")
+		)
+		(pin "57"
+			(uuid "d096dd65-b181-4b23-912f-391650241bb5")
+		)
+		(pin "02"
+			(uuid "7684bb30-b47b-449f-b063-5b9012658043")
+		)
+		(pin "04"
+			(uuid "ee671e4e-c4e8-4613-90bd-e5c1a765f959")
+		)
+		(pin "14"
+			(uuid "5dc65877-8872-4b86-83df-f05654112b06")
+		)
+		(pin "06"
+			(uuid "d2d032f8-f07a-489c-b75f-39bdb525268e")
+		)
+		(pin "08"
+			(uuid "dda20a0d-ae90-48ff-8f06-c418de8837c7")
+		)
+		(pin "37"
+			(uuid "9b1775db-e80e-4df4-b070-cb43f4577009")
+		)
+		(pin "16"
+			(uuid "6c775622-73f7-470e-830c-4a734529a0a8")
+		)
+		(pin "45"
+			(uuid "33adf9c8-067c-4445-aaf2-45f2bd3b7e0e")
+		)
+		(pin "26"
+			(uuid "9b85fc83-cd09-4661-aafa-be71cc6988ac")
+		)
+		(pin "24"
+			(uuid "b2798be0-b546-4d35-8d11-65496bd9041f")
+		)
+		(pin "44"
+			(uuid "79bf6d06-b617-4367-85e4-059e80a3c3ae")
+		)
+		(pin "34"
+			(uuid "e97cac71-859d-4568-a1fb-9adc47b3256e")
+		)
+		(pin "48"
+			(uuid "b702111c-a67a-4036-9cb6-4924459d72d8")
+		)
+		(pin "46"
+			(uuid "a0158651-e198-4863-8d12-453f32f4166b")
+		)
+		(pin "22"
+			(uuid "a776bf14-6965-4d1e-b9f8-ef7770f13d6c")
+		)
+		(pin "32"
+			(uuid "7b3099f9-0e16-49f7-9dd5-f0a499278e87")
+		)
+		(pin "50"
+			(uuid "c9e23485-82dd-4de2-93aa-c0725a91874b")
+		)
+		(pin "36"
+			(uuid "24508d64-5e53-4f67-b06c-a6db570d003d")
+		)
+		(pin "54"
+			(uuid "473bed9e-1e2d-4356-a024-9ba6933610bb")
+		)
+		(pin "28"
+			(uuid "0e66961a-5b51-4ce3-9403-f9b7dbeaa2d6")
+		)
+		(pin "38"
+			(uuid "ee5eb2e2-b90b-481e-a73a-dfe35c96e4f0")
+		)
+		(pin "56"
+			(uuid "5fa2516e-1ef3-4faf-bff1-9ddb2edc5402")
+		)
+		(pin "58"
+			(uuid "089ae8a8-6b69-41fd-ba2e-e3808462af4c")
+		)
+		(pin "52"
+			(uuid "f9ff8666-af1b-4e1d-bfb6-dc4e9277a50a")
+		)
+		(pin "60"
+			(uuid "f8a4d0da-8e5e-4173-b321-554852dfdab4")
+		)
+		(pin "30"
+			(uuid "9c2fc672-4301-4348-b26e-c25382387559")
+		)
+		(pin "40"
+			(uuid "50cbabff-1d97-4acb-9f06-93a7062e4d06")
+		)
+		(pin "42"
+			(uuid "876e0312-10f7-4b5a-8497-94153634720c")
+		)
+		(pin "20"
+			(uuid "0a763062-2082-4d69-b0c7-907c6559d976")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 17.78 231.14 0)
+		(at 734.06 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3347,7 +4721,7 @@
 		(fields_autoplaced yes)
 		(uuid "6afe6616-fef9-480a-80a2-8908ea1d3343")
 		(property "Reference" "H1"
-			(at 20.32 228.5999 0)
+			(at 736.6 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +4730,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 20.32 231.1399 0)
+			(at 736.6 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,8 +4738,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 17.78 231.14 0)
+		(property "Footprint" "0-lib:insert"
+			(at 734.06 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +4748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 231.14 0)
+			(at 734.06 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +4757,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 17.78 231.14 0)
+			(at 734.06 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +4779,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 331.47 64.77 0)
+		(at 341.63 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +4788,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b8f8ed3-ff96-41a5-979c-5f7ea7d000e9")
 		(property "Reference" "J5"
-			(at 331.47 21.59 0)
+			(at 341.63 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +4796,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 331.47 24.13 0)
+			(at 341.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +4804,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +4814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +4823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +4832,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +4842,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +4852,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +4862,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 331.47 64.77 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,8 +5061,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 491.49 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef90eb7-5a48-4dbd-98e7-e2706f8cfb11")
+		(property "Reference" "J15"
+			(at 491.49 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 491.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 491.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "cc0cf770-d77f-4e24-8c12-894f397b7e09")
+		)
+		(pin "31"
+			(uuid "44654985-9a65-4e81-932d-a7fa151e3b4e")
+		)
+		(pin "29"
+			(uuid "58c67782-615c-4db2-bee2-9d288f80c548")
+		)
+		(pin "01"
+			(uuid "e218cbd4-c088-49af-b660-45fdee0ec396")
+		)
+		(pin "07"
+			(uuid "17ff1794-1f91-4b61-a2c0-2859cba22744")
+		)
+		(pin "11"
+			(uuid "33834293-07b0-4a25-a2d4-cea44372c3ed")
+		)
+		(pin "17"
+			(uuid "a78ee6af-d193-42e1-8fe5-7eb45ceba473")
+		)
+		(pin "21"
+			(uuid "d759f58d-89a4-4ad7-8946-3a17ca8ea52c")
+		)
+		(pin "27"
+			(uuid "bb431c44-2e47-4ba7-9a0a-d6f5e19c7b12")
+		)
+		(pin "03"
+			(uuid "fafe437a-9fc7-4faa-8a8c-b2740c70ca8e")
+		)
+		(pin "19"
+			(uuid "513a330a-88dc-4973-975b-c1ed66b06dd7")
+		)
+		(pin "33"
+			(uuid "cecbbf18-ba90-48ca-8b45-1c134a0008ba")
+		)
+		(pin "35"
+			(uuid "67cdfba2-e00b-4ed8-8e60-346cbd90f742")
+		)
+		(pin "23"
+			(uuid "400d32a4-0e08-49ed-89ce-e615d8614662")
+		)
+		(pin "18"
+			(uuid "5de22f58-3124-40f5-a0a0-0596a6133140")
+		)
+		(pin "51"
+			(uuid "b7c0bc40-77de-4f3c-913c-1b0a3040a409")
+		)
+		(pin "15"
+			(uuid "c90baafc-636c-4bc5-a62d-d3906b581c54")
+		)
+		(pin "49"
+			(uuid "5ef45931-15b3-40bd-8a6b-499fec4539c0")
+		)
+		(pin "59"
+			(uuid "a42ca7ef-68ee-40cc-9478-5c7b262d33b8")
+		)
+		(pin "10"
+			(uuid "bde76aa9-0d73-4600-b874-e9a6427f25cd")
+		)
+		(pin "12"
+			(uuid "48d72618-9588-42fb-9a0e-63fe1cf7a7e2")
+		)
+		(pin "41"
+			(uuid "4854bf92-0d47-446d-9e58-5c37de5ce82a")
+		)
+		(pin "09"
+			(uuid "ae6e910f-3bef-4c32-9806-aaec94474aa3")
+		)
+		(pin "25"
+			(uuid "8c7de1be-763b-4e28-b24b-5ac8194c8273")
+		)
+		(pin "43"
+			(uuid "66b38539-34c8-4fd1-800d-f5bc47d61b5c")
+		)
+		(pin "13"
+			(uuid "8b578d33-6fa8-44b1-a86b-8e3ab04f2459")
+		)
+		(pin "39"
+			(uuid "f3939599-fa5c-493d-9e0d-0c202f5204e0")
+		)
+		(pin "47"
+			(uuid "701b779f-73b3-4b6c-80bd-6ef71338641d")
+		)
+		(pin "53"
+			(uuid "40a9868b-17af-43d9-b913-0cf921e2e1cf")
+		)
+		(pin "55"
+			(uuid "179d9493-665b-4bf8-b31a-0f836ee214a7")
+		)
+		(pin "57"
+			(uuid "b1186e26-0a00-457c-ae22-8a369c2a03c0")
+		)
+		(pin "02"
+			(uuid "c0b1473f-6cff-4849-857f-3803a8793ac7")
+		)
+		(pin "04"
+			(uuid "c2910bb6-579d-429a-b16b-ba0d68d8d43a")
+		)
+		(pin "14"
+			(uuid "1ae4f825-0d42-430f-bbf3-aec16a75342f")
+		)
+		(pin "06"
+			(uuid "a6f673ff-343f-4251-bad8-5fe1779c205c")
+		)
+		(pin "08"
+			(uuid "d92f9c80-0b1f-4827-94a8-feecf5e9ac2c")
+		)
+		(pin "37"
+			(uuid "b2ace75a-510f-4900-bd52-95ccc8552dc7")
+		)
+		(pin "16"
+			(uuid "a632b949-dcab-43de-846e-52c45de1082b")
+		)
+		(pin "45"
+			(uuid "6a5f120d-b68c-441a-b64e-f3b77688166d")
+		)
+		(pin "26"
+			(uuid "d3c2f797-cccd-4afc-a0bf-5ae5f1478016")
+		)
+		(pin "24"
+			(uuid "32ba1d67-7f17-42c9-be0d-7c551642177e")
+		)
+		(pin "44"
+			(uuid "5eac03fb-e7ea-4af9-8f35-845cae654372")
+		)
+		(pin "34"
+			(uuid "8338f410-6bd4-4e47-a9b6-65af51150a6e")
+		)
+		(pin "48"
+			(uuid "b7ada41d-41fe-4545-9925-969e13fb30d9")
+		)
+		(pin "46"
+			(uuid "19197b54-76cc-4284-bfca-ab4e212e0ab9")
+		)
+		(pin "22"
+			(uuid "0793bff1-d754-4af9-9afc-b32ce9008372")
+		)
+		(pin "32"
+			(uuid "c6b1413c-512b-428c-83dc-0c5c456bf189")
+		)
+		(pin "50"
+			(uuid "5e754d9a-f82a-4dcd-807f-34876111a217")
+		)
+		(pin "36"
+			(uuid "722b1f9d-04bc-47ed-aac7-0a46d13c9ad7")
+		)
+		(pin "54"
+			(uuid "75085b71-7ba8-475c-9f01-be967cbab46b")
+		)
+		(pin "28"
+			(uuid "9e3bca50-4685-49d4-b242-03ec5c6e6cd4")
+		)
+		(pin "38"
+			(uuid "c3f2e7ea-8fbb-42e1-a4ee-c8e46dfa126f")
+		)
+		(pin "56"
+			(uuid "102a33f8-1cc1-4175-b94a-d349d62fe96f")
+		)
+		(pin "58"
+			(uuid "fe56649b-fbcd-424c-9d00-1c24b178d522")
+		)
+		(pin "52"
+			(uuid "d268e3a9-c3f7-4560-b7c3-2e78ed89b43d")
+		)
+		(pin "60"
+			(uuid "256b5f9b-5949-4d94-990a-79720a4d493e")
+		)
+		(pin "30"
+			(uuid "09dba816-c432-45e1-85ab-8ef99cc983d2")
+		)
+		(pin "40"
+			(uuid "f1e38313-00ba-4ea4-8f44-572d23e34dcf")
+		)
+		(pin "42"
+			(uuid "fe4ef617-55f7-4e24-8c8a-28a9c24ee058")
+		)
+		(pin "20"
+			(uuid "fadaa7be-013f-4347-818c-540c310a7593")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 231.14 0)
+		(at 781.05 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3697,7 +5354,7 @@
 		(fields_autoplaced yes)
 		(uuid "723828c9-adb2-4a2a-b6ef-da10ba686ced")
 		(property "Reference" "H3"
-			(at 67.31 228.5999 0)
+			(at 783.59 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +5363,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 67.31 231.1399 0)
+			(at 783.59 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,8 +5371,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 64.77 231.14 0)
+		(property "Footprint" "0-lib:insert"
+			(at 781.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +5381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 231.14 0)
+			(at 781.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +5390,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 231.14 0)
+			(at 781.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +5412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 233.68 0)
+		(at 758.19 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3764,7 +5421,7 @@
 		(fields_autoplaced yes)
 		(uuid "752fb01e-48fd-45c0-8bd5-c816769ac2f1")
 		(property "Reference" "#PWR02"
-			(at 41.91 240.03 0)
+			(at 758.19 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +5430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 238.76 0)
+			(at 758.19 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +5438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 233.68 0)
+			(at 758.19 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +5447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 233.68 0)
+			(at 758.19 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +5456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 233.68 0)
+			(at 758.19 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,8 +5477,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 491.49 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ada5e9-7a49-4e9d-b217-152cf81ed889")
+		(property "Reference" "J16"
+			(at 491.49 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 491.49 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 491.49 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "d1a39985-471c-4659-8876-1b0152f674ed")
+		)
+		(pin "31"
+			(uuid "07079aad-67e6-4185-9c21-06fc8566d02a")
+		)
+		(pin "29"
+			(uuid "69c483c5-9c53-43dc-82fe-bbd27ee32e35")
+		)
+		(pin "01"
+			(uuid "aa930290-e12d-4228-bb04-1e031066dfd5")
+		)
+		(pin "07"
+			(uuid "f37cdd3a-b305-449d-ab18-486367bc077b")
+		)
+		(pin "11"
+			(uuid "01ef06ab-23b6-4788-86d3-303e64caca0b")
+		)
+		(pin "17"
+			(uuid "e33a8a2d-d379-4593-9e7f-17f4aab00c69")
+		)
+		(pin "21"
+			(uuid "d937d29c-d820-4a80-b517-da01c7b8b50c")
+		)
+		(pin "27"
+			(uuid "d3ab0fcf-d126-4e1b-b50d-3ad1a31c4a37")
+		)
+		(pin "03"
+			(uuid "b2191d23-6f96-47ef-9adc-72ed58050992")
+		)
+		(pin "19"
+			(uuid "ac0e68c1-72b8-4cc3-9ba0-dead72eb29b8")
+		)
+		(pin "33"
+			(uuid "3ead2b12-631b-4033-80f6-76b6d53bf44e")
+		)
+		(pin "35"
+			(uuid "eea5a6e9-69a6-4624-8b67-4716b79574e1")
+		)
+		(pin "23"
+			(uuid "16bd68b8-f205-4b82-bca0-c6cca9f7a724")
+		)
+		(pin "18"
+			(uuid "6a971b57-90fc-4b93-8c26-2e6a4807e4b1")
+		)
+		(pin "51"
+			(uuid "573e8592-ea4e-44eb-84ec-d5eddd14e1b4")
+		)
+		(pin "15"
+			(uuid "643eb580-4ea8-4519-950b-7503a04182b8")
+		)
+		(pin "49"
+			(uuid "b7693e94-4af0-4cff-b4c7-9bfbf6ffe236")
+		)
+		(pin "59"
+			(uuid "0cbb9c8a-247b-4885-92a1-c60e1b7018a8")
+		)
+		(pin "10"
+			(uuid "55ea2079-7e40-4738-bd2f-f8fe346388e3")
+		)
+		(pin "12"
+			(uuid "b68046c4-290b-44cf-a196-ce81390f76b5")
+		)
+		(pin "41"
+			(uuid "b8e3b302-b23b-4550-a72f-6dbf6e450726")
+		)
+		(pin "09"
+			(uuid "187cdcfa-c11c-40e9-94c6-cb5c178eac39")
+		)
+		(pin "25"
+			(uuid "b9b17a25-00d9-449c-82e0-626160680f6a")
+		)
+		(pin "43"
+			(uuid "e7b1374d-20b1-45c3-a1cf-c0b0430fe723")
+		)
+		(pin "13"
+			(uuid "7dd4f678-7624-455b-a021-4de0f3e4166b")
+		)
+		(pin "39"
+			(uuid "26d463fb-5ada-41b2-a199-4e0af4656fab")
+		)
+		(pin "47"
+			(uuid "9ae9a6f8-8e47-4968-ba72-bffd67528883")
+		)
+		(pin "53"
+			(uuid "1b6919e0-dee6-475c-877d-69221c8ea4f8")
+		)
+		(pin "55"
+			(uuid "13ae605b-579f-4aae-8633-18bfca4e39f0")
+		)
+		(pin "57"
+			(uuid "e228aa28-3157-4d7d-af0e-3880844c3796")
+		)
+		(pin "02"
+			(uuid "ba4e5a48-b359-45e0-b965-b0a691ff3bd7")
+		)
+		(pin "04"
+			(uuid "518c8f60-b191-41ef-afc1-d927f0524e53")
+		)
+		(pin "14"
+			(uuid "1bff9e41-1786-461d-9c92-a0b239da3fa0")
+		)
+		(pin "06"
+			(uuid "4370371d-2e9a-463d-b8d8-5af4dd58673b")
+		)
+		(pin "08"
+			(uuid "1a2e31ec-3170-42fc-a8fe-d11a213a3e9f")
+		)
+		(pin "37"
+			(uuid "f12d1fb8-df7c-40de-a49c-8c177dd51948")
+		)
+		(pin "16"
+			(uuid "ed81e054-c61f-4750-ab4d-7a96a33408cf")
+		)
+		(pin "45"
+			(uuid "8675bc6b-42ed-4823-9682-f2afaa9b0c42")
+		)
+		(pin "26"
+			(uuid "bc630062-135b-47eb-af53-48bcde2ee70a")
+		)
+		(pin "24"
+			(uuid "bae2d593-1f67-467b-8085-7ef38c11e648")
+		)
+		(pin "44"
+			(uuid "3379c06b-2030-49dc-a104-961726c29b6d")
+		)
+		(pin "34"
+			(uuid "d14d24d9-4b07-488d-9e8f-e586be216d46")
+		)
+		(pin "48"
+			(uuid "f39ca28b-171f-4f8e-ab45-0dfd08738498")
+		)
+		(pin "46"
+			(uuid "7184f888-72e4-42b6-bb75-512253d14807")
+		)
+		(pin "22"
+			(uuid "8857291e-8685-4e2c-be77-a38e1cf92fc2")
+		)
+		(pin "32"
+			(uuid "15484149-d94f-4cb2-95a0-c54e8d78a278")
+		)
+		(pin "50"
+			(uuid "7aea5c83-7fde-4563-92f5-3e46034d5da8")
+		)
+		(pin "36"
+			(uuid "8052f07c-0bd9-471e-b073-3182bbf59100")
+		)
+		(pin "54"
+			(uuid "ea596dfb-d08f-4c1b-ac73-53beeaa7f5df")
+		)
+		(pin "28"
+			(uuid "699b3f41-be03-4b51-8110-43180e0693c4")
+		)
+		(pin "38"
+			(uuid "06521166-4469-4468-a0e3-40bb029a11b5")
+		)
+		(pin "56"
+			(uuid "f5c6ac60-d284-42a8-a57e-5da5adce406d")
+		)
+		(pin "58"
+			(uuid "b327ef30-9c94-4f11-9cd1-ef7f98309644")
+		)
+		(pin "52"
+			(uuid "eeddbc43-eca7-4648-af24-688ef14dd523")
+		)
+		(pin "60"
+			(uuid "86465589-42ad-4380-8469-b36132fb5090")
+		)
+		(pin "30"
+			(uuid "b5ce8516-e545-4415-aba1-05145aefaaf4")
+		)
+		(pin "40"
+			(uuid "78f29d2d-ab69-41a1-ae3b-7d8073ed0015")
+		)
+		(pin "42"
+			(uuid "73be568b-ade8-4f1a-a063-debcf356d01e")
+		)
+		(pin "20"
+			(uuid "9884ff31-8a42-454c-b07c-a7c6a30924fc")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 246.38 0)
+		(at 781.05 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3830,7 +5770,7 @@
 		(fields_autoplaced yes)
 		(uuid "88668b08-9895-429c-8e9f-4509756f00a6")
 		(property "Reference" "H7"
-			(at 67.31 243.8399 0)
+			(at 783.59 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +5779,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 67.31 246.3799 0)
+			(at 783.59 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,8 +5787,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 64.77 246.38 0)
+		(property "Footprint" "0-lib:insert"
+			(at 781.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +5797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 246.38 0)
+			(at 781.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +5806,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 246.38 0)
+			(at 781.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +5828,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 260.35 0)
+		(at 781.05 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3897,7 +5837,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c3ebeee-f484-4fe3-9fef-e64a003a0517")
 		(property "Reference" "H11"
-			(at 67.31 257.8099 0)
+			(at 783.59 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +5846,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 67.31 260.3499 0)
+			(at 783.59 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,8 +5854,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 64.77 260.35 0)
+		(property "Footprint" "0-lib:insert"
+			(at 781.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +5864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 260.35 0)
+			(at 781.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +5873,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 260.35 0)
+			(at 781.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +5895,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 39.37 154.94 0)
+		(at 485.14 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3964,7 +5904,7 @@
 		(fields_autoplaced yes)
 		(uuid "923f80eb-2211-4e20-bb9c-094b7deb0336")
 		(property "Reference" "J7"
-			(at 39.37 111.76 0)
+			(at 485.14 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +5912,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 39.37 114.3 0)
+			(at 485.14 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +5920,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +5930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +5939,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +5948,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +5958,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +5968,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +5978,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 39.37 154.94 0)
+			(at 485.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +6178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 248.92 0)
+		(at 781.05 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4247,7 +6187,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ca714a-306c-4056-aff8-5ba06fcbce04")
 		(property "Reference" "#PWR07"
-			(at 64.77 255.27 0)
+			(at 781.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +6196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 254 0)
+			(at 781.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +6204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 248.92 0)
+			(at 781.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +6213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 248.92 0)
+			(at 781.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +6222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 248.92 0)
+			(at 781.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +6244,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 53.34 62.23 0)
+		(at 57.15 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4313,7 +6253,7 @@
 		(fields_autoplaced yes)
 		(uuid "94f47e9f-eca0-4b0b-aabf-927908719546")
 		(property "Reference" "J1"
-			(at 53.34 19.05 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +6261,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 53.34 21.59 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +6279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +6288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +6297,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +6307,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +6317,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +6327,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 53.34 62.23 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,8 +6526,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 101.6 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fdf656-62a7-4a3d-ad6f-6e441cad6baa")
+		(property "Reference" "J11"
+			(at 101.6 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 101.6 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 101.6 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "34f69409-4ca9-40ef-9570-4ddd810cd98e")
+		)
+		(pin "31"
+			(uuid "324f6394-f19e-4f39-843f-84ad116d415d")
+		)
+		(pin "29"
+			(uuid "dba819d5-fc1d-48df-bd5d-bfa5deeb1582")
+		)
+		(pin "01"
+			(uuid "0fb2e343-8ad8-451b-8de1-c396672ad4a9")
+		)
+		(pin "07"
+			(uuid "8c217207-26c0-41e3-8a82-cb4798f551f2")
+		)
+		(pin "11"
+			(uuid "b35bfc99-552e-4b54-968f-87deeea581bd")
+		)
+		(pin "17"
+			(uuid "adaff2cb-cc2c-4a24-9f58-2342052b29e8")
+		)
+		(pin "21"
+			(uuid "a8db8e2e-1729-4c0d-b069-628c202a00a8")
+		)
+		(pin "27"
+			(uuid "eef60039-7c36-435a-920a-80a99eb47f28")
+		)
+		(pin "03"
+			(uuid "0a95694b-0dce-4e8f-bd5a-98c310c07b24")
+		)
+		(pin "19"
+			(uuid "f4acdaa7-3d72-4588-899b-f7a0073f828b")
+		)
+		(pin "33"
+			(uuid "5c3bc1d6-121f-4378-9530-8002306c632b")
+		)
+		(pin "35"
+			(uuid "f25aab34-2acc-4cc9-a623-cf0a05484f7c")
+		)
+		(pin "23"
+			(uuid "4ea25bde-5fcd-402b-a87f-eaa4a6841b7e")
+		)
+		(pin "18"
+			(uuid "e5a236c6-ef46-4463-baaa-b2b62abbd5e6")
+		)
+		(pin "51"
+			(uuid "35f01b0e-9bc1-4052-905f-165e64facb42")
+		)
+		(pin "15"
+			(uuid "8a7e1441-ead7-4abf-9c37-1df348535e1e")
+		)
+		(pin "49"
+			(uuid "831f0716-a0e3-4114-9e01-c723bf324359")
+		)
+		(pin "59"
+			(uuid "a943850c-f613-471b-bc35-e24880c1450f")
+		)
+		(pin "10"
+			(uuid "36e5163b-85e6-44d8-8a8d-de57007cc2cd")
+		)
+		(pin "12"
+			(uuid "0732d8d6-0fe2-4aa9-9b6e-85b606cb2744")
+		)
+		(pin "41"
+			(uuid "2da365fe-3835-4f6a-86d5-8eaa306308f0")
+		)
+		(pin "09"
+			(uuid "10ef736b-27e1-4562-99e1-09c405a2c143")
+		)
+		(pin "25"
+			(uuid "d05d6d3c-8b43-4c2f-b2cb-939d4b659605")
+		)
+		(pin "43"
+			(uuid "df838d11-e757-4484-ba27-c0d5b7ea1b2c")
+		)
+		(pin "13"
+			(uuid "c97c10c2-2121-468c-ac03-c5615b82c067")
+		)
+		(pin "39"
+			(uuid "a477c099-3330-4588-8970-98af1d7e2306")
+		)
+		(pin "47"
+			(uuid "3d601374-9e9b-4913-8846-cd9157767e57")
+		)
+		(pin "53"
+			(uuid "a0b797f0-f349-4d8b-9679-65c5861fa3ef")
+		)
+		(pin "55"
+			(uuid "46064a8e-d9da-4217-a610-fbc1e93cf5b2")
+		)
+		(pin "57"
+			(uuid "e338ef65-bdca-4551-b6d9-b8881222b6bc")
+		)
+		(pin "02"
+			(uuid "5c642dfe-988e-4b63-ad9f-dea4420cc4d7")
+		)
+		(pin "04"
+			(uuid "6d4ce64a-6978-4e64-9bbb-b0f9572aa9e5")
+		)
+		(pin "14"
+			(uuid "e1ee73e1-9c43-469f-bc6c-2f4560b22231")
+		)
+		(pin "06"
+			(uuid "17b74e88-ae67-4964-8152-2dba476e8553")
+		)
+		(pin "08"
+			(uuid "a0362609-102c-4f98-a623-39719be266dd")
+		)
+		(pin "37"
+			(uuid "c018ef8c-83da-4de7-97a5-57fd74aad1b5")
+		)
+		(pin "16"
+			(uuid "7f9c380e-150d-4705-bde8-ed07d538fc0d")
+		)
+		(pin "45"
+			(uuid "9ac55272-ba5e-446e-9d8b-5425a318000e")
+		)
+		(pin "26"
+			(uuid "fb36e210-378e-4af7-b5c6-1cdc3e0eecce")
+		)
+		(pin "24"
+			(uuid "ec18b67d-3637-4ad2-889b-2902c91d67f4")
+		)
+		(pin "44"
+			(uuid "1f1fe41f-80d2-43bc-9fd3-55ffe4e374d2")
+		)
+		(pin "34"
+			(uuid "9e8a0d0c-36ce-4c0a-98e7-a400b8efb33c")
+		)
+		(pin "48"
+			(uuid "e2cf75a8-a196-46cd-a4f2-1531588ee841")
+		)
+		(pin "46"
+			(uuid "e8f816d4-8c40-4673-859a-901ac772bc2a")
+		)
+		(pin "22"
+			(uuid "d5d22469-30aa-4a4c-8944-001ae9830b94")
+		)
+		(pin "32"
+			(uuid "4140b956-9118-456b-8692-078d05acd00c")
+		)
+		(pin "50"
+			(uuid "b28ea21b-07b6-4311-a441-0356a3ee9065")
+		)
+		(pin "36"
+			(uuid "b0e7906b-5d91-49f0-b744-8d7cb90d9957")
+		)
+		(pin "54"
+			(uuid "8ccfd167-b23b-4514-a928-becc9c80476f")
+		)
+		(pin "28"
+			(uuid "c231a7cc-a49e-4c80-9481-01e7a1c3b791")
+		)
+		(pin "38"
+			(uuid "625a362c-2326-4e62-8eee-c38629754314")
+		)
+		(pin "56"
+			(uuid "804fc5de-0a32-4f83-a021-c294aaee34d6")
+		)
+		(pin "58"
+			(uuid "df395cb3-ac2a-4f7b-8c60-c5234635456e")
+		)
+		(pin "52"
+			(uuid "e8be9996-4329-4907-a677-daa87a1cd0ff")
+		)
+		(pin "60"
+			(uuid "ab22707c-e359-469e-afa6-c19b6fd7c737")
+		)
+		(pin "30"
+			(uuid "7fb04d4d-090b-4276-bf30-5c3eec9262cb")
+		)
+		(pin "40"
+			(uuid "36ad7606-add8-4291-bf19-5ec5dc2d239f")
+		)
+		(pin "42"
+			(uuid "8308db2b-8655-4369-8582-aba2e6f0465d")
+		)
+		(pin "20"
+			(uuid "ba273d00-2d67-4ebb-9b72-e8ba9851f7ad")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 17.78 248.92 0)
+		(at 734.06 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4596,7 +6819,7 @@
 		(fields_autoplaced yes)
 		(uuid "af57dfca-8f46-48ef-b556-2d451d9d209d")
 		(property "Reference" "#PWR05"
-			(at 17.78 255.27 0)
+			(at 734.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +6828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 254 0)
+			(at 734.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +6836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 248.92 0)
+			(at 734.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +6845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 248.92 0)
+			(at 734.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +6854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 248.92 0)
+			(at 734.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +6876,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 260.35 0)
+		(at 758.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4662,7 +6885,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2918d3c-9e2c-44e5-a8d6-05b2e86e96ff")
 		(property "Reference" "H10"
-			(at 44.45 257.8099 0)
+			(at 760.73 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +6894,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 44.45 260.3499 0)
+			(at 760.73 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,8 +6902,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 41.91 260.35 0)
+		(property "Footprint" "0-lib:insert"
+			(at 758.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 260.35 0)
+			(at 758.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +6921,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 41.91 260.35 0)
+			(at 758.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +6943,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 274.32 0)
+		(at 781.05 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4729,7 +6952,7 @@
 		(fields_autoplaced yes)
 		(uuid "bda31969-2356-4409-930f-50b97b783063")
 		(property "Reference" "H15"
-			(at 67.31 271.7799 0)
+			(at 783.59 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +6961,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 67.31 274.3199 0)
+			(at 783.59 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,8 +6969,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 64.77 274.32 0)
+		(property "Footprint" "0-lib:insert"
+			(at 781.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +6979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 274.32 0)
+			(at 781.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +6988,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 274.32 0)
+			(at 781.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 276.86 0)
+		(at 803.91 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +7019,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3b8702-2007-4d47-940a-a51d02e3a992")
 		(property "Reference" "#PWR016"
-			(at 87.63 283.21 0)
+			(at 803.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +7028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 281.94 0)
+			(at 803.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +7036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 276.86 0)
+			(at 803.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +7045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 276.86 0)
+			(at 803.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 276.86 0)
+			(at 803.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +7076,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 17.78 274.32 0)
+		(at 734.06 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4862,7 +7085,7 @@
 		(fields_autoplaced yes)
 		(uuid "bff199ef-6470-4545-b43a-3cc5b6fd35ad")
 		(property "Reference" "H13"
-			(at 20.32 271.7799 0)
+			(at 736.6 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +7094,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 20.32 274.3199 0)
+			(at 736.6 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,8 +7102,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 17.78 274.32 0)
+		(property "Footprint" "0-lib:insert"
+			(at 734.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +7112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 274.32 0)
+			(at 734.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +7121,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 17.78 274.32 0)
+			(at 734.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +7143,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 231.14 0)
+		(at 758.19 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4929,7 +7152,7 @@
 		(fields_autoplaced yes)
 		(uuid "c609af6c-183f-49c5-b5d8-973a56adede2")
 		(property "Reference" "H2"
-			(at 44.45 228.5999 0)
+			(at 760.73 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +7161,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 44.45 231.1399 0)
+			(at 760.73 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,8 +7169,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 41.91 231.14 0)
+		(property "Footprint" "0-lib:insert"
+			(at 758.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 231.14 0)
+			(at 758.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +7188,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 41.91 231.14 0)
+			(at 758.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +7210,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 388.62 67.31 180)
+		(at 398.78 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4996,7 +7219,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7aa8e78-cc19-4dc9-8dc9-602b5c726dbe")
 		(property "Reference" "J6"
-			(at 388.62 21.59 0)
+			(at 398.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +7227,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 388.62 24.13 0)
+			(at 398.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +7235,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +7245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +7254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +7263,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +7273,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +7283,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +7293,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 388.62 67.31 0)
+			(at 398.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,8 +7492,291 @@
 		)
 	)
 	(symbol
+		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
+		(at 429.26 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca640f53-2dc8-4fcd-9f74-3aa9d6185c0b")
+		(property "Reference" "J14"
+			(at 429.26 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
+			(at 429.26 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 429.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "956024ea-43de-4e22-888d-e1f30d40e628")
+		)
+		(pin "31"
+			(uuid "54f6f1b1-9608-45b8-903f-09d1b08c20d1")
+		)
+		(pin "29"
+			(uuid "fdfa1c6d-6c92-405c-a41b-4f10a617d132")
+		)
+		(pin "01"
+			(uuid "93180e73-a451-413a-8426-aa925daf5f4d")
+		)
+		(pin "07"
+			(uuid "eb58ebee-2fcb-466c-8e61-f577660bea44")
+		)
+		(pin "11"
+			(uuid "8d0cbb4b-5681-4442-b333-45f8a7400b61")
+		)
+		(pin "17"
+			(uuid "2626eb6d-ad69-412b-b8b1-0604420bb979")
+		)
+		(pin "21"
+			(uuid "00086e81-1d7b-4f8c-a5a1-8ed2f4dab9ae")
+		)
+		(pin "27"
+			(uuid "bc9424d5-f418-4d89-bc5f-5abd52b7811b")
+		)
+		(pin "03"
+			(uuid "fa8910ca-0e70-479b-a457-acdcbd9868b5")
+		)
+		(pin "19"
+			(uuid "b56551d5-90d7-427d-bab9-796f29e0a6d8")
+		)
+		(pin "33"
+			(uuid "2ea5752f-7fa7-4ba5-a7a5-eb5cc5472590")
+		)
+		(pin "35"
+			(uuid "107468b6-6760-4b58-817c-5e185715e01f")
+		)
+		(pin "23"
+			(uuid "43efa4d1-2d8a-4456-ab22-752a3fdfc4af")
+		)
+		(pin "18"
+			(uuid "598174fc-4ccb-4235-8cd4-392a435fa07e")
+		)
+		(pin "51"
+			(uuid "c2f1f6fc-c406-4119-8947-f3fc5a8e76b2")
+		)
+		(pin "15"
+			(uuid "00450ec5-c4ee-4484-af18-6f3cf574776e")
+		)
+		(pin "49"
+			(uuid "756a311f-de92-402c-94c6-503a5cdd27e5")
+		)
+		(pin "59"
+			(uuid "68a65fc4-3f7b-4c23-a9f3-69d91de9256a")
+		)
+		(pin "10"
+			(uuid "ac662c0b-fe38-4d63-8509-fd1412e72dac")
+		)
+		(pin "12"
+			(uuid "593daf28-ae37-4210-82f8-f3b4ebbe9f03")
+		)
+		(pin "41"
+			(uuid "648696ed-c147-4663-bc2b-3ba75f8bdee1")
+		)
+		(pin "09"
+			(uuid "c0bf9873-183b-491b-9083-fe9de3039b7f")
+		)
+		(pin "25"
+			(uuid "4e4a5627-939e-4b0c-bd4a-5767f03126fc")
+		)
+		(pin "43"
+			(uuid "61ff50f9-ec63-4556-a7c9-b35e8aab8dbc")
+		)
+		(pin "13"
+			(uuid "aa68d686-7eeb-485b-8a7d-40a979abc613")
+		)
+		(pin "39"
+			(uuid "e8b49dde-924f-4cb6-81a2-8109d0efaddb")
+		)
+		(pin "47"
+			(uuid "c94713ec-3039-47ee-b2c9-afe1c257a9fb")
+		)
+		(pin "53"
+			(uuid "972c4d85-66e4-4071-a6a4-c683921ffaee")
+		)
+		(pin "55"
+			(uuid "12028bc5-e25d-4b2e-9450-b012301c3dd6")
+		)
+		(pin "57"
+			(uuid "e2f3c3fa-b1e5-489c-8482-25311fdb30dd")
+		)
+		(pin "02"
+			(uuid "a37f2dcc-363c-41b3-8019-4682cf65455e")
+		)
+		(pin "04"
+			(uuid "b3c8f352-9d4b-4708-9b7e-e78ba1a40930")
+		)
+		(pin "14"
+			(uuid "aa4a3388-0158-4448-a72d-b0d6ff6f5ba8")
+		)
+		(pin "06"
+			(uuid "0aaf8043-e0de-49b0-ac92-317f8ff8eb5d")
+		)
+		(pin "08"
+			(uuid "60d140b0-3ffc-435c-875f-8e2e8fff6012")
+		)
+		(pin "37"
+			(uuid "c0367cc3-baff-4fb2-bc9a-b700aecfc1f7")
+		)
+		(pin "16"
+			(uuid "51c89f44-2b62-4e80-a854-2b0633e32cad")
+		)
+		(pin "45"
+			(uuid "0b050d23-11af-4636-9686-028eaba8096a")
+		)
+		(pin "26"
+			(uuid "a1a2f217-95ac-48ac-9f6c-ba11f4b045ba")
+		)
+		(pin "24"
+			(uuid "7f5c08ec-1eec-44d6-984a-16cb3bb41141")
+		)
+		(pin "44"
+			(uuid "4146396f-87a6-4746-9786-8ab008ae9d6f")
+		)
+		(pin "34"
+			(uuid "6fe5cf84-2fd7-46e4-b91c-ea671cccd40d")
+		)
+		(pin "48"
+			(uuid "09713056-e14c-4661-9f4a-cb46b3f34007")
+		)
+		(pin "46"
+			(uuid "9c6b2075-02a2-4e5a-a8a6-bd88fedf6caa")
+		)
+		(pin "22"
+			(uuid "d685df8b-56cf-4c9d-a061-61b1249e0eeb")
+		)
+		(pin "32"
+			(uuid "57338ca2-f2eb-4d90-b0d4-ba9448cb2c10")
+		)
+		(pin "50"
+			(uuid "aff8e123-d7fb-449c-8b32-3e57e27052e0")
+		)
+		(pin "36"
+			(uuid "4c356e81-fc83-428c-862c-a35f5fb9c497")
+		)
+		(pin "54"
+			(uuid "5e6b37da-2c64-4a2e-8465-4abcc6768a89")
+		)
+		(pin "28"
+			(uuid "e55bd34f-8fb8-4216-9d86-288cf61af6e6")
+		)
+		(pin "38"
+			(uuid "5a8adfd0-0af4-4384-b303-e0388fd51aa8")
+		)
+		(pin "56"
+			(uuid "94391767-10ee-445a-a70d-8ffec6022f29")
+		)
+		(pin "58"
+			(uuid "ab1e0bad-fb0b-4014-b162-8e45c85f278a")
+		)
+		(pin "52"
+			(uuid "aea160d8-68b4-417a-a87d-1ac85dceb9a0")
+		)
+		(pin "60"
+			(uuid "0406ded8-32fc-41d1-b5fd-322bd83cc6e7")
+		)
+		(pin "30"
+			(uuid "60aac353-16a1-4afd-bc8a-bfded978cdfd")
+		)
+		(pin "40"
+			(uuid "13ec5d81-a391-4886-ab78-05a6aed67eae")
+		)
+		(pin "42"
+			(uuid "19e30b2d-8cdf-415f-8fa7-d59c1fec8a54")
+		)
+		(pin "20"
+			(uuid "9bf65c3a-44e8-46e2-8ba4-297fca7efcd8")
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 87.63 262.89 0)
+		(at 803.91 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5279,7 +7785,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3d2e1d3-8556-47fe-9f39-04ec4e490539")
 		(property "Reference" "#PWR012"
-			(at 87.63 269.24 0)
+			(at 803.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +7794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 267.97 0)
+			(at 803.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +7802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 262.89 0)
+			(at 803.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 262.89 0)
+			(at 803.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +7820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 262.89 0)
+			(at 803.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +7842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 233.68 0)
+		(at 781.05 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5345,7 +7851,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee2d12b3-429c-43ff-a279-287464b2d060")
 		(property "Reference" "#PWR03"
-			(at 64.77 240.03 0)
+			(at 781.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +7860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 238.76 0)
+			(at 781.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +7868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 233.68 0)
+			(at 781.05 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +7877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 233.68 0)
+			(at 781.05 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +7886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 233.68 0)
+			(at 781.05 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +7908,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 274.32 0)
+		(at 758.19 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5411,7 +7917,7 @@
 		(fields_autoplaced yes)
 		(uuid "f04afd2b-0c00-4500-8ddd-c57d93b2e320")
 		(property "Reference" "H14"
-			(at 44.45 271.7799 0)
+			(at 760.73 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +7926,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 44.45 274.3199 0)
+			(at 760.73 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,8 +7934,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 41.91 274.32 0)
+		(property "Footprint" "0-lib:insert"
+			(at 758.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +7944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 274.32 0)
+			(at 758.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +7953,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 41.91 274.32 0)
+			(at 758.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +7975,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 262.89 0)
+		(at 734.06 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5478,7 +7984,7 @@
 		(fields_autoplaced yes)
 		(uuid "f940d034-6370-4be5-9aac-345f615a1cb8")
 		(property "Reference" "#PWR09"
-			(at 17.78 269.24 0)
+			(at 734.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +7993,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 267.97 0)
+			(at 734.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +8001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 262.89 0)
+			(at 734.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +8010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 262.89 0)
+			(at 734.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +8019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 262.89 0)
+			(at 734.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +8041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 276.86 0)
+		(at 758.19 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5544,7 +8050,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb024064-88aa-4ddd-9fbe-a85998f637f9")
 		(property "Reference" "#PWR014"
-			(at 41.91 283.21 0)
+			(at 758.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +8059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 281.94 0)
+			(at 758.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +8067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 276.86 0)
+			(at 758.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +8076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 276.86 0)
+			(at 758.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +8085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 276.86 0)
+			(at 758.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +8107,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 17.78 246.38 0)
+		(at 734.06 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5610,7 +8116,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcd90677-8a37-4554-b9b9-bf6629e9530f")
 		(property "Reference" "H5"
-			(at 20.32 243.8399 0)
+			(at 736.6 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +8125,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 20.32 246.3799 0)
+			(at 736.6 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,8 +8133,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 17.78 246.38 0)
+		(property "Footprint" "0-lib:insert"
+			(at 734.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +8143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 246.38 0)
+			(at 734.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +8152,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 17.78 246.38 0)
+			(at 734.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +8174,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 87.63 246.38 0)
+		(at 803.91 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5677,7 +8183,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd333d1a-f03b-4d5b-b1f7-7655c6424d6d")
 		(property "Reference" "H8"
-			(at 90.17 243.8399 0)
+			(at 806.45 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +8192,7 @@
 			)
 		)
 		(property "Value" "SMTSO-M1.6-1ET"
-			(at 90.17 246.3799 0)
+			(at 806.45 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,8 +8200,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 87.63 246.38 0)
+		(property "Footprint" "0-lib:insert"
+			(at 803.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +8210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 246.38 0)
+			(at 803.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +8219,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 87.63 246.38 0)
+			(at 803.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +8241,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 262.89 0)
+		(at 781.05 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5744,7 +8250,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff96b623-25c5-45ba-b4fe-343aff505a2b")
 		(property "Reference" "#PWR011"
-			(at 64.77 269.24 0)
+			(at 781.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +8259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 267.97 0)
+			(at 781.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +8267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 262.89 0)
+			(at 781.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +8276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 262.89 0)
+			(at 781.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +8285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 262.89 0)
+			(at 781.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

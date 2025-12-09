@@ -1,0 +1,246 @@
+(footprint "insert"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c360da76-65b2-4322-bd8c-e0d698b1d88a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "insert"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80e4e7bd-5ce5-4333-be4c-4af4d0d8a3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc3e949e-00b4-4343-acba-573a6440021b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1aeeff3-c669-465c-8062-64cd997c474b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.72 0)
+		(end -1.44 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "38a19bcc-e17d-4620-b798-a13378f05711")
+	)
+	(fp_circle
+		(center -1.391509 -1.010991)
+		(end -1.111509 -1.010991)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "f3254783-c5c0-4d86-bdb8-e09292797a4c")
+	)
+	(fp_circle
+		(center -1.391509 1.010991)
+		(end -1.111509 1.010991)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d2d51eb2-2a8b-43ff-925e-2757cc581172")
+	)
+	(fp_circle
+		(center -0.531509 -1.635817)
+		(end -0.251509 -1.635817)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "aaa35dc6-82e4-44d6-82a7-5742c5966dee")
+	)
+	(fp_circle
+		(center -0.531509 1.635817)
+		(end -0.251509 1.635817)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "5b709b65-aff9-4720-86ef-1a8a345b3460")
+	)
+	(fp_circle
+		(center 0.531509 -1.635817)
+		(end 0.811509 -1.635817)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "5223420d-454e-4bd7-91b5-ab2b4b80d955")
+	)
+	(fp_circle
+		(center 0.531509 1.635817)
+		(end 0.811509 1.635817)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d330646d-c88f-490b-b5ff-6cf53fcd6746")
+	)
+	(fp_circle
+		(center 1.391509 -1.010991)
+		(end 1.671509 -1.010991)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "dc96fecb-53f5-4b4f-a500-67dbb7a21ae7")
+	)
+	(fp_circle
+		(center 1.391509 1.010991)
+		(end 1.671509 1.010991)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "987e211d-f417-4ad4-8f1b-a5c866e49f13")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "80c61484-840c-4d62-8d4c-f73886509fdc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32cc3c05-da1e-490e-b2fa-37575074fa66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 1.72 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -1.72 0)
+				(end 0 0)
+				(width 0.845)
+				(fill no)
+			)
+		)
+		(uuid "2351038b-3f02-41a9-9a27-1eae88c1789b")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "97c9b0b0-d46a-4ec2-822b-56cb2fa2c657")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -1.301512 0)
+					(mid 1.301512 0)
+					(end -1.301512 0)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/SMTSO-M1.6-2ET.STEP"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
