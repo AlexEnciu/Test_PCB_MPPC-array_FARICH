@@ -1367,6 +1367,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 72.39 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc03c88-0ce8-4656-8e30-4600610a06ea")
+		(property "Reference" "J20"
+			(at 71.8704 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "60612202111307"
+			(at 71.8704 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54fd7c84-bed0-40b8-83c0-b8b58844b267")
+		)
+		(pin "1"
+			(uuid "88655daa-35d4-4851-b474-cd39a2d2c07f")
+		)
+		(instances
+			(project ""
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d/2f51ce8a-6831-403a-819e-2c739fb15ce3"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "0-lib:430450200")
@@ -1933,58 +2162,58 @@
 			)
 		)
 		(pin "SH1"
-			(uuid "9732f938-a02d-4b69-864d-d8c6b41de78e")
+			(uuid "9732f938-a02d-4b69-864d-d8c6b41de78f")
 		)
 		(pin "2_8"
-			(uuid "96781413-1a4b-4d88-8efd-6c734063acff")
+			(uuid "96781413-1a4b-4d88-8efd-6c734063ad00")
 		)
 		(pin "2_7"
-			(uuid "e147135d-7541-403b-b889-310300be20b8")
+			(uuid "e147135d-7541-403b-b889-310300be20b9")
 		)
 		(pin "2_6"
-			(uuid "a84299bb-1256-422e-9259-2d6786a38681")
+			(uuid "a84299bb-1256-422e-9259-2d6786a38682")
 		)
 		(pin "2_5"
-			(uuid "c83b903f-c55a-44ca-8c49-94f8edf252d0")
+			(uuid "c83b903f-c55a-44ca-8c49-94f8edf252d1")
 		)
 		(pin "2_4"
-			(uuid "d9dba3af-e551-4131-bb30-95265445e7b1")
+			(uuid "d9dba3af-e551-4131-bb30-95265445e7b2")
 		)
 		(pin "2_3"
-			(uuid "4de97090-66b5-4492-92f8-17bf297e362c")
+			(uuid "4de97090-66b5-4492-92f8-17bf297e362d")
 		)
 		(pin "2_2"
-			(uuid "8c5307b5-67b1-4a81-9ecd-ba39174aacd4")
+			(uuid "8c5307b5-67b1-4a81-9ecd-ba39174aacd5")
 		)
 		(pin "2_1"
-			(uuid "d03c2a34-6d52-4c59-980a-b91622418395")
+			(uuid "d03c2a34-6d52-4c59-980a-b91622418396")
 		)
 		(pin "SH2"
-			(uuid "65262cea-ac8b-4f00-82dd-af8ae82d2ac5")
+			(uuid "65262cea-ac8b-4f00-82dd-af8ae82d2ac6")
 		)
 		(pin "1_5"
-			(uuid "38256043-6fb0-44d6-b2a8-b5a67fbde290")
+			(uuid "38256043-6fb0-44d6-b2a8-b5a67fbde291")
 		)
 		(pin "1_6"
-			(uuid "5943665e-c7ff-483c-b120-681b6e4289a4")
+			(uuid "5943665e-c7ff-483c-b120-681b6e4289a5")
 		)
 		(pin "1_2"
-			(uuid "fb4329c5-4456-41af-ac2d-6ab5bfd36267")
+			(uuid "fb4329c5-4456-41af-ac2d-6ab5bfd36268")
 		)
 		(pin "1_1"
-			(uuid "5414403c-3fdb-4682-89e5-2a9b34333fa6")
+			(uuid "5414403c-3fdb-4682-89e5-2a9b34333fa7")
 		)
 		(pin "1_4"
-			(uuid "1d90dc31-1b0f-4003-84bf-08a9c307abc8")
+			(uuid "1d90dc31-1b0f-4003-84bf-08a9c307abc9")
 		)
 		(pin "1_7"
-			(uuid "0ae68139-2112-42ff-ac61-99958e9d3523")
+			(uuid "0ae68139-2112-42ff-ac61-99958e9d3524")
 		)
 		(pin "1_8"
-			(uuid "345098e2-e72e-401e-9124-3a48bd04ee89")
+			(uuid "345098e2-e72e-401e-9124-3a48bd04ee8a")
 		)
 		(pin "1_3"
-			(uuid "db5a594b-faf7-49b1-9de8-0b3634b0ff74")
+			(uuid "db5a594b-faf7-49b1-9de8-0b3634b0ff75")
 		)
 		(instances
 			(project ""
