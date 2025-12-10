@@ -1555,7 +1555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0-lib:60612202111307"
 			(at 72.39 170.18 0)
 			(effects
 				(font
