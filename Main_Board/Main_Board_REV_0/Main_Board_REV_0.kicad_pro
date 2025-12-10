@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
+          "drill": 0.0,
           "height": 4.19,
           "width": 4.19
         },
@@ -613,6 +613,10 @@
     [
       "7125c2d5-be96-492e-8b70-c56cceaf676d",
       "Root"
+    ],
+    [
+      "2f51ce8a-6831-403a-819e-2c739fb15ce3",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}

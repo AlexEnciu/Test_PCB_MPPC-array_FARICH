@@ -8305,6 +8305,50 @@
 			)
 		)
 	)
+	(sheet
+		(at 15.24 438.15)
+		(size 187.96 130.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f51ce8a-6831-403a-819e-2c739fb15ce3")
+		(property "Sheetname" "Microcontroller"
+			(at 66.802 506.222 0)
+			(effects
+				(font
+					(size 7.62 7.62)
+					(thickness 1.524)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 15.24 569.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Main_Board_REV_0"
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
