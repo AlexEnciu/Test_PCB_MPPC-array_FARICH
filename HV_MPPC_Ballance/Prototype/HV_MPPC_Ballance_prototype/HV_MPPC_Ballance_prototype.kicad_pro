@@ -48,10 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -62,11 +68,11 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -99,7 +105,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -113,7 +119,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zones_intersect": "error"
+        "zones_intersect": "ignore"
       },
       "rules": {
         "max_error": 0.005,
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -616,7 +634,35 @@
     ],
     [
       "3b26b1b8-e567-4cdb-8eff-de9f02c7f279",
-      "1ch_LTC6090"
+      "1Ch_LTC6090"
+    ],
+    [
+      "be833281-099c-4473-a347-be28d76f2bbe",
+      "1Ch_LTC6091"
+    ],
+    [
+      "2463734a-45ad-4f9c-a070-34015b2dbae7",
+      "1Ch_LTC6092"
+    ],
+    [
+      "eaf285c7-b723-48a2-8ec1-1693ca0cd366",
+      "1Ch_LTC6093"
+    ],
+    [
+      "a7f17f6b-c5b0-4cfe-8424-8d8ae759f741",
+      "1Ch_LTC6094"
+    ],
+    [
+      "9b906ddf-227e-4261-9929-4c29d47286fd",
+      "1Ch_LTC6095"
+    ],
+    [
+      "8bdf8c4a-c4ba-4e81-a0ba-eda3b094936d",
+      "1Ch_LTC6096"
+    ],
+    [
+      "a7c4e88f-b82f-4874-beb8-a0ca288714da",
+      "1Ch_LTC6097"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,58 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b57b15c3-de3f-4cb9-ac5a-185df551189c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 66.04 36.83)
+		(size 50.8 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ff40e1b-903c-4f5b-99b9-9e04fcab2caf")
+		(property "Sheetname" "Microcontroller"
+			(at 76.2 80.264 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32L476RET6.kicad_sch"
+			(at 66.04 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_RS485_I2C"
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
