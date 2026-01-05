@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 165.1 50.8)
+		(size 41.91 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "090a6cf4-c925-4f95-9a98-70efb2d77aa1")
+		(property "Sheetname" "Untitled Sheet"
+			(at 165.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1_ch_ltc6090.kicad_sch"
+			(at 165.1 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_RS485_I2C"
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 66.04 36.83)
 		(size 50.8 82.55)
 		(exclude_from_sim no)

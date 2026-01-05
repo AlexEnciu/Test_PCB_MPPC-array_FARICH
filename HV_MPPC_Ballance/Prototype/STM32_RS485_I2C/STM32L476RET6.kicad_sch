@@ -2769,7 +2769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Resistor"
 			(at 37.592 55.88 90)
 			(effects
 				(font
@@ -2972,7 +2972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 70.8152 31.75 0)
 			(effects
 				(font
@@ -3241,7 +3241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 83.5152 31.75 0)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 58.1152 31.75 0)
 			(effects
 				(font
@@ -3636,7 +3636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 89.8652 31.75 0)
 			(effects
 				(font
@@ -3838,7 +3838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 77.1652 31.75 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Capacitor"
 			(at 64.4652 31.75 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "0_lib:0402_density_C_Resistor"
 			(at 43.942 69.85 90)
 			(effects
 				(font
