@@ -671,7 +671,7 @@
 		(uuid "535194c8-6b8d-43f9-bfbb-bd9017b9664c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/SO-8_S_LIT.step"
+	(model "${KIPRJMOD}/lib/0_lib.pretty/SO-8_S_LIT.step"
 		(offset
 			(xyz 0 0 0)
 		)

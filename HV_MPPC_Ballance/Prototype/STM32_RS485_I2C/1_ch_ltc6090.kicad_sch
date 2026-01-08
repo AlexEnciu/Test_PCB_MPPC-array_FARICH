@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "b1fbeafd-c21a-4cce-b2f7-22e79eb1d426")
 	(paper "A4")
+	(title_block
+		(title "HV Control")
+	)
 	(lib_symbols
 		(symbol "0_lib:LTC6090CS8E-5-PBF"
 			(pin_names
