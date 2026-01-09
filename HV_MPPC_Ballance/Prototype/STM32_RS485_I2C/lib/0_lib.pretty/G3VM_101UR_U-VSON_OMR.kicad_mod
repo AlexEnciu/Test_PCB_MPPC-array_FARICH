@@ -1,0 +1,226 @@
+(footprint "G3VM_101UR_U-VSON_OMR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "G3VM-101UR ")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a88a2f10-782b-4362-a431-1e8aa32bca34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "U-VSON_OMR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12062bef-f3a5-4305-93a0-8e8d417b7edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dad9bf08-b834-4856-bb8f-033bfe8ff1b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "417f2f42-54d0-4a90-b95f-1e32d9d98f4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.093243 0.852)
+		(end 0.093243 0.852)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b704064-f157-4056-af12-b64078e067ba")
+	)
+	(fp_line
+		(start 0.093243 -0.852)
+		(end -0.093243 -0.852)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4316b62e-7c4d-482b-ae72-9395ea15a35e")
+	)
+	(fp_line
+		(start -2.004 -0.979)
+		(end 2.004 -0.979)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5516f8a8-ddca-49f4-b837-b167b3cbd5c5")
+	)
+	(fp_line
+		(start -2.004 0.979)
+		(end -2.004 -0.979)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32c12915-1326-4326-93b3-35805ef3541c")
+	)
+	(fp_line
+		(start 2.004 -0.979)
+		(end 2.004 0.979)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9d0e684-8ee5-41ec-9f3b-7bcad73f165d")
+	)
+	(fp_line
+		(start 2.004 0.979)
+		(end -2.004 0.979)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8793e0d-79b4-416f-825b-5214373c9617")
+	)
+	(fp_line
+		(start -1.225 -0.725)
+		(end -1.225 0.725)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ee2b56a-fccd-477b-a31d-c7cdd6bc7d2d")
+	)
+	(fp_line
+		(start -1.225 0.725)
+		(end 1.225 0.725)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98ba26e1-22e8-4275-982b-ac36fe79a377")
+	)
+	(fp_line
+		(start 1.225 -0.725)
+		(end -1.225 -0.725)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dace9edf-51fa-44aa-846a-564746eedc18")
+	)
+	(fp_line
+		(start 1.225 0.725)
+		(end 1.225 -0.725)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e3d9210-3c1e-449c-bf0f-42ba3ccdc6cc")
+	)
+	(fp_arc
+		(start 0.204167 -0.725)
+		(mid 0 -0.520833)
+		(end -0.204167 -0.725)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6600e6f-c957-488f-a4e3-91228ed50bf2")
+	)
+	(fp_circle
+		(center -1.6226 -0.4)
+		(end -1.6226 -0.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bef705b5-68e5-4c20-83b9-f913d1a715c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e7c2782d-46f7-494c-ba2f-7e07f92690d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.875 -0.399999)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e9faf4e-cfbe-400a-8730-ccce3aa53aae")
+	)
+	(pad "2" smd rect
+		(at -0.875 0.399999)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8925fefd-35c3-4c18-82d9-a38cf8fdd1be")
+	)
+	(pad "3" smd rect
+		(at 0.875 0.399999)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a6537c5-d314-42cc-84db-102071c8a978")
+	)
+	(pad "4" smd rect
+		(at 0.875 -0.399999)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f73721b-e32d-4248-9e10-cb47e7b1a8eb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/0_lib.pretty/G3VM_101UR.step"
+		(offset
+			(xyz 0 0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

@@ -57,7 +57,7 @@
 	)
 	(sheet
 		(at 17.78 36.83)
-		(size 35.56 11.43)
+		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -71,7 +71,7 @@
 		)
 		(uuid "1ff40e1b-903c-4f5b-99b9-9e04fcab2caf")
 		(property "Sheetname" "Microcontroller"
-			(at 20.32 44.196 0)
+			(at 20.32 50.038 0)
 			(effects
 				(font
 					(size 2.54 2.54)

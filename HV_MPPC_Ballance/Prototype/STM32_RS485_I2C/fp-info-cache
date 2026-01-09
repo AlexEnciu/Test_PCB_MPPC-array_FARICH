@@ -1,4 +1,4 @@
-26872769614038303
+26878073760171769
 0_lib
 0402_density_C_Capacitor
 
@@ -20,6 +20,27 @@ ABM8G-25.000MHZ-B4Y-T
 0
 4
 4
+0_lib
+G3VM_101UR_U-VSON_OMR
+
+G3VM-101UR 
+0
+4
+4
+0_lib
+GDH04S04
+
+1571983-4 
+0
+8
+8
+0_lib
+SAMTEC_FTSH-107-01-L-DV-K-A
+translated Allegro footprint
+
+0
+14
+14
 0_lib
 SO-8_S_LIT
 
