@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 100.33 38.1)
-		(size 24.13 6.35)
+		(at 134.62 38.1)
+		(size 34.29 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "090a6cf4-c925-4f95-9a98-70efb2d77aa1")
 		(property "Sheetname" "HV Control"
-			(at 101.6 42.672 0)
+			(at 141.986 43.18 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -38,13 +38,43 @@
 			)
 		)
 		(property "Sheetfile" "1_ch_ltc6090.kicad_sch"
-			(at 100.33 61.5446 0)
+			(at 134.62 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "DAC" input
+			(at 134.62 43.18 180)
+			(uuid "c172e8c6-7342-4e3e-9695-f394f6490abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HV_in" input
+			(at 134.62 39.37 180)
+			(uuid "fac99421-fcd1-4c96-84c0-dfe86228aeea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 168.91 41.91 0)
+			(uuid "480553a4-892f-44d4-b86d-707c21bcfa42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -56,8 +86,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 36.83)
-		(size 35.56 24.13)
+		(at 24.13 34.29)
+		(size 45.72 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -71,7 +101,7 @@
 		)
 		(uuid "1ff40e1b-903c-4f5b-99b9-9e04fcab2caf")
 		(property "Sheetname" "Microcontroller"
-			(at 20.32 50.038 0)
+			(at 25.908 44.958 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -82,7 +112,110 @@
 			)
 		)
 		(property "Sheetfile" "STM32L476RET6.kicad_sch"
-			(at 17.78 119.9646 0)
+			(at 24.13 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RX" input
+			(at 69.85 46.99 0)
+			(uuid "3a15da94-54da-4eca-9202-4264158ce565")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_Enable" output
+			(at 69.85 49.53 0)
+			(uuid "d0e4625c-3cd9-4f63-8039-9fe7fbc7418a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 69.85 35.56 0)
+			(uuid "1e3cdd66-ea54-4076-bafc-bb70c03eb85b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 69.85 38.1 0)
+			(uuid "c59bd44b-b10a-4443-985b-f324713f0141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" output
+			(at 69.85 41.91 0)
+			(uuid "9e2b346d-0c59-4cdc-8e60-ccf352ad659d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_Enable" output
+			(at 69.85 44.45 0)
+			(uuid "1ea43591-fcbb-4c4d-a800-b69796db0aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32_RS485_I2C"
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 76.2)
+		(size 41.91 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32f012e1-7e21-437e-ab00-df9acbe51353")
+		(property "Sheetname" "Power"
+			(at 24.13 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 24.13 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +227,50 @@
 		(instances
 			(project "STM32_RS485_I2C"
 				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c"
-					(page "2")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 76.2)
+		(size 64.77 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b33eaa9-34ae-4513-90a3-baa87305a450")
+		(property "Sheetname" "RS485"
+			(at 100.33 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485.kicad_sch"
+			(at 100.33 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_RS485_I2C"
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c"
+					(page "5")
 				)
 			)
 		)

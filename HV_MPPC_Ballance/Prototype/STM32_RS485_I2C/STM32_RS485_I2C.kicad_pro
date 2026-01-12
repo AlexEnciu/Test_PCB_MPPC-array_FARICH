@@ -639,6 +639,14 @@
     [
       "090a6cf4-c925-4f95-9a98-70efb2d77aa1",
       "HV Control"
+    ],
+    [
+      "32f012e1-7e21-437e-ab00-df9acbe51353",
+      "Power"
+    ],
+    [
+      "9b33eaa9-34ae-4513-90a3-baa87305a450",
+      "RS485"
     ]
   ],
   "text_variables": {}

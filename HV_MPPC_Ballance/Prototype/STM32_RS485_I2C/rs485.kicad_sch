@@ -1,0 +1,772 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4384b4b9-ae3d-4031-985e-77a232405d7f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "0-lib:RJHSE538002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RJHSE538002"
+				(at -7.62 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RJHSE538002:AMPHENOL_RJHSE538002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "15.06 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RJHSE538002_1_0"
+				(rectangle
+					(start -7.62 -17.78)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "1_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "1_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "1_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "1_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RJHSE538002_2_0"
+				(rectangle
+					(start -5.08 -12.7)
+					(end 5.08 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "0-lib:RJHSE538002")
+		(at 83.82 99.06 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a951278-7fae-4210-9cc9-9c462094769a")
+		(property "Reference" "J4"
+			(at 90.17 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RJHSE538002"
+			(at 90.17 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_lib:AMPHENOL_RJHSE538002"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.06 mm"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "fb2c231c-e0ab-4ff5-8e48-7b9e76bcda31")
+		)
+		(pin "1_3"
+			(uuid "edf74226-c96d-41aa-92b6-bf5b397b515d")
+		)
+		(pin "1_7"
+			(uuid "20f4ee03-fd5c-4cd3-acfc-394fb84f9c98")
+		)
+		(pin "1_2"
+			(uuid "2f31ee9a-e969-4106-b493-8ea149617df2")
+		)
+		(pin "2_7"
+			(uuid "b6139630-d381-4cf3-9585-0b916cbbc948")
+		)
+		(pin "2_5"
+			(uuid "9bc0196c-1f3c-4912-8065-4f0e8f574f9d")
+		)
+		(pin "1_6"
+			(uuid "6da742f7-fc3c-465a-9e5e-fdc72de54f65")
+		)
+		(pin "1_1"
+			(uuid "f51917b8-c631-408e-affb-cb08ca375b60")
+		)
+		(pin "1_5"
+			(uuid "37331b33-b5b0-4fd7-8bc6-7d2b37644370")
+		)
+		(pin "1_4"
+			(uuid "8aa44475-03a4-48ab-b8f2-d87cf4c72618")
+		)
+		(pin "1_8"
+			(uuid "96cd80d7-e8a2-425f-ab71-ff12a8bd5e39")
+		)
+		(pin "SH1"
+			(uuid "c0fcaaa6-f198-4606-909e-9c1761869835")
+		)
+		(pin "2_2"
+			(uuid "63645bc5-9a37-4d32-adbb-2a427d19687d")
+		)
+		(pin "2_4"
+			(uuid "339a3f6b-dded-48ef-a97c-e3a558517d5c")
+		)
+		(pin "SH2"
+			(uuid "774d382b-843b-4df2-9878-c86cd37a8f3f")
+		)
+		(pin "2_8"
+			(uuid "610a21e9-ec29-484d-90f3-6b4629c4a33e")
+		)
+		(pin "2_6"
+			(uuid "063e2331-1ba3-4e2e-9921-cb5d65af63bd")
+		)
+		(pin "2_3"
+			(uuid "8e39adb3-04ed-4856-bd90-5b0f1be462fb")
+		)
+		(instances
+			(project ""
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c/9b33eaa9-34ae-4513-90a3-baa87305a450"
+					(reference "J4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0-lib:RJHSE538002")
+		(at 80.01 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b83879-411e-4727-848e-52038d9b7043")
+		(property "Reference" "J4"
+			(at 88.9 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RJHSE538002"
+			(at 88.9 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_lib:AMPHENOL_RJHSE538002"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.06 mm"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "fb2c231c-e0ab-4ff5-8e48-7b9e76bcda31")
+		)
+		(pin "1_3"
+			(uuid "edf74226-c96d-41aa-92b6-bf5b397b515d")
+		)
+		(pin "1_7"
+			(uuid "20f4ee03-fd5c-4cd3-acfc-394fb84f9c98")
+		)
+		(pin "1_2"
+			(uuid "2f31ee9a-e969-4106-b493-8ea149617df2")
+		)
+		(pin "2_7"
+			(uuid "b6139630-d381-4cf3-9585-0b916cbbc948")
+		)
+		(pin "2_5"
+			(uuid "9bc0196c-1f3c-4912-8065-4f0e8f574f9d")
+		)
+		(pin "1_6"
+			(uuid "6da742f7-fc3c-465a-9e5e-fdc72de54f65")
+		)
+		(pin "1_1"
+			(uuid "f51917b8-c631-408e-affb-cb08ca375b60")
+		)
+		(pin "1_5"
+			(uuid "37331b33-b5b0-4fd7-8bc6-7d2b37644370")
+		)
+		(pin "1_4"
+			(uuid "8aa44475-03a4-48ab-b8f2-d87cf4c72618")
+		)
+		(pin "1_8"
+			(uuid "96cd80d7-e8a2-425f-ab71-ff12a8bd5e39")
+		)
+		(pin "SH1"
+			(uuid "c0fcaaa6-f198-4606-909e-9c1761869835")
+		)
+		(pin "2_2"
+			(uuid "63645bc5-9a37-4d32-adbb-2a427d19687d")
+		)
+		(pin "2_4"
+			(uuid "339a3f6b-dded-48ef-a97c-e3a558517d5c")
+		)
+		(pin "SH2"
+			(uuid "774d382b-843b-4df2-9878-c86cd37a8f3f")
+		)
+		(pin "2_8"
+			(uuid "610a21e9-ec29-484d-90f3-6b4629c4a33e")
+		)
+		(pin "2_6"
+			(uuid "063e2331-1ba3-4e2e-9921-cb5d65af63bd")
+		)
+		(pin "2_3"
+			(uuid "8e39adb3-04ed-4856-bd90-5b0f1be462fb")
+		)
+		(instances
+			(project ""
+				(path "/b57b15c3-de3f-4cb9-ac5a-185df551189c/9b33eaa9-34ae-4513-90a3-baa87305a450"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
