@@ -10,6 +10,262 @@
 		(rev "0")
 	)
 	(lib_symbols
+		(symbol "0-lib:1778764"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1778764"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1778764:PHOENIX_1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1778764/Phoenix+Contact/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "11.03.2024"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1778764/Phoenix+Contact/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=599542&manufacturer=Phoenix Contact&part_name=1778764&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.098 (2.50mm) 90°, Right Angle - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1778764_0_0"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0-lib:ERF6-30-03.5-L-DV-A-K-TR"
 			(pin_names
 				(offset 1.016)
@@ -1408,8 +1664,8 @@
 		)
 	)
 	(rectangle
-		(start 378.46 298.45)
-		(end 542.29 422.91)
+		(start 383.54 401.32)
+		(end 547.37 525.78)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1432,8 +1688,8 @@
 		(uuid 25d41156-c0b2-485a-8483-82417dd498c0)
 	)
 	(rectangle
-		(start 15.24 13.97)
-		(end 157.48 129.54)
+		(start 20.32 67.31)
+		(end 162.56 182.88)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1444,8 +1700,8 @@
 		(uuid 2f89d027-5329-478d-b31d-b965282e167a)
 	)
 	(rectangle
-		(start 299.72 13.97)
-		(end 441.96 129.54)
+		(start 304.8 67.31)
+		(end 447.04 182.88)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1456,8 +1712,8 @@
 		(uuid 3f62bef1-3815-4a79-a299-193c5c840047)
 	)
 	(rectangle
-		(start 378.46 173.99)
-		(end 542.29 298.45)
+		(start 383.54 276.86)
+		(end 547.37 401.32)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1468,8 +1724,8 @@
 		(uuid 76f265e2-bb4b-47e9-ab28-0241e92f35de)
 	)
 	(rectangle
-		(start 214.63 298.45)
-		(end 378.46 422.91)
+		(start 219.71 401.32)
+		(end 383.54 525.78)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1480,8 +1736,8 @@
 		(uuid 79e3a80c-0607-4e7f-b8cb-e7e56f5ccf08)
 	)
 	(rectangle
-		(start 15.24 13.97)
-		(end 584.2 146.05)
+		(start 20.32 67.31)
+		(end 589.28 199.39)
 		(stroke
 			(width 2.54)
 			(type solid)
@@ -1493,8 +1749,8 @@
 		(uuid 86d29c56-7187-4300-9cba-aa4cd7c6cc19)
 	)
 	(rectangle
-		(start 214.63 173.99)
-		(end 378.46 298.45)
+		(start 219.71 276.86)
+		(end 383.54 401.32)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1505,8 +1761,8 @@
 		(uuid 8f6b3f50-42d6-4a7b-be1d-7b4e7ef0f0bf)
 	)
 	(rectangle
-		(start 50.8 298.45)
-		(end 214.63 422.91)
+		(start 55.88 401.32)
+		(end 219.71 525.78)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1517,8 +1773,8 @@
 		(uuid 9144a9a4-11f3-4852-b350-56e63606f1aa)
 	)
 	(rectangle
-		(start 15.24 156.21)
-		(end 584.2 433.07)
+		(start 20.32 259.08)
+		(end 589.28 535.94)
 		(stroke
 			(width 2.54)
 			(type solid)
@@ -1530,8 +1786,8 @@
 		(uuid ad828ab7-981e-4e86-a162-1a2807d97548)
 	)
 	(rectangle
-		(start 157.48 13.97)
-		(end 299.72 129.54)
+		(start 162.56 67.31)
+		(end 304.8 182.88)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1542,8 +1798,8 @@
 		(uuid bd7eed9e-2b0e-40db-8d92-43f9477226f8)
 	)
 	(rectangle
-		(start 441.96 13.97)
-		(end 584.2 129.54)
+		(start 447.04 67.31)
+		(end 589.28 182.88)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1554,8 +1810,8 @@
 		(uuid e7dc364d-91ed-4d59-9b62-33168906cb15)
 	)
 	(rectangle
-		(start 50.8 173.99)
-		(end 214.63 298.45)
+		(start 55.88 276.86)
+		(end 219.71 401.32)
 		(stroke
 			(width 1.27)
 			(type solid)
@@ -1567,7 +1823,7 @@
 	)
 	(text "Amplifiers"
 		(exclude_from_sim no)
-		(at 300.482 136.652 0)
+		(at 305.562 189.992 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1579,7 +1835,7 @@
 	)
 	(text "FARICH"
 		(exclude_from_sim no)
-		(at 302.514 165.354 0)
+		(at 307.594 268.224 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1591,7 +1847,7 @@
 	)
 	(text "Cube_4"
 		(exclude_from_sim no)
-		(at 466.09 414.782 0)
+		(at 471.17 517.652 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1603,7 +1859,7 @@
 	)
 	(text "Cube_1"
 		(exclude_from_sim no)
-		(at 131.826 291.084 0)
+		(at 136.906 393.954 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1615,7 +1871,7 @@
 	)
 	(text "Cube_3"
 		(exclude_from_sim no)
-		(at 462.788 290.322 0)
+		(at 467.868 393.192 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1639,7 +1895,7 @@
 	)
 	(text "Cube_2"
 		(exclude_from_sim no)
-		(at 131.318 415.036 0)
+		(at 136.398 517.906 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -1651,7 +1907,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 163.83 360.68 0)
+		(at 168.91 463.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1660,7 +1916,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1bfa86-7232-4ad3-926f-a08be4207d80")
 		(property "Reference" "J12"
-			(at 163.83 317.5 0)
+			(at 168.91 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1924,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 163.83 320.04 0)
+			(at 168.91 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1932,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1960,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1970,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1980,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1990,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 163.83 360.68 0)
+			(at 168.91 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2190,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 101.6 236.22 0)
+		(at 106.68 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1943,7 +2199,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa4d622-2594-46df-a6a1-f6558ccdff41")
 		(property "Reference" "J9"
-			(at 101.6 193.04 0)
+			(at 106.68 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2207,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 101.6 195.58 0)
+			(at 106.68 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2243,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2253,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2263,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +2273,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 101.6 236.22 0)
+			(at 106.68 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2540,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 429.26 236.22 0)
+		(at 434.34 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2549,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c6a26c9-248d-45f4-95e1-7788bd087323")
 		(property "Reference" "J13"
-			(at 429.26 193.04 0)
+			(at 434.34 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2557,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 429.26 195.58 0)
+			(at 434.34 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2565,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2593,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2603,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2613,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2623,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 429.26 236.22 0)
+			(at 434.34 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,6 +2816,207 @@
 			(project "Main_Board_REV_0"
 				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0-lib:1778764")
+		(at 749.3 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f78ae2-c3dc-42a4-a39a-6a52dc34bc49")
+		(property "Reference" "J17"
+			(at 755.65 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1778764"
+			(at 755.65 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0-lib:PHOENIX_1778764"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Phoenix Contact"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1778764/Phoenix+Contact/view-part/?ref=eda"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "11.03.2024"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1778764/Phoenix+Contact/view-part/?ref=snap"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1778764"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=599542&manufacturer=Phoenix Contact&part_name=1778764&search_term=None"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.098 (2.50mm) 90°, Right Angle - Surface Mount"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 749.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3895396-ac39-44b7-ac36-0af0c3262d11")
+		)
+		(pin "2"
+			(uuid "1b055aef-734c-41ca-8f75-464f09eaed97")
+		)
+		(instances
+			(project ""
+				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2766,7 +3223,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 114.3 72.39 180)
+		(at 119.38 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2775,7 +3232,7 @@
 		(fields_autoplaced yes)
 		(uuid "372df64c-1de3-4b72-8a85-3c58a9c36bb1")
 		(property "Reference" "J2"
-			(at 114.3 26.67 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +3240,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 114.3 29.21 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +3248,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +3258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +3267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +3276,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3286,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3296,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +3306,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 114.3 72.39 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 542.29 69.85 180)
+		(at 547.37 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3124,7 +3581,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ca541a3-f814-4711-81ce-40c0821f94f7")
 		(property "Reference" "J8"
-			(at 542.29 24.13 0)
+			(at 547.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3589,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 542.29 26.67 0)
+			(at 547.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3597,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3625,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3635,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3645,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3655,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 542.29 69.85 0)
+			(at 547.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4187,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 254 71.12 180)
+		(at 259.08 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3739,7 +4196,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c31422e-3523-47ec-816d-782ac6420f16")
 		(property "Reference" "J4"
-			(at 254 25.4 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +4204,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 254 27.94 0)
+			(at 259.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +4212,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4240,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +4250,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +4260,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4270,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 254 71.12 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4603,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 196.85 68.58 0)
+		(at 201.93 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4155,7 +4612,7 @@
 		(fields_autoplaced yes)
 		(uuid "65a15e22-91fd-4cd2-b5d9-78fbabecc926")
 		(property "Reference" "J3"
-			(at 196.85 25.4 0)
+			(at 201.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4620,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 196.85 27.94 0)
+			(at 201.93 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4628,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4656,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4666,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4676,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4686,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 196.85 68.58 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4886,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 163.83 236.22 0)
+		(at 168.91 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4438,7 +4895,7 @@
 		(fields_autoplaced yes)
 		(uuid "66f8276d-6423-4844-8f71-96bd17f5cfcd")
 		(property "Reference" "J10"
-			(at 163.83 193.04 0)
+			(at 168.91 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4903,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 163.83 195.58 0)
+			(at 168.91 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4939,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4949,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4959,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4969,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 163.83 236.22 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +5236,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 341.63 68.58 0)
+		(at 346.71 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4788,7 +5245,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b8f8ed3-ff96-41a5-979c-5f7ea7d000e9")
 		(property "Reference" "J5"
-			(at 341.63 25.4 0)
+			(at 346.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +5253,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 341.63 27.94 0)
+			(at 346.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5261,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +5271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +5280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5289,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5299,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +5309,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5319,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 341.63 68.58 0)
+			(at 346.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5519,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 491.49 236.22 0)
+		(at 496.57 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5071,7 +5528,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ef90eb7-5a48-4dbd-98e7-e2706f8cfb11")
 		(property "Reference" "J15"
-			(at 491.49 193.04 0)
+			(at 496.57 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5536,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 491.49 195.58 0)
+			(at 496.57 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5572,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5582,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5592,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5602,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 491.49 236.22 0)
+			(at 496.57 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5935,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 491.49 360.68 0)
+		(at 496.57 463.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5487,7 +5944,7 @@
 		(fields_autoplaced yes)
 		(uuid "80ada5e9-7a49-4e9d-b217-152cf81ed889")
 		(property "Reference" "J16"
-			(at 491.49 317.5 0)
+			(at 496.57 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5952,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 491.49 320.04 0)
+			(at 496.57 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5960,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5988,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5998,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +6008,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +6018,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 491.49 360.68 0)
+			(at 496.57 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6352,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 485.14 67.31 0)
+		(at 490.22 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5904,7 +6361,7 @@
 		(fields_autoplaced yes)
 		(uuid "923f80eb-2211-4e20-bb9c-094b7deb0336")
 		(property "Reference" "J7"
-			(at 485.14 24.13 0)
+			(at 490.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +6369,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 485.14 26.67 0)
+			(at 490.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6377,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +6396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +6405,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6415,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6425,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6435,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 485.14 67.31 0)
+			(at 490.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6701,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 57.15 69.85 0)
+		(at 62.23 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6253,7 +6710,7 @@
 		(fields_autoplaced yes)
 		(uuid "94f47e9f-eca0-4b0b-aabf-927908719546")
 		(property "Reference" "J1"
-			(at 57.15 26.67 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6718,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 57.15 29.21 0)
+			(at 62.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6726,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6754,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6764,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6774,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6784,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 57.15 69.85 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6984,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 101.6 360.68 0)
+		(at 106.68 463.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6536,7 +6993,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5fdf656-62a7-4a3d-ad6f-6e441cad6baa")
 		(property "Reference" "J11"
-			(at 101.6 317.5 0)
+			(at 106.68 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +7001,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 101.6 320.04 0)
+			(at 106.68 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +7009,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +7019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +7028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +7037,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +7047,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +7057,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +7067,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 101.6 360.68 0)
+			(at 106.68 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7667,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 398.78 71.12 180)
+		(at 403.86 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7219,7 +7676,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7aa8e78-cc19-4dc9-8dc9-602b5c726dbe")
 		(property "Reference" "J6"
-			(at 398.78 25.4 0)
+			(at 403.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7684,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 398.78 27.94 0)
+			(at 403.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7720,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7730,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7740,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7750,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 398.78 71.12 0)
+			(at 403.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7950,7 @@
 	)
 	(symbol
 		(lib_id "0-lib:ERF6-30-03.5-L-DV-A-K-TR")
-		(at 429.26 360.68 0)
+		(at 434.34 463.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7502,7 +7959,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca640f53-2dc8-4fcd-9f74-3aa9d6185c0b")
 		(property "Reference" "J14"
-			(at 429.26 317.5 0)
+			(at 434.34 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7967,7 @@
 			)
 		)
 		(property "Value" "ERF6-30-03.5-L-DV-A-K-TR"
-			(at 429.26 320.04 0)
+			(at 434.34 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7975,7 @@
 			)
 		)
 		(property "Footprint" "0-lib:SAMTEC_ERF6-30-03.5-L-DV-A-K-TR"
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +8003,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +8013,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +8023,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +8033,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 429.26 360.68 0)
+			(at 434.34 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,50 +8758,6 @@
 				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
 					(reference "#PWR011")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 15.24 438.15)
-		(size 187.96 130.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 1.27)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2f51ce8a-6831-403a-819e-2c739fb15ce3")
-		(property "Sheetname" "Microcontroller"
-			(at 66.802 506.222 0)
-			(effects
-				(font
-					(size 7.62 7.62)
-					(thickness 1.524)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 15.24 569.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Main_Board_REV_0"
-				(path "/7125c2d5-be96-492e-8b70-c56cceaf676d"
-					(page "2")
 				)
 			)
 		)
