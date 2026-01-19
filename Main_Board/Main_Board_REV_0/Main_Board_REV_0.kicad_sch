@@ -21386,7 +21386,7 @@
 	)
 	(global_label "HV_33-64_A2"
 		(shape input)
-		(at 749.3 269.24 180)
+		(at 749.3 271.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21396,7 +21396,7 @@
 		)
 		(uuid "02bc39ee-b720-4cb8-aeca-7f8102b95445")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 733.252 269.24 0)
+			(at 733.252 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21870,7 +21870,7 @@
 	)
 	(global_label "HV_1-32_A3"
 		(shape input)
-		(at 749.3 279.4 180)
+		(at 749.3 281.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21880,7 +21880,7 @@
 		)
 		(uuid "1519824b-0d30-41a3-96ef-a9dc20dfa4e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 734.4615 279.4 0)
+			(at 734.4615 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21958,7 +21958,7 @@
 	)
 	(global_label "HV_1-32_A1"
 		(shape input)
-		(at 749.3 284.48 180)
+		(at 749.3 276.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21968,7 +21968,7 @@
 		)
 		(uuid "1768db4c-f9ea-41ab-90d8-0867248e6593")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 734.4615 284.48 0)
+			(at 734.4615 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22244,7 +22244,7 @@
 	)
 	(global_label "HV_1-32_A4"
 		(shape input)
-		(at 749.3 276.86 180)
+		(at 749.3 284.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22254,7 +22254,7 @@
 		)
 		(uuid "2372fe34-832e-4526-8bc8-57e7b6e71b72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 734.4615 276.86 0)
+			(at 734.4615 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,7 +22310,7 @@
 	)
 	(global_label "HV_1-32_A2"
 		(shape input)
-		(at 749.3 281.94 180)
+		(at 749.3 279.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22320,7 +22320,7 @@
 		)
 		(uuid "25d3e4ea-c307-4e66-8ca3-45720b7d71e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 734.4615 281.94 0)
+			(at 734.4615 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23630,7 +23630,7 @@
 	)
 	(global_label "HV_33-64_A4"
 		(shape input)
-		(at 749.3 274.32 180)
+		(at 749.3 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23640,7 +23640,7 @@
 		)
 		(uuid "58084c75-4aa1-43f2-b2a4-42dd5be89a52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 733.252 274.32 0)
+			(at 733.252 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26578,7 +26578,7 @@
 	)
 	(global_label "HV_33-64_A3"
 		(shape input)
-		(at 749.3 271.78 180)
+		(at 749.3 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26588,7 +26588,7 @@
 		)
 		(uuid "dbd2f220-2ed0-4c9f-b6bb-32d87378e8da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 733.252 271.78 0)
+			(at 733.252 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26842,7 +26842,7 @@
 	)
 	(global_label "HV_33-64_A1"
 		(shape input)
-		(at 749.3 266.7 180)
+		(at 749.3 274.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26852,7 +26852,7 @@
 		)
 		(uuid "e7783c0c-a212-4a87-a10a-a693d6f3b4bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 733.252 266.7 0)
+			(at 733.252 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
