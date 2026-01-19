@@ -16952,6 +16952,16 @@
 		)
 		(uuid "153fa147-1a1e-4b18-9a8b-b4bcd5c517af")
 	)
+	(label "Out_E2_Cube_2"
+		(at 29.21 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1604578b-6b9c-4f75-bf1a-20e64afe5672")
+	)
 	(label "Out_B5_Cube_1"
 		(at 175.26 353.06 0)
 		(effects
@@ -17412,6 +17422,16 @@
 		)
 		(uuid "2c6ab1cd-464f-4ae1-bc33-93d41140cdcc")
 	)
+	(label "Out_E3_Cube_2"
+		(at 29.21 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c712bd5-2e68-4bab-bb50-3e23e8215309")
+	)
 	(label "Out_E8_Cube_5"
 		(at 421.64 325.12 180)
 		(effects
@@ -17611,6 +17631,16 @@
 			(justify left bottom)
 		)
 		(uuid "36d1ad05-45fa-4779-a9bb-38b30f9c9f24")
+	)
+	(label "Out_G4_Cube_2"
+		(at 29.21 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36e12eca-8b96-4282-9386-5d76a5897ebd")
 	)
 	(label "Out_A1_Cube_6"
 		(at 510.54 265.43 0)
@@ -17881,6 +17911,16 @@
 			(justify right bottom)
 		)
 		(uuid "4702a8ed-6d58-44a7-9df4-cf3a96f95458")
+	)
+	(label "Out_H2_Cube_2"
+		(at 29.21 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47d61e18-a9e5-47a6-8909-d3ec5ea63e43")
 	)
 	(label "GND"
 		(at 483.87 207.01 180)
@@ -18252,6 +18292,16 @@
 		)
 		(uuid "5b83bd5c-d113-4454-ace3-c13425d5352a")
 	)
+	(label "Out_H1_Cube_2"
+		(at 29.21 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c40c285-7474-4a4d-9edb-e5551617280d")
+	)
 	(label "Out_D5_Cube_1"
 		(at 148.59 342.9 180)
 		(effects
@@ -18591,6 +18641,16 @@
 			(justify right bottom)
 		)
 		(uuid "6dd9aa2c-e9b7-4ef9-8385-268cd0964440")
+	)
+	(label "Out_G3_Cube_2"
+		(at 29.21 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e2ac268-6c02-4f67-b046-9fdad42b8555")
 	)
 	(label "Out_B2_Cube_6"
 		(at 510.54 234.95 0)
@@ -19302,6 +19362,16 @@
 		)
 		(uuid "9a0fb8a8-4eae-44e9-a6f4-648fadf15b70")
 	)
+	(label "Out_G1_Cube_2"
+		(at 29.21 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a7556ec-1c39-4de0-bf93-871f13bed45c")
+	)
 	(label "Out_D6_Cube_6"
 		(at 483.87 199.39 180)
 		(effects
@@ -19531,6 +19601,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5d40c97-a66e-4499-8f28-940ce8b65758")
+	)
+	(label "Out_H4_Cube_2"
+		(at 29.21 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6cdd627-d547-4d02-98ce-03ea00277066")
 	)
 	(label "Out_A7_Cube_2"
 		(at 148.59 219.71 180)
@@ -19882,6 +19962,16 @@
 		)
 		(uuid "b810f3eb-ad3b-4700-b540-76c50e73bdbd")
 	)
+	(label "Out_F1_Cube_2"
+		(at 29.21 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b830b05f-33a0-4e4e-803f-ef5349a35958")
+	)
 	(label "1V1_Cube_6"
 		(at 510.54 252.73 0)
 		(effects
@@ -20031,6 +20121,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc485b19-0550-404c-aec1-dffc3d0c8149")
+	)
+	(label "Out_E1_Cube_2"
+		(at 29.21 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bce261fb-cf6e-4c04-a795-7350ab2cbe1b")
 	)
 	(label "Out_H7_Cube_1"
 		(at 85.09 327.66 180)
@@ -20231,6 +20331,16 @@
 			(justify right bottom)
 		)
 		(uuid "c6b53e87-6a21-41fd-a142-52fd3111e508")
+	)
+	(label "Out_H3_Cube_2"
+		(at 29.21 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6f6e336-1cc2-4cb7-adc3-1c7f9f1a7c97")
 	)
 	(label "Out_B5_Cube_6"
 		(at 510.54 229.87 0)
@@ -20652,6 +20762,16 @@
 		)
 		(uuid "ded99298-8338-4340-853e-7e589438af3d")
 	)
+	(label "Out_E4_Cube_2"
+		(at 29.21 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dedb28be-8707-4da3-9932-979e1a8ac133")
+	)
 	(label "Out_F6_Cube_2"
 		(at 114.3 209.55 0)
 		(effects
@@ -20701,6 +20821,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1cef3ef-4135-4920-a913-4a189f570140")
+	)
+	(label "Out_F2_Cube_2"
+		(at 29.21 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26beffa-2c59-4066-86f5-7b151b6a945e")
 	)
 	(label "Out_C2_Cube_6"
 		(at 483.87 245.11 180)
@@ -20851,6 +20981,16 @@
 			(justify left bottom)
 		)
 		(uuid "eaeefef5-1410-426b-b3f5-b7ab93bfbf86")
+	)
+	(label "Out_F4_Cube_2"
+		(at 29.21 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb42458f-d4c3-41f5-81c0-5395b7586ea6")
 	)
 	(label "1V1_Cube_5"
 		(at 450.85 388.62 0)
