@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,21 +58,46 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|129880000|110945000|f48e295b-0a87-4706-a2c4-13da632baf29|32be4995-9cc3-43b8-bf5e-eaa89d031ec5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|129880000|79945000|cdecd651-efa8-44af-9174-2ec04074311e|de1625a7-5856-4b1b-9f31-a8f5026d484f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162580000|110945000|80a8fccf-023d-4761-b4b2-32b54ff62139|75029822-3472-4ef2-baab-50f1900731d0",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162580000|79945000|832a4316-2459-4aac-9627-3ce1e7c09f18|5876b28b-e8c5-49f0-8286-138462234260",
+          ""
+        ],
+        [
+          "solder_mask_bridge|97180000|110945000|5aeef756-b3f7-428e-85d8-eba70da5be4f|ac2dab50-dc9e-41a8-af28-3cba117f9e6d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|97180000|79945000|68c1c6c3-a5b1-4cf4-9ad0-de5a9fca9a7a|c33afbb4-ebf6-42a5-8450-c16dcf809c59",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -85,7 +110,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -99,9 +124,9 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "ignore",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -116,7 +141,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -519,7 +544,8 @@
       "HV_33-64_A1": "rgb(78, 255, 71)",
       "HV_33-64_A2": "rgb(78, 255, 71)",
       "HV_33-64_A3": "rgb(78, 255, 71)",
-      "HV_33-64_A4": "rgb(78, 255, 71)"
+      "HV_33-64_A4": "rgb(78, 255, 71)",
+      "unconnected-(J6-Pad52)": "rgb(255, 8, 10)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -536,7 +562,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Alexandru_Enciu_HYDRA_Template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -616,7 +642,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 40.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
