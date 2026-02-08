@@ -815,7 +815,7 @@
 	(junction
 		(at 127 80.01)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 58 92 1)
 		(uuid "536549c2-5831-4b37-bc66-8ec19f9aa0b2")
 	)
 	(junction
@@ -827,7 +827,7 @@
 	(junction
 		(at 87.63 72.39)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 60 188 61 1)
 		(uuid "fb6e0601-b7c7-4f86-8b60-852a240b4560")
 	)
 	(wire
@@ -837,7 +837,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 252 255 10 1)
+			(color 60 188 61 1)
 		)
 		(uuid "06bd1070-63d9-4387-93e0-37eb5d1fd740")
 	)
@@ -848,7 +848,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 252 255 10 1)
+			(color 60 188 61 1)
 		)
 		(uuid "0c2c316d-9a94-49ed-b9aa-089c8fede624")
 	)
@@ -900,7 +900,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 252 255 10 1)
+			(color 60 188 61 1)
 		)
 		(uuid "94b93db4-f8e1-4b6f-b04f-4c5ea97592c9")
 	)
@@ -932,7 +932,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 252 255 10 1)
+			(color 60 188 61 1)
 		)
 		(uuid "9cc1666b-b24f-4f92-97c5-e7a4d194088a")
 	)
