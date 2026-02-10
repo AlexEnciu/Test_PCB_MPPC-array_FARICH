@@ -4,7 +4,7 @@ import csv
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 INPUT_POS  = SCRIPT_DIR / "S13552_64Ch_Adapter_BGA2803_V2_Pannel-all.pos"
-OUTPUT_CSV = SCRIPT_DIR / "Allegro_PnP_from_KiCad_ALL.csv"
+OUTPUT_RPT = SCRIPT_DIR / "Allegro_PnP_from_KiCad_ALL.rpt"
 
 ALLEGRO_FIELDS = [
     "REFDES",
@@ -86,10 +86,10 @@ def main():
 
     kicad_rows = parse_kicad_pos_noheader(INPUT_POS)
     allegro_rows = kicad_to_allegro(kicad_rows)
-    write_csv(OUTPUT_CSV, allegro_rows)
+    write_csv(OUTPUT_RPT, allegro_rows)
 
     print(f"OK: Read {len(kicad_rows)} placements from: {INPUT_POS.resolve()}")
-    print(f"OK: Wrote Allegro-style CSV to: {OUTPUT_CSV.resolve()}")
+    print(f"OK: Wrote Allegro-style RPT to: {OUTPUT_RPT.resolve()}")
 
 if __name__ == "__main__":
     main()

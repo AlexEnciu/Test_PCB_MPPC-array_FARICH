@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "PnP/",
       "specctra_dsn": "",
       "step": "step/S13552_64Ch_Adapter_BGA2803_V2.step",

@@ -1,0 +1,208 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.7"
+    },
+    "CreationDate": "2026-02-10T13:35:23+01:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "S13552_64Ch_Adapter_BGA2803_V2_Pannel",
+      "GUID": "53313335-3532-45f3-9634-43685f416461",
+      "Revision": "1"
+    },
+    "Size": {
+      "X": 160.26,
+      "Y": 181.1
+    },
+    "LayerNumber": 10,
+    "BoardThickness": 1.55,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "S13552_64Ch_Adapter_BGA2803_V2_Pannel-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "S13552_64Ch_Adapter_BGA2803_V2_Pannel-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R0G0B0",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.018,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.1,
+      "Material": "Polyimide",
+      "Name": "F.Cu/GND_In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND_In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.018,
+      "Name": "GND_In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.187,
+      "Material": "Polyimide",
+      "Name": "GND_In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND_In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.018,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.1,
+      "Material": "Polyimide",
+      "Name": "In2.Cu/GND_In3.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to GND_In3.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND_In3.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.187,
+      "Material": "FR4",
+      "Name": "GND_In3.Cu/3V3_In4.Cu",
+      "Notes": "Type: dielectric layer 4 (from GND_In3.Cu to 3V3_In4.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "3V3_In4.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "3V3_In4.Cu/GND_In5.Cu",
+      "Notes": "Type: dielectric layer 5 (from 3V3_In4.Cu to GND_In5.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND_In5.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.187,
+      "Material": "FR4",
+      "Name": "GND_In5.Cu/1V1_In6.Cu",
+      "Notes": "Type: dielectric layer 6 (from GND_In5.Cu to 1V1_In6.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "1V1_In6.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "1V1_In6.Cu/GND_In7.Cu",
+      "Notes": "Type: dielectric layer 7 (from 1V1_In6.Cu to GND_In7.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND_In7.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.187,
+      "Material": "FR4",
+      "Name": "GND_In7.Cu/GND_In8.Cu",
+      "Notes": "Type: dielectric layer 8 (from GND_In7.Cu to GND_In8.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND_In8.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "GND_In8.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 9 (from GND_In8.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.018,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R0G0B0",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
