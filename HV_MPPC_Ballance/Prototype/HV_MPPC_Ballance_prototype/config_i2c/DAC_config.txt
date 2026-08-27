@@ -1,0 +1,203 @@
+// MCP47FEB08 complete write/readback test
+// I2C address: 0x60
+// Final state:
+//   out_6 (DAC0) = approximately 1.005 V
+//   all other outputs = 0 V
+
+var ADR = 0x60;
+var report = "MCP47FEB08 test\n\n";
+
+function hex(value, digits)
+{
+    var text = (value >>> 0).toString(16).toUpperCase();
+    while (text.length < digits)
+        text = "0" + text;
+    return "0x" + text;
+}
+
+function writeRegister(name, data)
+{
+    var result = Write(ADR, data);
+
+    // Array-form Write returns 0 on success.
+    if (result === 0 || result === true)
+    {
+        report += "WRITE PASS: " + name + "\n";
+        return true;
+    }
+
+    if (result === -1)
+        report += "WRITE FAIL: " + name + " -- address NACK\n";
+    else
+        report += "WRITE FAIL: " + name +
+                  " -- NACK result " + result + "\n";
+
+    return false;
+}
+
+function readRegister(name, command, expected)
+{
+    // Sends command, repeated START, then reads two bytes.
+    var data = Read(ADR, [command], 2);
+
+    if (!data || data.length < 2)
+    {
+        report += "READ FAIL:  " + name + "\n";
+        return false;
+    }
+
+    var value = ((data[0] & 0xFF) << 8) | (data[1] & 0xFF);
+
+    if (value === expected)
+    {
+        report += "READ PASS:  " + name +
+                  " = " + hex(value, 4) + "\n";
+        return true;
+    }
+
+    report += "READ FAIL:  " + name +
+              " = " + hex(value, 4) +
+              ", expected " + hex(expected, 4) + "\n";
+    return false;
+}
+
+
+// ------------------------------------------------------------------
+// 1. Check and recover the I2C bus
+// ------------------------------------------------------------------
+
+if (Clear() !== true)
+    return "ERROR: I2C bus is not free. Check SDA/SCL and pull-ups.";
+
+if (Write(ADR) !== true)
+    return "ERROR: MCP47FEB08 does not acknowledge address 0x60.";
+
+report += "Address 0x60: ACK\n\n";
+
+
+// ------------------------------------------------------------------
+// 2. Initialize volatile configuration
+// ------------------------------------------------------------------
+
+if (!writeRegister("VREF = VDD",
+                   [0x40, 0x00, 0x00]))
+    return report;
+
+if (!writeRegister("All channels enabled",
+                   [0x48, 0x00, 0x00]))
+    return report;
+
+if (!writeRegister("All channels gain = 1x",
+                   [0x50, 0x00, 0x00]))
+    return report;
+
+
+// ------------------------------------------------------------------
+// 3. Program output values
+// ------------------------------------------------------------------
+
+var outputName = [
+    "out_6 / DAC0",
+    "out_7 / DAC1",
+    "out_4 / DAC2",
+    "out_5 / DAC3",
+    "out_2 / DAC4",
+    "out_3 / DAC5",
+    "out_0 / DAC6",
+    "out_1 / DAC7"
+];
+
+var writeCommand = [
+    0x00, 0x08, 0x10, 0x18,
+    0x20, 0x28, 0x30, 0x38
+];
+
+var readCommand = [
+    0x06, 0x0E, 0x16, 0x1E,
+    0x26, 0x2E, 0x36, 0x3E
+];
+
+var targetCode = [
+    0x4E, // out_6: approximately 1.005 V with VDD = 3.3 V
+    0x00,
+    0x00,
+    0x00,
+    0x00,
+    0x00,
+    0x00,
+    0x00
+];
+
+var i;
+
+report += "\nWriting DAC channels:\n";
+
+for (i = 0; i < 8; i++)
+{
+    if (!writeRegister(outputName[i],
+                       [writeCommand[i], 0x00, targetCode[i]]))
+        return report;
+}
+
+
+// ------------------------------------------------------------------
+// 4. Read back every DAC register
+// ------------------------------------------------------------------
+
+report += "\nDAC register readback:\n";
+
+var allPassed = true;
+
+for (i = 0; i < 8; i++)
+{
+    if (!readRegister(outputName[i],
+                      readCommand[i],
+                      targetCode[i]))
+        allPassed = false;
+}
+
+
+// ------------------------------------------------------------------
+// 5. Read WiperLock status
+// ------------------------------------------------------------------
+
+var lockData = Read(ADR, [0x5E], 2);
+
+if (lockData && lockData.length >= 2)
+{
+    var lockValue =
+        ((lockData[0] & 0xFF) << 8) |
+        (lockData[1] & 0xFF);
+
+    report += "\nWiperLock status: " +
+              hex(lockValue, 4);
+
+    if (lockValue === 0)
+        report += " -- unlocked\n";
+    else
+        report += " -- WARNING: one or more channels are locked\n";
+}
+else
+{
+    report += "\nWiperLock status read failed\n";
+}
+
+
+// ------------------------------------------------------------------
+// 6. Final result
+// ------------------------------------------------------------------
+
+if (allPassed)
+{
+    report += "\nTEST PASSED\n";
+    report += "Expected out_6: approximately 1.005 V\n";
+    report += "Expected other outputs: approximately 0 V\n";
+}
+else
+{
+    report += "\nTEST FAILED\n";
+    report += "If values remain near midscale, measure LAT0 and LAT1";
+    report += " directly at U2 pins 20 and 1.\n";
+}
+
+return report;
